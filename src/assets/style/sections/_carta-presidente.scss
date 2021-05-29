@@ -1,0 +1,62 @@
+.carta {
+  padding-top: 80px;
+
+  .carta__rectangulo {
+    display: flex;
+    align-items: center;
+
+    .carta__span {
+      width: 596px;
+      height: 74px;
+      background-color: #52ae39;
+      margin: 0;
+      padding: 0;
+      display: none;
+
+      .logo {
+        width: 230px;
+        height: 102px;
+        padding-right: 150px;
+      }
+
+      img {
+        width: 39px;
+        height: 48px;
+        padding-right: 12px;
+      }
+
+      @include response(medium) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    }
+
+    .carta__titulo {
+      font-size: 32px;
+      text-transform: uppercase;
+      color: #52ae39;
+      font-weight: 700;
+      text-align: center;
+      padding-left: 20px;
+    }
+  }
+  .carta__text {
+    @include response(medium) {
+      padding-top: 80px;
+      padding-left: 280px;
+      padding-right: 280px;
+    }
+  }
+
+  .carta__firma {
+    font-weight: 700;
+    float: right;
+    padding-top: 40px;
+    text-transform: uppercase;
+    p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
