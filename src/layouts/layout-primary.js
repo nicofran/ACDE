@@ -1,6 +1,6 @@
 // Styles
 import "../assets/style/main.scss";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 // Libraries
 import { Helmet } from "react-helmet";
