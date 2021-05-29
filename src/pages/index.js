@@ -3,16 +3,15 @@ import Layout from "../layouts/layout-primary";
 
 //components
 import Footer from "../components/footer/footer";
-import Hero from "../components/hero/hero";
+// import Hero from "../components/hero/hero";
 
 // Secciones
-
-//aca voy a importar todas las secciones de mi pagina
+import Inscripcion from "../sections/home/inscripcion";
 
 const Home = () => {
   return (
     <Layout>
-      <Hero />
+      <Inscripcion />
       <Footer />
     </Layout>
   );
