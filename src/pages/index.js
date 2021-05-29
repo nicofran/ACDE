@@ -7,11 +7,13 @@ import Footer from "../components/footer/footer";
 
 // Secciones
 import Inscripcion from "../sections/home/inscripcion";
+import Carta from "../sections/home/carta-presidente";
 
 const Home = () => {
   return (
     <Layout>
       <Inscripcion />
+      <Carta />
       <Footer />
     </Layout>
   );
