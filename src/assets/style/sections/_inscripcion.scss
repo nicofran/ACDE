@@ -1,0 +1,28 @@
+.inscripcion {
+  color: white;
+  height: 142px;
+  background-color: #1673b9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .inscript__text {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .inscript__button {
+    width: 186px;
+    height: 49px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+  }
+  .inscript__hashtags {
+    display: none;
+  }
+}
