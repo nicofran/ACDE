@@ -8,12 +8,14 @@ import Footer from "../components/footer/footer";
 // Secciones
 import Inscripcion from "../sections/home/inscripcion";
 import Carta from "../sections/home/carta-presidente";
-
+import Programa from "../sections/home/programa";
 const Home = () => {
   return (
     <Layout>
       <Inscripcion />
       <Carta />
+      <Programa />
+      <Inscripcion />
       <Footer />
     </Layout>
   );
