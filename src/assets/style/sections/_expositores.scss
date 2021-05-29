@@ -1,0 +1,81 @@
+.expositores {
+  padding-top: 120px;
+  .expo__rectangulo {
+    display: flex;
+    align-items: center;
+
+    .expo__span {
+      width: 596px;
+      height: 74px;
+      background-color: #e22084;
+      margin: 0;
+      padding: 0;
+      display: none;
+
+      .logo {
+        width: 230px;
+        height: 102px;
+        padding-right: 150px;
+      }
+
+      img {
+        width: 39px;
+        height: 48px;
+        padding-right: 12px;
+      }
+
+      @include response(medium) {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    }
+
+    .carta__titulo {
+      font-size: 32px;
+      text-transform: uppercase;
+      color: #e22084;
+      font-weight: 700;
+      text-align: center;
+      padding-left: 20px;
+    }
+  }
+  .expo__speakers {
+    @include response(small) {
+      padding-left: 320px;
+      padding-right: 320px;
+    }
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    @include response(medium) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .speaker {
+      @include response(small) {
+        img {
+          width: 212px;
+          height: 212px;
+        }
+      }
+      img {
+        width: 132px;
+        height: 132px;
+      }
+      .speaker__separador {
+        margin-top: 15px;
+        width: 54px;
+        height: 4px;
+        background-color: #e22084;
+      }
+      text-transform: uppercase;
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
