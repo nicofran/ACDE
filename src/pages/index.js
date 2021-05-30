@@ -11,6 +11,8 @@ import Carta from "../sections/home/carta-presidente";
 import Programa from "../sections/home/programa";
 import Expositores from "../sections/home/expositores";
 import Comision from "../sections/home/comision-organizadora";
+import Auspiciantes from "../sections/home/auspiciantes";
+import EncuentrosAnteriores from "../sections/home/encuentros-anteriores";
 const Home = () => {
   return (
     <Layout>
@@ -20,6 +22,8 @@ const Home = () => {
       <Inscripcion />
       <Expositores />
       <Comision />
+      <Auspiciantes />
+      <EncuentrosAnteriores />
       <Footer />
     </Layout>
   );

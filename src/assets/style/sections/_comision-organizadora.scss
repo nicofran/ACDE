@@ -58,7 +58,6 @@
     }
 
     .integrante {
-      padding: 10px;
       display: flex;
       position: center;
       text-transform: uppercase;
@@ -66,7 +65,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-
+      font-size: 14px;
+      padding-bottom: 12px;
       img {
         width: 212px;
         height: 212px;
