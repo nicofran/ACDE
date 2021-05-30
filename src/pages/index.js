@@ -11,6 +11,7 @@ import Carta from "../sections/home/carta-presidente";
 import Programa from "../sections/home/programa";
 import Expositores from "../sections/home/expositores";
 import Comision from "../sections/home/comision-organizadora";
+import Auspiciantes from "../sections/home/auspiciantes";
 const Home = () => {
   return (
     <Layout>
@@ -20,6 +21,7 @@ const Home = () => {
       <Inscripcion />
       <Expositores />
       <Comision />
+      <Auspiciantes />
       <Footer />
     </Layout>
   );

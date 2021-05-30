@@ -117,7 +117,7 @@ const Comision = () => {
             alt="Maria Gabriela Capacete"
           ></img>
           <div className="comision__separador"></div>
-          <p>Maria Gabriela Capacete</p>
+          <p>María Gabriela Capacete</p>
         </div>{" "}
         <div className="integrante col-md-4 col-lg-3 col-sm-6">
           <img src={sebastian_mocorrea} alt="Sebastían Mocorrea"></img>
@@ -137,7 +137,7 @@ const Comision = () => {
         <div className="integrante col-md-4 col-lg-3 col-sm-6">
           <img src={victor_valle} alt="Victor Valle"></img>
           <div className="comision__separador"></div>
-          <p>Victor Valle</p>
+          <p>Víctor Valle</p>
         </div>
       </div>
     </div>
