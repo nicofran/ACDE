@@ -15,12 +15,12 @@
       .logo {
         width: 230px;
         height: 102px;
-        padding-right: 150px;
+        margin: 0 auto;
       }
 
       img {
-        width: 39px;
-        height: 48px;
+        width: 63px;
+        height: 57px;
         padding-right: 12px;
       }
 
@@ -37,45 +37,46 @@
       color: #e22084;
       font-weight: 700;
       text-align: center;
-      padding-left: 20px;
+      margin: 0 auto;
     }
   }
   .expo__speakers {
-    @include response(small) {
-      padding-left: 320px;
-      padding-right: 320px;
-    }
+    padding-top: 42px;
     display: flex;
-    align-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
 
     @include response(medium) {
-      flex-direction: row;
-      justify-content: space-around;
+      padding-left: 200px;
+      padding-right: 200px;
     }
     .speaker {
-      @include response(small) {
-        img {
-          width: 212px;
-          height: 212px;
-        }
-      }
-      img {
-        width: 132px;
-        height: 132px;
-      }
-      .speaker__separador {
-        margin-top: 15px;
-        width: 54px;
-        height: 4px;
-        background-color: #e22084;
-      }
+      padding: 10px;
+      display: flex;
+      position: center;
       text-transform: uppercase;
       font-weight: 600;
       display: flex;
       flex-direction: column;
       align-items: center;
+      img {
+        width: 212px;
+        height: 212px;
+      }
+      @include response(small) {
+        img {
+          width: 132px;
+          height: 132px;
+        }
+      }
+      .speaker__separador {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 54px;
+        height: 4px;
+        background-color: #e22084;
+      }
     }
   }
 }
