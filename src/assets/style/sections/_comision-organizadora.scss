@@ -58,7 +58,6 @@
     }
 
     .integrante {
-      padding: 10px;
       display: flex;
       position: center;
       text-transform: uppercase;
@@ -66,13 +65,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      font-size: 14px;
 
       img {
         width: 212px;
         height: 212px;
       }
 
-      @include response(small) {
+      @include response(medium) {
+        font-size: 18px;
         img {
           width: 132px;
           height: 132px;
