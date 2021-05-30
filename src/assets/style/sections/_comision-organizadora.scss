@@ -1,13 +1,14 @@
-.expositores {
-  padding-top: 120px;
-  .expo__rectangulo {
+.comision {
+  padding-top: 132px;
+  .comision__rectangulo {
     display: flex;
     align-items: center;
+    object-fit: contain;
 
-    .expo__span {
+    .comision__span {
       width: 596px;
       height: 74px;
-      background-color: #e22084;
+      background-color: #52ae39;
       margin: 0;
       padding: 0;
       display: none;
@@ -19,8 +20,8 @@
       }
 
       img {
-        width: 63px;
-        height: 57px;
+        width: 75px;
+        height: 45px;
         padding-right: 12px;
       }
 
@@ -31,29 +32,32 @@
       }
     }
 
-    .carta__titulo {
+    .comision__titulo {
       font-size: 32px;
       text-transform: uppercase;
-      color: #e22084;
+      color: #52ae39;
       font-weight: 700;
       text-align: center;
       margin: 0 auto;
     }
   }
-  .expo__speakers {
+
+  .comision__integrantes {
     padding-top: 42px;
-    padding-right: 50px;
     padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    white-space: nowrap;
 
     @include response(medium) {
       padding-left: 200px;
       padding-right: 200px;
     }
-    .speaker {
+
+    .integrante {
       padding: 10px;
       display: flex;
       position: center;
@@ -62,7 +66,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      white-space: nowrap;
 
       img {
         width: 212px;
@@ -75,13 +78,12 @@
           height: 132px;
         }
       }
-
-      .speaker__separador {
+      .comision__separador {
         margin-top: 15px;
         margin-bottom: 15px;
         width: 54px;
         height: 4px;
-        background-color: #e22084;
+        background-color: #52ae39;
       }
     }
   }

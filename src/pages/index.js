@@ -10,6 +10,7 @@ import Inscripcion from "../sections/home/inscripcion";
 import Carta from "../sections/home/carta-presidente";
 import Programa from "../sections/home/programa";
 import Expositores from "../sections/home/expositores";
+import Comision from "../sections/home/comision-organizadora";
 const Home = () => {
   return (
     <Layout>
@@ -18,6 +19,7 @@ const Home = () => {
       <Programa />
       <Inscripcion />
       <Expositores />
+      <Comision />
       <Footer />
     </Layout>
   );
