@@ -1,5 +1,5 @@
 //icons
-import logo from "../../assets/icons/icon-carta2.png";
+import logo from "../../assets/icons/icon-carta1.png";
 import logo_acde from "../../assets/icons/logo-acde.png";
 const Encuentros = () => {
   return (

@@ -66,14 +66,13 @@
       flex-direction: column;
       align-items: center;
       font-size: 14px;
-
+      padding-bottom: 12px;
       img {
         width: 212px;
         height: 212px;
       }
 
-      @include response(medium) {
-        font-size: 18px;
+      @include response(small) {
         img {
           width: 132px;
           height: 132px;
