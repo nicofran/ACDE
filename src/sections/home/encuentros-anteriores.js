@@ -5,9 +5,11 @@ const Encuentros = () => {
   return (
     <div className="encuentros container">
       <div className="encuentros__banner">
-        <h2>encuentros anteriores</h2>
-        <img src={logo} alt="encuentros anteriores"></img>
         <img src={logo_acde} alt="Logo ACDE"></img>
+        <div className="banner__content">
+          <img src={logo} alt="encuentros anteriores"></img>
+          <h3 className="banner__title">encuentros anteriores</h3>
+        </div>
       </div>
     </div>
   );
