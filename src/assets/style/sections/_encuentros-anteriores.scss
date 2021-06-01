@@ -28,10 +28,17 @@
       font-weight: 700;
       color: white;
       font-size: 22px;
+
       @include response(medium) {
         padding-left: 20px;
         padding-right: 170px;
       }
     }
+  }
+  .encuentros__content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
