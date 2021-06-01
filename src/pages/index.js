@@ -3,7 +3,7 @@ import Layout from "../layouts/layout-primary";
 
 //components
 import Footer from "../components/footer/footer";
-// import Hero from "../components/hero/hero";
+import Hero from "../components/hero/hero";
 
 // Secciones
 import Inscripcion from "../sections/home/inscripcion";
@@ -16,6 +16,7 @@ import EncuentrosAnteriores from "../sections/home/encuentros-anteriores";
 const Home = () => {
   return (
     <Layout>
+      <Hero />
       <Inscripcion />
       <Carta />
       <Programa />
