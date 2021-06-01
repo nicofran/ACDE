@@ -1,0 +1,5 @@
+export const facebook = require('./facebook.png')
+export const twitter  = require('./twitter.png')
+export const youtube = require('./youtube.png')
+export const linkedin = require('./linkedin.png')
+export const instagram = require('./Instagram.png')
