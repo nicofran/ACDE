@@ -10,7 +10,7 @@ const Hero = () => {
         height="600"
         poster={thumbnnail}
         loop
-        autoPlay
+        autoplay="autoplay"
       ></video>
     </div>
   );

@@ -26,6 +26,11 @@
       margin: 0;
       margin-right: 20px;
     }
+    &:hover {
+      background-color: #1673b9;
+      border: 1px solid white;
+      color: white;
+    }
   }
 
   .inscript__media {
