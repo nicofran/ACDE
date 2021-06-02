@@ -151,8 +151,8 @@ const Carta = () => {
           crisis, sino a través del diálogo, pero un diálogo sincero, profundo,
           basado en la verdad y en la vocación genuina por el bien común.
           <span className="carta__firma">
-            <p>Silvia Torres Carbonell</p>
-            <p>Presidente del XXIII Encuentro Anual de ACDE</p>
+            <p>IGNACIO GORUPICZ</p>
+            <p>PRESIDENTE DEL XXIV ENCUENTRO ANUAL DE ACDE</p>
           </span>
         </p>
       </div>

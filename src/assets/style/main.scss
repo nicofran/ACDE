@@ -12,6 +12,69 @@
 
 //Secciones
 
+//Fonts
+@font-face { 
+  font-family: 'Gilroy-Black';
+  src: url('./fonts/Gilroy/Gilroy-Black.otf');
+
+  font-family: 'Gilroy-BlackItalic';
+  src: url('./fonts/Gilroy/Gilroy-BlackItalic.otf');
+
+  font-family: 'Gilroy-Bold';
+  src: url('./fonts/Gilroy/Gilroy-Bold.otf');
+
+  font-family: 'Gilroy-BoldItalic';
+  src: url('./fonts/Gilroy/Gilroy-Bold.otf');
+
+  font-family: 'Gilroy-Extrabold';
+  src: url('./fonts/Gilroy/Gilroy-Bold.otf');
+
+  font-family: 'Gilroy-ExtraboldItalic';
+  src: url('./fonts/Gilroy/Gilroy-Bold.otf');
+
+  font-family: 'Gilroy-Heavy';
+  src: url('./fonts/Gilroy/Gilroy-Bold.otf');
+
+  font-family: 'Gilroy-HeavyItalic';
+  src: url('./fonts/Gilroy/Gilroy-Bold.otf');
+
+  font-family: 'Gilroy-Light';
+  src: url('./fonts/Gilroy/Gilroy-Light.otf');
+
+  font-family: 'Gilroy-LightItalic';
+  src: url('./fonts/Gilroy/Gilroy-LightItalic.otf');
+
+  font-family: 'Gilroy-Medium';
+  src: url('./fonts/Gilroy/Gilroy-Medium.otf');
+
+  font-family: 'Gilroy-MediumItalic';
+  src: url('./fonts/Gilroy/Gilroy-MediumItalic.otf');
+
+  font-family: 'Gilroy-Regular';
+  src: url('./fonts/Gilroy/Gilroy-Regular.otf');
+
+  font-family: 'Gilroy-RegularItalic';
+  src: url('./fonts/Gilroy/Gilroy-RegularItalic.otf');
+
+  font-family: 'Gilroy-Semibold';
+  src: url('./fonts/Gilroy/Gilroy-Semibold.otf');
+
+  font-family: 'Gilroy-SemiboldItalic';
+  src: url('./fonts/Gilroy/Gilroy-SemiboldItalic.otf');
+
+  font-family: 'Gilroy-Thin';
+  src: url('./fonts/Gilroy/Gilroy-Thin.otf');
+
+  font-family: 'Gilroy-ThinItalic';
+  src: url('./fonts/Gilroy/Gilroy-ThinItalic.otf');
+
+  font-family: 'Gilroy-UltraLight';
+  src: url('./fonts/Gilroy/Gilroy-UltraLight.otf');
+
+  font-family: 'Gilroy-UltraLightItalic';
+  src: url('./fonts/Gilroy/Gilroy-UltraLightItalic.otf');
+}
+
 // Screens
 // @import "./pages/home/home.scss";
 @import "./sections/inscripcion";
