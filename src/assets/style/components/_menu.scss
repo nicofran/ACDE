@@ -1,0 +1,40 @@
+.menu {
+  width: 100%;
+  height: 319px;
+  background-color: #ededed;
+  padding: 42px;
+  .menu__banners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    a {
+      color: #707070;
+    }
+  }
+
+  .menu__fecha {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "30 de juni" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    span {
+      font-weight: 400;
+      color: #1673b9;
+      font-size: 21px;
+      text-transform: uppercase;
+    }
+  }
+}
