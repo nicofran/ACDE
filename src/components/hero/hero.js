@@ -1,7 +1,6 @@
 //IMAGES & BANNER
 import banner from "../../assets/images/banner.mp4";
 import thumbnnail from "../../assets/images/banner-thumneil.png";
-import ReactPlayer from "react-player/youtube";
 
 //COMPONENTS
 import Nav from "../../components/menu/index";

@@ -1,18 +1,18 @@
 // Libraries
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
+import Slider from "react-slick";
 //IMAGES
 import banner from "../../assets/icons/logo-acde.png";
 import acde from "../../assets/images/logo-acde1.svg";
 
 const Camino = () => {
-  // var settings = {
-  //   // dots: false,
-  //   infinite: true,
-  //   speed: 300,
-  //   slidesToShow: 1,
-  // };
+  var settings = {
+    // dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+  };
   return (
     <div className="camino">
       <div className="container">
@@ -22,7 +22,7 @@ const Camino = () => {
         </div>
       </div>
 
-      {/* <Slider {...settings}>
+      <Slider {...settings}>
         <div className="camino__camino">
           <div className="camino__article">
             <img src={acde} alt="ACDE" />
@@ -55,7 +55,7 @@ const Camino = () => {
             </a>
           </div>
         </div>
-      </Slider> */}
+      </Slider>
     </div>
   );
 };
