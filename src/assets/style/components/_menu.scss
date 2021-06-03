@@ -21,6 +21,10 @@
     .img-encuentro {
       width: 215px;
       height: 60px;
+      @include response(large) {
+        width: 260px;
+        height: 70px;
+      }
     }
   }
 

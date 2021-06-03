@@ -9,14 +9,15 @@ const Hero = () => {
     <div>
       <Nav />
       <div className="hero">
-        <video
-          src={banner}
-          width="70%"
-          height="600"
-          poster={thumbnnail}
-          loop
-          autoplay
-        ></video>
+        <div className="container">
+          <video
+            src={banner}
+            poster={thumbnnail}
+            loop
+            autoplay
+            className="hero__video"
+          ></video>
+        </div>
       </div>
     </div>
   );
