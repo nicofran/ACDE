@@ -62,6 +62,11 @@
       }
     }
     .programa__desarrollo {
+      .programa__desarrollo__del__encuentro{
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+      }
       .programa__fecha {
         font-weight: 700;
         width: 212px;
@@ -74,19 +79,33 @@
 
       .programa__evento {
         padding-top: 32px;
-        text-transform: uppercase;
+       // text-transform: uppercase;
         font-weight: 700;
         font-size: 18px;
+        font-family: 'Gilroy-Bold', sans-serif;
 
         .pregunta {
           padding-top: 12px;
-          font-weight: 400;
+          font-weight: 600;
           color: black;
           font-size: 14px !important;
         }
 
         span {
           color: #1673b9;
+        }
+
+        .programa__oradores {
+          color: black;
+          font-weight: 100;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+
+          .programa__orador__nombre{
+            font-weight: bold;
+            color: black;
+          }
+
         }
       }
     }
