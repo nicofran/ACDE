@@ -3,7 +3,7 @@ import logo from "../../assets/icons/logo-acde.png";
 
 const Carta = () => {
   return (
-    <div className="carta container">
+    <div className="carta container" id="carta">
       <div className="carta__rectangulo">
         <div class="carta__span">
           <img className="logo" src={logo} alt="ACDE"></img>
