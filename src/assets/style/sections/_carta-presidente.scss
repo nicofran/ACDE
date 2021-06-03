@@ -47,6 +47,19 @@
       padding-left: 280px;
       padding-right: 280px;
     }
+
+    .parrafo_inicial {
+      display: inline-block;
+    }
+
+    .foto_presidente {  
+    display: inline-block;
+    float: left;
+    width:295px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    }
     
     .carta__parrafo__cita{
       font-style: italic;

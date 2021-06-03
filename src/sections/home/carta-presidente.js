@@ -1,6 +1,9 @@
 import icon from "../../assets/icons/icon-carta1.png";
 import logo from "../../assets/icons/logo-acde.png";
 
+//PRESIDENTE DEL ENCUENTRO
+import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz2.jpg";
+
 const Carta = () => {
   return (
     <div className="carta container">
@@ -13,14 +16,14 @@ const Carta = () => {
       </div>
       <div className="carta__text">
         <p>
-          <p>
-            Muchas gracias a todos los que decidieron dedicar esta mañana fría de
-            invierno a reflexionar juntos sobre este momento tan especial en la
-            historia de la humanidad y de nuestra Patria. 
-          </p>
-          <p>
+          <p className="parrafo_inicial">
+            <img src={ignacio_gorupicz} alt="" className="foto_presidente"/>
+            Muchas gracias a todos los que decidieron dedicar esta mañana fría de invierno a reflexionar juntos sobre este momento tan especial en la
+            historia de la humanidad y de nuestra Patria. <br/>
+          <p/>
             Sostener un camino de desarrollo para nuestro país, empieza por lograr ver más allá de las etiquetas que ponemos sobre los otros y aquellas que lo demás nos ponen a nosotros. Tenemos que ser capaces de ver más allá de lo que cimienta la desunión, para distinguir la parte de verdad que reside en el otro. Nos debemos plantear la posible combinación de múltiples verdades que se dicen y repiten en forma permanente. La igualdad de oportunidades va de la mano del valor del esfuerzo y el mérito y de hecho los aumenta. Hay que enseñar a pescar, pero las parábolas nos enseñan que existen situaciones en las que también hay que ofrecer el pescado.
           </p>
+          <br></br>
           <p>
             Debemos integrarnos de forma (muy) inteligente al mundo, del mismo modo que saber vivir con lo nuestro, potenciando nuestros activos y capacidades - que son muchas. En época de pandemia, debemos proteger la vida pero también la forma de ganarse la vida.
           </p>
