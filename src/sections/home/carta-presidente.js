@@ -5,9 +5,9 @@ const Carta = () => {
   return (
     <div className="carta container" id="carta">
       <div className="carta__rectangulo">
-        <div class="carta__span">
-          <img className="logo" src={logo} alt="ACDE"></img>
-          <img src={icon} alt="ACDE"></img>
+        <div className="carta__span">
+          <img className="logo" src={logo} alt="ACDE" />
+          <img src={icon} alt="ACDE" />
         </div>
         <h1 className="carta__titulo">carta del presidente</h1>
       </div>

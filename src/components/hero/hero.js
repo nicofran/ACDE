@@ -1,6 +1,7 @@
 //IMAGES & BANNER
 import banner from "../../assets/images/banner.mp4";
 import thumbnnail from "../../assets/images/banner-thumneil.png";
+import ReactPlayer from "react-player/youtube";
 
 //COMPONENTS
 import Nav from "../../components/menu/index";
@@ -14,7 +15,8 @@ const Hero = () => {
             src={banner}
             poster={thumbnnail}
             loop
-            autoplay
+            muted
+            autoPlay
             className="hero__video"
           ></video>
         </div>

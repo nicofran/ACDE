@@ -28,7 +28,7 @@ const Comision = () => {
   return (
     <div className="comision container">
       <div className="comision__rectangulo">
-        <div class="comision__span">
+        <div className="comision__span">
           <img className="logo" src={icon} alt="ACDE"></img>
           <img src={logo} alt="ACDE"></img>
         </div>

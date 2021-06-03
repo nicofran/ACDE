@@ -18,84 +18,96 @@ import rab_alejandro_avruj from "../../assets/images/rab_alejandro_avruj.png";
 import roberto_vassollo from "../../assets/images/roberto_vassollo.png";
 import rosana_negrini from "../../assets/images/rosana_negrini.png";
 
+// import modalBox from "../../components/modal/modal";
+import { useState } from "react";
+
 const Expositores = () => {
+  // const [modal, showModal] = useState(false);
+
+  // const expositores = [
+  //   { id: "expositor-1", title: "John do", body: "hello world" },
+  //   { id: "expositor-2", title: "John do 2", body: "goodbye world " },
+  // ];
+
   return (
     <div className="expositores container">
       <div className="expo__rectangulo">
-        <div class="expo__span">
-          <img className="logo" src={icon} alt="ACDE"></img>
-          <img src={logo} alt="ACDE"></img>
+        <div className="expo__span">
+          <img className="logo" src={icon} alt="ACDE" />
+          <img src={logo} alt="ACDE" />
         </div>
         <h1 className="carta__titulo">expositores</h1>
       </div>
       <div className="expo__speakers col-lg-12 col-md-12">
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={candelaria_fernandez} alt="Candelaria Fernández"></img>
+          <img src={candelaria_fernandez} alt="Candelaria Fernández" />
           <div className="speaker__separador"></div>
           <p>Candelaria Fernández</p>
         </div>
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={carolina_biquard} alt="Candelaria Fernández"></img>
+          <img src={carolina_biquard} alt="Candelaria Fernández" />
           <div className="speaker__separador"></div>
           <p>Carolina Biquard</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={carolina_castro} alt="Candelaria Fernández"></img>
+          <img src={carolina_castro} alt="Candelaria Fernández" />
           <div className="speaker__separador"></div>
           <p>Carolina Castro</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={delia_ferrerira} alt="Candelaria Fernández"></img>
+          <img src={delia_ferrerira} alt="Candelaria Fernández" />
           <div className="speaker__separador"></div>
           <p>Delia Ferreira</p>
+          <button variant="primary">ver mas</button>
         </div>
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={geronimo_frigerio} alt="Geronimo Frigerio"></img>
+          <img src={geronimo_frigerio} alt="Geronimo Frigerio" />
           <div className="speaker__separador"></div>
           <p>Geronimo Frigerio</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={joan_antoni} alt="Joan Antoni Melé"></img>
+          <img src={joan_antoni} alt="Joan Antoni Melé" />
           <div className="speaker__separador"></div>
           <p>Joan Antoni Melé</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={juan_martin_dela_serna} alt="Juan Martin de la Serna"></img>
+          <img src={juan_martin_dela_serna} alt="Juan Martin de la Serna" />
           <div className="speaker__separador"></div>
           <p>Juan Martin de la Serna</p>
+          <button variant="primary">ver mas</button>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={maria_migliore} alt="Maria Migliore"></img>
+          <img src={maria_migliore} alt="Maria Migliore" />
           <div className="speaker__separador"></div>
           <p>Maria Migliore</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={marina_dal_poggetto} alt="Marina dal Poggetto"></img>
+          <img src={marina_dal_poggetto} alt="Marina dal Poggetto" />
           <div className="speaker__separador"></div>
           <p>Marina dal poggetto</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={martin_borchardt} alt="Martin Borchardt"></img>
+          <img src={martin_borchardt} alt="Martin Borchardt" />
           <div className="speaker__separador"></div>
           <p>Martin borchardt</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={nicolas_braun} alt="Nicolas Braun"></img>
+          <img src={nicolas_braun} alt="Nicolas Braun" />
           <div className="speaker__separador"></div>
           <p>Nicolas Braun</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={rab_alejandro_avruj} alt="Rab Alejandro Avruj"></img>
+          <img src={rab_alejandro_avruj} alt="Rab Alejandro Avruj" />
           <div className="speaker__separador"></div>
           <p>Rab Alejandro Avruj</p>
         </div>{" "}
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={roberto_vassollo} alt="Roberto Vasallo"></img>
+          <img src={roberto_vassollo} alt="Roberto Vasallo" />
           <div className="speaker__separador"></div>
           <p>Roberto Vassallo</p>
         </div>
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={rosana_negrini} alt="Rosana Negrini"></img>
+          <img src={rosana_negrini} alt="Rosana Negrini" />
           <div className="speaker__separador"></div>
           <p>Rosana Negrini</p>
         </div>
