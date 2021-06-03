@@ -6,7 +6,7 @@ import thumbnnail from "../../assets/images/banner-thumneil.png";
 import Nav from "../../components/menu/index";
 const Hero = () => {
   return (
-    <div className="container">
+    <div>
       <Nav />
       <div className="hero">
         <video

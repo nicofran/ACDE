@@ -3,7 +3,4 @@
   width: 100%;
   padding: 0 16px;
   margin: 0 auto;
-  @include response(small) {
-    padding: 0;
-  }
 }
