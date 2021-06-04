@@ -30,8 +30,8 @@ const Expositores = () => {
   // ];
 
   return (
-    <div className="expositores container">
-      <div className="expo__rectangulo">
+    <div className="expositores">
+      <div className="expo__rectangulo" id="expositores">
         <div className="expo__span">
           <img className="logo" src={icon} alt="ACDE" />
           <img src={logo} alt="ACDE" />
@@ -40,15 +40,15 @@ const Expositores = () => {
       </div>
       <div className="expo__speakers col-lg-12 col-md-12">
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={candelaria_fernandez} alt="Candelaria Fernández" />
-          <div className="speaker__separador"></div>
-          <p>Candelaria Fernández</p>
-        </div>
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
           <img src={carolina_biquard} alt="Candelaria Fernández" />
           <div className="speaker__separador"></div>
           <p>Carolina Biquard</p>
         </div>{" "}
+        <div className="speaker col-md-4 col-lg-3 col-sm-6">
+          <img src={candelaria_fernandez} alt="Candelaria Fernández" />
+          <div className="speaker__separador"></div>
+          <p>Candelaria Fernández</p>
+        </div>
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
           <img src={carolina_castro} alt="Candelaria Fernández" />
           <div className="speaker__separador"></div>

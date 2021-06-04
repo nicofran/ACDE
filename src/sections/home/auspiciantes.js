@@ -34,10 +34,11 @@ import andreani from "../../assets/images/andreani.png";
 import andreanix2 from "../../assets/images/andreani@2x.png";
 import lartirigoyen from "../../assets/images/lartirigoyen.png";
 import lartirigoyenx2 from "../../assets/images/lartirigoyen@2x.png";
+import pinamar_sa from "../../assets/icons/pinamar-sa.png";
 
 const Auspiciantes = () => {
   return (
-    <div className="ausp container">
+    <div className="ausp container" id="auspiciantes">
       <h1 className="ausp__title">Auspiciantes</h1>
 
       {/* Auspiciante PLATINO START */}
@@ -137,7 +138,8 @@ const Auspiciantes = () => {
               src={lartirigoyen}
               alt="Lartirigoyen"
               srcSet={lartirigoyenx2 + " 2x"}
-            ></img>
+            />
+            <img src={pinamar_sa} alt="Pinamar S.A" width="190" height="84" />
           </div>
         </div>
         {/* AUSPICIANTE BRONCE END */}
