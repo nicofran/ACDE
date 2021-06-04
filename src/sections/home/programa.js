@@ -2,9 +2,9 @@ import logo from "../../assets/icons/logo-programa.png";
 import logo2 from "../../assets/icons/logo-acde.png";
 const Programa = () => {
   return (
-    <div className="programa container">
+    <div className="programa container ">
       <div className="programa__rectangulo">
-        <div className="programa__span">
+        <div className="programa__span" id="programa">
           <img src={logo2} className="logo" alt="logo2"></img>
           <img src={logo} alt="logo"></img>
         </div>
