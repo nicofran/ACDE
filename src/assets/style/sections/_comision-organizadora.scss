@@ -99,13 +99,11 @@
       .integrante__button {
         background-color: #52ae39;
         color: white;
-        border: 0;
-        border-radius: 20px;
+        border: 1px solid #52ae39;
         padding: 7px 14px;
         &:hover {
           background-color: white;
           color: #52ae39;
-          border: 1px solid #52ae39;
         }
       }
     }
