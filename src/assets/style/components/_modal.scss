@@ -1,0 +1,12 @@
+.button__modal {
+  background-color: #e22084;
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  padding: 7px 14px;
+  &:hover {
+    background-color: white;
+    color: #e22084;
+    border: 1px solid #e22084;
+  }
+}

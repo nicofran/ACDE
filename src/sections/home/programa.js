@@ -18,43 +18,32 @@ const Programa = () => {
         </p>
         <br></br>
         <p className="programa__content">
-          El contexto global ha experimentado durante el último año la
-          aceleración de las tendencias políticas, económicas, sociales de
-          manera exponencial. La pandemia agudizó la crisis macro-económica de
-          la mayoría de las naciones, con fuerte impacto en el desempleo y la
-          pobreza. Frente a este panorama mundial surgen diferentes hipótesis
-          sobre cómo el modelo capitalista debería enfrentar la crisis para
-          evitar daños económicos y sociales más profundos.
+          El XXIV Encuentro Anual ACDE parte del interrogante general respecto
+          de cómo el capitalismo debe evolucionar para lograr generar
+          prosperidad y desarrollo para todos y mitigar los daños económicos y
+          sociales que se han acentuado por la pandemia. Observamos con
+          preocupación un incremento de la desigualdad y de la pobreza. Todos
+          los actores estamos llamados a hacer un esfuerzo común para responder
+          ante este desafío. Un esfuerzo común que nos permita construir un
+          presente y un futuro con oportunidades de desarrollo para todos los
+          miembros de nuestra sociedad.
           <br></br>
           <br></br>
-          En el contexto de Argentina, el desafío es aún mayor. Al problema
-          macroeconómico del estancamiento, falta de crecimiento y recesión, se
-          suman el aumento de la desigualdad y la pobreza como factores que
-          profundizaron la crisis. El gran interrogante es cómo combinar un
-          esfuerzo común entre Estado, sector privado y sociedad para superar la
-          crisis permanente y apostar a un futuro de crecimiento inclusivo.
+          En línea con la Doctrina Social de la Iglesia Católica, comprendemos
+          que “la capacidad propulsora de una sociedad orientada hacia el bien
+          común y proyectada hacia el futuro se mide, sobre todo, a partir de
+          las perspectivas de trabajo que puede ofrecer”. Cómo generar inversión
+          y trabajo es el eje que guía nuestro pensamiento. Nuestro Norte: +
+          Trabajo + Inclusión.
           <br></br>
           <br></br>
-          El <span>XXIV Encuentro Anual ACDE </span>propone reflexionar sobre la
-          necesidad de capitalizar el potencial del sector privado de generar
-          empleo productivo y de calidad, a fin de construir una base económica
-          más justa, inclusiva y sostenible en el país, que aporte valor a toda
-          la sociedad.
-          <br></br>
-          <br></br>
-          En el marco del centenario del nacimiento del fundador de ACDE,
-          Enrique Shaw, queremos interpelar a los líderes de distintos ámbitos
-          de nuestra sociedad, a través del concepto de la “militancia en
-          valores”. Nos impulsa recuperar el propósito de Enrique Shaw como
-          empresario comprometido en encarnar aquellos valores en acción y
-          transformarlos en virtudes cotidianas; virtudes que representen
-          ejemplaridad, coherencia de palabras y hechos, y acciones
-          empresariales concretas que conduzcan a promover el Bien Común e
-          impulsar la Confianza Social.
-          <br></br>
-          <br></br>
-          El evento se desarrollará de forma virtual durante las mañanas del
-          miércoles 30 de junio y jueves 1 de julio de 2021.
+          ¿Qué debemos hacer mejor o diferente hacia adelante? En el marco del
+          centenario del nacimiento del fundador de ACDE, Enrique Shaw,
+          convocamos a poner los valores en acción en el día a día, traducidos
+          en virtudes cotidianas. El ciclo virtuoso que planteamos busca enlazar
+          simultáneamente la promoción del Bien Común y la construcción de
+          Confianza Social. Este ciclo virtuoso nos permitirá desarrollar
+          instituciones más robustas y un entramado social más justo.
         </p>
         <div className="programa__desarrollo">
           <h2>Desarrollo del encuentro</h2>
@@ -62,6 +51,10 @@ const Programa = () => {
           <div className="programa__evento">
             <p>
               9.00 h. | <span>apertura benvenida</span>
+            </p>
+            <p>
+              {" "}
+              ○ Ignacio Gorupicz - Presidente del XXIV Encuentro Anual ACDE.
             </p>
 
             <p>

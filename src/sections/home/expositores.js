@@ -1,3 +1,6 @@
+//React
+import React from "react";
+
 // ICONS
 import logo from "../../assets/icons/logo-expositores.png";
 import icon from "../../assets/icons/logo-acde.png";
@@ -6,7 +9,7 @@ import icon from "../../assets/icons/logo-acde.png";
 import candelaria_fernandez from "../../assets/images/candelaria_fernández.png";
 import carolina_biquard from "../../assets/images/carolina_biquard.png";
 import carolina_castro from "../../assets/images/carolina_castro.png";
-import delia_ferrerira from "../../assets/images/delia_ferreira_rubio.png";
+import delia_ferreira from "../../assets/images/delia_ferreira_rubio.png";
 import geronimo_frigerio from "../../assets/images/geronimo_frigerio.png";
 import joan_antoni from "../../assets/images/joan_antoni_mele.png";
 import juan_martin_dela_serna from "../../assets/images/juan_martin_de_la_serna.png";
@@ -18,17 +21,10 @@ import rab_alejandro_avruj from "../../assets/images/rab_alejandro_avruj.png";
 import roberto_vassollo from "../../assets/images/roberto_vassollo.png";
 import rosana_negrini from "../../assets/images/rosana_negrini.png";
 
-// import modalBox from "../../components/modal/modal";
-import { useState } from "react";
+//Componente de Expositor
+import Expositor from "../../components/expositor/";
 
 const Expositores = () => {
-  // const [modal, showModal] = useState(false);
-
-  // const expositores = [
-  //   { id: "expositor-1", title: "John do", body: "hello world" },
-  //   { id: "expositor-2", title: "John do 2", body: "goodbye world " },
-  // ];
-
   return (
     <div className="expositores">
       <div className="expo__rectangulo" id="expositores">
@@ -38,7 +34,599 @@ const Expositores = () => {
         </div>
         <h1 className="carta__titulo">expositores</h1>
       </div>
-      <div className="expo__speakers col-lg-12 col-md-12">
+
+      <div className="expo__speakers col-12">
+        <Expositor
+          nombre="Candelaria Fernandez"
+          imagen={candelaria_fernandez}
+          biografia={
+            <React.Fragment>
+              Candelaria Fernández es politóloga especialista en asuntos
+              públicos y gubernamentales, con veinte años de experiencia, con
+              especial foco en desarrollo institucional y posicionamiento
+              estratégico para cámaras empresarias, asociaciones gremiales y
+              organizaciones de la sociedad civil. Actualmente es Coordinadora
+              Ejecutiva de Generación 2040, un espacio empresario-sindical que
+              promueve el diálogo y el consenso entre ambos sectores y la
+              realización de proyectos conjuntos sobre ejes estratégicos para el
+              desarrollo del país. Trabajó durante más de una década en el
+              sector público, en proyectos de reforma política y modernización
+              del Estado y lideró un equipo de investigación sobre voto
+              electrónico. Fue coordinadora para Argentina del Foro Estratégico
+              Argentina-Estados Unidos del prestigioso think tank norteamericano
+              Center for Strategic and International Studies (CSIS). También se
+              desempeñó como Directora de Relaciones Institucionales,
+              Comunicación y Prensa de la Fundación Foro del Sur y de la Revista
+              Archivos del Presente. Fue Gerente Ejecutiva del J6, el espacio
+              multisectorial que agrupa a los nuevos dirigentes de las seis
+              cámaras empresarias más importantes del país. Es Licenciada en
+              Ciencia Política y Gobierno por la Universidad Torcuato Di Tella,
+              realizó numerosos cursos de formación y capacitación en el país y
+              el exterior, participó como docente invitada y expositora en
+              diversos cursos y seminarios nacionales e internacionales. También
+              es autora y co-autora de trabajos de investigación sobre
+              movimientos sociales, reforma política, sistemas electorales y
+              voto electrónico, y, más recientemente, sobre género, trabajo del
+              futuro, empleo y pobreza.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Carolina Biquard"
+          imagen={carolina_biquard}
+          biografia={
+            <React.Fragment>
+              Carolina Biquard es cofundadora de Fundación Compromiso (FC), una
+              organización que, desde 1994, desarrolla y difunde un nuevo modelo
+              para apoyar e invertir con eficacia dentro de organizaciones de la
+              sociedad civil, empresas privadas e instituciones públicas de toda
+              América Latina. Actualmente trabaja de manera articulada junto con
+              los inversores de impacto de la región para generar y fortalecer
+              oportunidades en el ámbito cultural, social y ambiental. FC es
+              cofundadora de Creatividad, Cultura y Capital, una nueva
+              plataforma de investigación que nuclea a la comunidad de
+              inversores de impacto en la Economía creativa. Fue Presidente del
+              Fondo Nacional de las Artes, de diciembre de 2015 a noviembre de
+              2018.{" "}
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Carolina Castro"
+          imagen={carolina_castro}
+          biografia={
+            <React.Fragment>
+              Carolina Castro es empresaria industrial, tercera generación en la
+              conducción de la empresa familiar autopartista Industrias Guidi.
+              En la gremial empresaria, es Prosecretaria de la Unión Industrial
+              Argentina, Secretaria PyME de AFAC (cámara autopartista) y
+              Vicepresidenta 2º de la Unión Industrial de Almirante Brown. Es
+              licenciada en Ciencia Política de la Universidad de Buenos Aires
+              (UBA). Es autora del libro “Rompimos el cristal”, en el cual
+              entrevista a 18 mujeres líderes de la política, las empresas, el
+              arte y la ciencia.{" "}
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Delia Ferreira"
+          imagen={delia_ferreira}
+          biografia={
+            <React.Fragment>
+              Delia M. Ferreira Rubio es Presidente de Transparency
+              International y Miembro del Consejo Directivo de la Alianza para
+              Gobierno Abierto (OGP). Es co-chair del Global Future Council
+              sobre Transparencia y Anti-corrupción del Foro Económico Mundial y
+              Miembro del Board de UN Global Compact. Es Consultora
+              independiente en temas de Transparencia y Anti-corrupción,
+              Financiamiento de la política y temas institucionales. Ha
+              realizado consultorías para diversos organismos internacionales
+              (IFES, PNUD, OEA, BID, IDEA INTERNATIONAL, CAPEL, DEMOCRACY
+              INTERNATIONAL, entre otras) y organizaciones no gubernamentales,
+              liderando proyectos en Argentina, Nicaragua, Guatemala, El
+              Salvador, Bolivia, Paraguay, Jamaica, Colombia, Honduras y
+              Ecuador. Fue presidenta de Poder Ciudadano en Argentina entre 2008
+              y 2010. Doctora en Derecho, grado otorgado por la Facultad de
+              Derecho de la Universidad Complutense de Madrid. Hizo sus estudios
+              de grado en la Universidad Nacional de Córdoba, donde se graduó
+              como abogada. Fue Jefe de Asesores de varios Diputados y Senadores
+              en el Congreso de la Nación Argentina, entre 1990 y 2005,
+              trabajando en la Comisión de Asuntos Constitucionales de ambas
+              Cámaras. También fue Asesora en la Auditoría General de la Nación.
+              Es miembro de la Asociación Argentina de Derecho Constitucional y
+              del Consejo Asesor del Instituto de Etica y Transparencia de
+              AMCHAM Argentina.Ha publicado numerosos trabajos sobre Derecho
+              Electoral, Financiamiento de la Política y Ética pública y
+              Transparencia.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Geronimo Frigerio"
+          imagen={geronimo_frigerio}
+          biografia={
+            <React.Fragment>
+              Gerónimo Frigerio es un especialista internacional con veinte años
+              de experiencia en el diseño y la ejecución de proyectos de
+              desarrollo económico y social en América Latina. Experto en
+              regulación, estructuración de inversiones y procesos de reforma,
+              es director general de la consultora gf Consulting Group, que
+              provee asesoramiento técnico del más alto nivel en proyectos y
+              estrategias de inversión a gobiernos, empresas y organismos
+              multilaterales de crédito. Fue presidente del directorio ejecutivo
+              de Fonplata (2017-2018); especialista abogado del Banco
+              Interamericano de Desarrollo (2003-2012); funcionario del Banco
+              Mundial y coautor de Doing Business in 2004. Abogado por la
+              Universidad de Buenos Aires (UBA, 1998), tiene una maestría en
+              Leyes -LLM en Finanzas- del Queen Mary College de la Universidad
+              de Londres (Chevening, 2000-2001) y estudios de especialización en
+              Harvard Business School (2013). Es autor de "Simple", una idea
+              para transformar el futuro de América Latina
+              (Penguin/Sudamericana, 2020).
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Joan Antoni"
+          imagen={joan_antoni}
+          biografia={
+            <React.Fragment>
+              Joan Antoni Melé lidera el proceso de desarrollo de la Banca Ética
+              en Latinoamericana y es miembro del Consejo Asesor de Triodos Bank
+              de España. Actualmente es presidente de la Fundación Dinero y
+              Conciencia, conferenciante, consultor y formador en valores. Con
+              44 años de experiencia profesional en el sector de la banca, ha
+              sido subdirector general de Triodos Bank en España, miembro de su
+              Comité Ejecutivo y vicepresidente de la Fundación Triodos. En
+              enero de 2015 renunció a su cargo para promover la Banca Ética en
+              Latinoamérica y dedicarse de lleno a su labor de difusión sobre
+              temas de economía consciente, empresas sostenibles y educación en
+              valores. Joan Antoni Melé imparte el seminario llamado “Taller de
+              Conciencia”, retiros de fin de semana; además, colabora en cursos
+              en prestigiosas universidades, escuelas de negocios e
+              instituciones en mundo. Es autor de los libros Dinero y
+              conciencia, La Economía explicada a los jóvenes, Lo que nos queda
+              por vivir y ¿Seres Humanos o Marionetas?
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Juan Martinn de la Serna"
+          imagen={juan_martin_dela_serna}
+          biografia={
+            <React.Fragment>
+              Juan Martín de la Serna se incorporó hace más de 20 años a Mercado
+              Libre, como parte del grupo fundador. Es el actual Presidente de
+              la operación de Mercado Libre Argentina, cargo que ya había
+              ocupado de 2004 a 2012. Previamente se había desempeñado como
+              Vicepresidente de Mercado Envíos. A lo largo de su carrera se
+              destacó en distintas actividades dentro de la compañía, tales como
+              Desarrollo de Negocios y Jefe de Categorías. Entre 2007 y 2012
+              supervisó las operaciones en 7 países de Latinoamérica. Durante
+              más de 10 años también trabajó en mercados financieros. Es
+              licenciado en Economía por la Universidad de Buenos Aires (UBA) y
+              fue presidente de la Cámara Argentina de Comercio Electrónico
+              (CACE), en 2009.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Maria Migliore"
+          imagen={maria_migliore}
+          biografia={
+            <React.Fragment>
+              El objetivo de María Migliore es fomentar la igualdad de
+              oportunidades, la inclusión social y la mejora del hábitat,
+              trabajando en red y garantizando los derechos sociales básicos.
+              Desde diciembre de 2019 es Ministra de Desarrollo Humano y Hábitat
+              de la Ciudad de Buenos Aires, Argentina. Fue Gerenta General del
+              Instituto de Vivienda de la Ciudad (IVC), donde llevó adelante la
+              integración social y urbana de barrios populares de la Ciudad. Y
+              se desempeñó como jefa de gabinete en la Subsecretaría de
+              Relaciones Internacionales e Institucionales de la Ciudad. Es
+              Licenciada en Ciencia Política por la Universidad Católica
+              Argentina; fue becaria del programa de Liderazgo Político del
+              Centro de Investigación y Acción Social (CIAS); y formó parte del
+              programa de Alta Dirección en IAE Business School.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Marina Dal Poggetto"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Martin Borchardt"
+          imagen={martin_borchardt}
+          biografia={
+            <React.Fragment>
+              Martín Borchardt es el fundador de HENRY, una academia que forma
+              desarrolladores de software con $0 costo inicial y los ayuda a
+              buscar trabajo a remoto, generando un fuerte impacto social.
+              Adicionalmente, es miembro director de VerdeAgua, una empresa B
+              Corp de cultivos de hojas verdes sustentables y saludables líder
+              en el mercado Uruguayo. Anteriormente, fundó Nubi, una fintech de
+              pagos cross border que introdujo a PayPal y Transferwise en el
+              mercado argentino, enfocada en inclusión financiera.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Nicolas Braun"
+          imagen={nicolas_braun}
+          biografia={
+            <React.Fragment>
+              Nicolás Braun tiene 48 años, está casado con Florencia, y tiene
+              dos hijos: Sofía, de 18 años, y Félix, de 15. Durante los últimos
+              16 años dentro de La Anónima se desempeñó como Director de
+              Mercaderías, teniendo también a su cargo las dos Plantas
+              Frigoríficas, y anteriormente fue Gerente de Planeamiento. Previo
+              a ingresar a La Anónima trabajó en la consultora Hermes Management
+              Consulting (The Exxel Group), y en la División de Operaciones de
+              Supermercados Supersol (Ahold), en España. Es ingeniero egresado
+              del Instituto Tecnológico de Buenos Aires (ITBA), y tiene un MBA
+              de la Universidad Columbia.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Rab Alejandro Avruj"
+          imagen={rab_alejandro_avruj}
+          biografia={
+            <React.Fragment>
+              Rab. Alejandro Avruj está casado con Marina Degtiar y tiene cuatro
+              hijos: Giselle, Meital, Noa y Shai, y dos nietos, Dan y Elá.
+              Actualmente es Rabino de la Comunidad Amijai. Y desde 2017 es el
+              Presidente de la Asamblea Rabínica Latinoamericana, representación
+              continental de la Rabbinical Assembly del Movimiento Masorti
+              Mundial. Desde 2020 es miembro del Vaad Hapoel de la Organización
+              Sionista Mundial. Es Rabino egresado del Seminario Rabínico
+              Latinoamericano desde el año 2002. Cursó sus estudios rabínicos en
+              el Instituto Superior de Estudios Rabínicos “Abraham J. Heschel”,
+              en Buenos Aires, y en el Schechter Institute of Jewish Studies de
+              Jerusalén. Posee un Master en Literatura Rabínica y Educación
+              Judía del Schechter Institute of Jewish Studies, habiendo cursado
+              estudios para el MA en Literatura Rabínica en el Jewish
+              Theological Seminary of America de Nueva York, en 2001, y para el
+              MA en Educación Judía en la Hebrew University de Jerusalén, en
+              2002. Fue honrado con la distinción del Premio a los Derechos
+              Humanos por la B´nei Brith Argentina, por su trabajo social en
+              Villas de Emergencia, en 2014, y con el premio “Hombres de Buenos
+              Aires” junto al Padre Pepe por la Fundación Banco Provincia de
+              Buenos Aires. Es autor del Sidur “Et Bazman – Un Tiempo dentro del
+              Tiempo.” (2012).
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Roberto Vassollo"
+          imagen={roberto_vassollo}
+          biografia={
+            <React.Fragment>
+              Roberto Vassolo es profesor titular del área de Política de
+              Empresa del IAE Business School-Universidad Austral. Dirige el
+              Programa EME en Liderazgo Estratégico, y el Programa Doctoral en
+              Dirección de Empresas del IAE Business School. Sus campos de
+              investigación actual abarcan la dirección estratégica en entornos
+              de alta incertidumbre, la dinámica competitiva en industrias de
+              recursos naturales y el Liderazgo Estratégico. En los últimos 15
+              años ha trabajado en consultoría estratégica con empresas
+              argentinas, multilatinas y multinacionales de distintos sectores
+              industriales. Es PhD. en Strategic Management de Purdue
+              University, Posgrado en Economía por la Universidad Di Tella
+              (UTDT) y Licenciado en Economía por la Universidad Católica
+              Argentina (UCA). Algunas de sus investigaciones han sido
+              publicadas en Harvard Business Review, Strategic Management
+              Journal, Academy of Management Journal, Organization Science,
+              Journal of Management Studies, Journal of Management, Academy of
+              Management Perspectives y Research Policy, entre otras. Es autor
+              de los libros Dirección Estratégica en Países Emergentes y
+              Strategy as Leadership (Stanford University Press).
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Rosana Negrini"
+          imagen={rosana_negrini}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Marina Dal Poggetto"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Immaculée Ilibagiza "
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Se considera a Immaculée Ilibagiza como una de las principales
+              oradoras del mundo sobre la fe, la esperanza y el perdón. Ha
+              compartido su mensaje universal con líderes mundiales, niños en
+              edad escolar, empresas multinacionales, iglesias, eventos y
+              conferencias en todo el mundo, incluyendo una presentación ante
+              más de 200.000 personas en Sao Paulo, Brasil. Nació y creció en
+              una pequeña aldea de Ruanda (África). Disfrutó de una infancia
+              tranquila con sus cariñosos padres y sus tres hermanos. La
+              educación era muy importante en su hogar, por lo que no es de
+              extrañar que le fuera bien en la escuela y llegara a la
+              Universidad Nacional de Ruanda a estudiar ingeniería eléctrica y
+              mecánica. En 1994, durante las vacaciones de Semana Santa, la vida
+              de Immaculée se transformó para siempre. El 6 de abril de ese año,
+              el avión del presidente ruandés fue derribado sobre la capital,
+              Kigali. Este asesinato desencadenó meses de masacre en todo el
+              país. Para proteger a su única hija de la violación y el
+              asesinato, su padre le pidió que corriera a la casa de un pastor
+              local en busca de protección. Allí se refugió junto con otras
+              siete mujeres, en un baño oculto de menos de 1x2 metros. Durante
+              los siguientes 91 días, Immaculée y las demás mujeres se
+              acurrucaron en silencio en esta habitación, mientras el genocidio
+              hacía estragos en todo el país. La ira y el resentimiento
+              destruían la mente, el cuerpo y el espíritu de Immaculée. Fue
+              entonces cuando recurrió a la oración como una forma de ahogar la
+              rabia que llevaba dentro y el mal que había fuera de la casa. Fue
+              un punto de inflexión hacia Dios, y lejos del odio, eso la salvó.
+              Ya liberada, Immaculée halló prácticamente a toda su familia
+              asesinada. También encontró a casi un millón de amigos, vecinos y
+              compatriotas ruandeses masacrados. Incluso se encontró cara a cara
+              con el asesino de su madre y de uno de sus hermanos. Tras soportar
+              meses de sufrimiento físico, mental y espiritual, fue capaz de
+              ofrecer lo impensable, diciendo al hombre: "Te perdono". En 1998,
+              Immaculée emigró a Estados Unidos, donde continuó su trabajo por
+              la paz a través de las Naciones Unidas. Ha recibido el título de
+              doctora honoris causa de casi una docena de universidades y
+              colegios, como la Universidad de Notre Dame, la Universidad de
+              Saint John, la Universidad de Seton Hall, el Siena College, la
+              Universidad de Walsh, la Universidad de Duquesne y la Universidad
+              Católica de América. Ha sido reconocida y honrada con numerosos
+              premios humanitarios, entre ellos, el Premio Internacional Mahatma
+              Gandhi para la Reconciliación y la Paz. Su primer libro, Left to
+              Tell: Discovering God Amidst the Rwandan Holocaust (Hay House),
+              fue publicado en marzo de 2006, que rápidamente se convirtió en
+              best-seller. Ha escrito otros seis libros en los últimos años: Led
+              by Faith: Rising from the Ashes of the Rwandan Genocide, Our Lady
+              of Kibeho, If Only We Had Listened, Visit from Heaven, The Boy Who
+              Met Jesus y The Rosary. Actualmente se están desarrollando
+              importantes versiones cinematográficas de su vida y sus libros.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Maximo Cavazzani"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Cristian Geronimo"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Cristian Jerónimo es dirigente sindical de la industria del
+              vidrio, es Secretario General de SEIVARA (Sindicato de Empleados
+              de la Industria del Vidrio y Afines de la República Argentina)
+              desde 2019, y es referente nacional de la Juventud Sindical
+              Nacional (JSN), que preside también desde 2019. En su trayectoria
+              como dirigente del vidrio enfocó su mirada en la transformación de
+              la industria del vidrio y en la capacitación profesional de los
+              trabajadores para prepararlos para la denominada Cuarta Revolución
+              Industrial.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Verónica Marcelo"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Emilio Persíco"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Federico Poletto"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Federico Poletto está casado desde hace 18 años y es padre de 3
+              hijos. Su fuente de inspiración para trabajar todos los días es
+              poder cumplir la voluntad de Dios. Es Gerente General en MDZ, uno
+              de los portales de noticias con mayor cantidad de visitas en
+              Argentina y Latinoamérica. Su trayectoria muestra un extenso
+              recorrido por más de 25 años en diferentes medios de comunicación,
+              que incluyen Terra, Clarín, Infobae, Perfil y Atlántida. Ha sido
+              siempre un predicador de la evolución digital de la industria de
+              medios, lanzando nuevos productos, coordinando contenidos,
+              recursos y posicionamiento de los negocios que tuvo a cargo.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Julia Pomares"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Julia Pomares es Jefa de Asesores del Gobierno de la Ciudad de
+              Buenos Aires desde Mayo de 2021. Se desempeñó como Directora del
+              Centro de Implementación de Políticas Públicas para la Equidad y
+              el Crecimiento (CIPPEC) desde 2015. Con anterioridad fue Directora
+              del Programa de Instituciones Políticas del CIPPEC, donde
+              concentró su agenda de investigación en las condiciones de la
+              competencia política, tanto en lo que se refiere al acceso al
+              poder como a su ejercicio. Doctora en Ciencia Política y Magíster
+              en Política Comparada y en Métodos de Investigación por el London
+              School of Economics and Political Science, Pomares fue asesora de
+              políticas en el Reino Unido y estuvo encargada del monitoreo y
+              evaluación de la descentralización electoral en Guatemala. En la
+              Ciudad de Buenos Aires supervisó y evaluó la implementación de la
+              primera prueba piloto de voto electrónico. Como especialista en
+              investigación aplicada a políticas públicas y evaluación de
+              proyectos, colaboró con organizaciones internacionales y think
+              tanks, entre los cuales se destacan el Overseas Development
+              Institute (ODI), el Woodrow Wilson International Center for
+              Scholars, UNICEF y la Organización de los Estados Americanos
+              (OEA).
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Marysol Rodriguez"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Marysol Rodríguez pertenece a la tercera generación de la familia
+              accionista del Grupo Sinteplast. Actualmente se desempeña como
+              titular de Corporate Affairs de Sinteplast. Es Secretaria en UIA
+              Joven y miembro de la Junta Directiva de la UIA, Presidenta de la
+              Unión Industrial de Ezeiza, y miembro de la Comisión Directiva de
+              Jóvenes J6. Es licenciada en Ciencias Políticas y Relaciones
+              Internacionales por la Universidad Católica Argentina (UCA) y
+              posee un EMBA de IAE Business School.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Gonzalo Tanoira"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Federico Poletto está casado desde hace 18 años y es padre de 3
+              hijos. Su fuente de inspiración para trabajar todos los días es
+              poder cumplir la voluntad de Dios. Es Gerente General en MDZ, uno
+              de los portales de noticias con mayor cantidad de visitas en
+              Argentina y Latinoamérica. Su trayectoria muestra un extenso
+              recorrido por más de 25 años en diferentes medios de comunicación,
+              que incluyen Terra, Clarín, Infobae, Perfil y Atlántida. Ha sido
+              siempre un predicador de la evolución digital de la industria de
+              medios, lanzando nuevos productos, coordinando contenidos,
+              recursos y posicionamiento de los negocios que tuvo a cargo.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="P. Augusto Zampini"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Federico Poletto está casado desde hace 18 años y es padre de 3
+              hijos. Su fuente de inspiración para trabajar todos los días es
+              poder cumplir la voluntad de Dios. Es Gerente General en MDZ, uno
+              de los portales de noticias con mayor cantidad de visitas en
+              Argentina y Latinoamérica. Su trayectoria muestra un extenso
+              recorrido por más de 25 años en diferentes medios de comunicación,
+              que incluyen Terra, Clarín, Infobae, Perfil y Atlántida. Ha sido
+              siempre un predicador de la evolución digital de la industria de
+              medios, lanzando nuevos productos, coordinando contenidos,
+              recursos y posicionamiento de los negocios que tuvo a cargo.
+            </React.Fragment>
+          }
+        />
+      </div>
+
+      {/* <div className="expo__speakers col-md-12">
         <div className="speaker col-md-4 col-lg-3 col-sm-6">
           <img src={carolina_biquard} alt="Candelaria Fernández" />
           <div className="speaker__separador"></div>
@@ -111,7 +699,7 @@ const Expositores = () => {
           <div className="speaker__separador"></div>
           <p>Rosana Negrini</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
