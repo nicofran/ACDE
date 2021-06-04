@@ -22,8 +22,8 @@ import maria_gabriela_capacete from "../../assets/images/maria_gabriela_capacete
 import sebastian_mocorrea from "../../assets/images/sebastian_mocorrea.png";
 import silvia_bulla from "../../assets/images/silvia_bulla.png";
 import juan_vaquer from "../../assets/images/vaquer_juan.png";
-
 import victor_valle from "../../assets/images/victor_manuel_valle.png";
+
 const Comision = () => {
   return (
     <div className="comision">

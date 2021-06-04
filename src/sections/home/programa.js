@@ -18,6 +18,7 @@ const Programa = () => {
         </p>
         <br></br>
         <p className="programa__content">
+
           El XXIV Encuentro Anual ACDE parte del interrogante general respecto de cómo el capitalismo debe evolucionar para lograr generar prosperidad y desarrollo para todos y mitigar los daños económicos y sociales que se han acentuado por la pandemia. Observamos con preocupación un incremento de desigualdad y de la pobreza. Todos los actores estamos llamados a hacer un esfuerzo común para responder ante este desafío. Un esfuerzo común que nos permita construir un presente y un futuro con oportunidades de desarrollo para todos los miembros de nuestra sociedad.
           <br></br>
           <br></br>
