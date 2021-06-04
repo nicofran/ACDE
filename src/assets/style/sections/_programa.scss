@@ -1,6 +1,6 @@
 .programa {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 200px;
+  padding-bottom: 32px;
   .programa__rectangulo {
     display: flex;
     align-items: center;
@@ -43,8 +43,8 @@
   .programa__programa {
     @include response(medium) {
       padding-top: 80px;
-      padding-left: 380px;
-      padding-right: 380px;
+      padding-left: 200px;
+      padding-right: 200px;
     }
 
     .programa__title {
@@ -62,8 +62,8 @@
       }
     }
     .programa__desarrollo {
-      .programa__desarrollo__del__encuentro{
-        font-family: 'Gilroy-Bold', sans-serif;
+      .programa__desarrollo__del__encuentro {
+        font-family: "Gilroy-Bold", sans-serif;
         font-size: 28px;
         font-weight: 600;
       }
@@ -79,10 +79,10 @@
 
       .programa__evento {
         padding-top: 32px;
-       // text-transform: uppercase;
+        // text-transform: uppercase;
         font-weight: 700;
         font-size: 18px;
-        font-family: 'Gilroy-Bold', sans-serif;
+        font-family: "Gilroy-Bold", sans-serif;
 
         .pregunta {
           padding-top: 12px;
@@ -101,11 +101,10 @@
           font-size: 16px;
           font-family: Arial, Helvetica, sans-serif;
 
-          .programa__orador__nombre{
+          .programa__orador__nombre {
             font-weight: bold;
             color: black;
           }
-
         }
       }
     }

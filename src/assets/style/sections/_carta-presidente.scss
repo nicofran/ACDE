@@ -44,27 +44,30 @@
   .carta__text {
     @include response(medium) {
       padding-top: 80px;
-      padding-left: 280px;
-      padding-right: 280px;
+      padding-left: 200px;
+      padding-right: 200px;
     }
 
     .parrafo_inicial {
       display: inline-block;
     }
 
-    .foto_presidente {  
-    display: inline-block;
-    float: left;
-    width:295px;
-    height:300px;
-    object-fit:cover;
-    border-radius:50%;
-    }
-    
-    .carta__parrafo__cita{
-      font-style: italic;
+    .foto_presidente {
+      display: block;
+      float: left;
+      width: 295px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
     }
 
+    .carta__parrafo__cita {
+      font-style: italic;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    font-weight: 700px;
   }
 
   .carta__firma {
@@ -73,13 +76,13 @@
     padding-top: 40px;
     text-transform: uppercase;
 
-    .carta__firma__nombre{
+    .carta__firma__nombre {
       font-size: 28px;
-      font-family: 'Gilroy-Bold', sans-serif;
+      font-family: "Gilroy-Bold", sans-serif;
     }
-    .carta__firma__cargo{
+    .carta__firma__cargo {
       font-size: 22px;
-      font-family: 'Gilroy-Medium', sans-serif;
+      font-family: "Gilroy-Medium", sans-serif;
       margin-bottom: 40px;
     }
 
