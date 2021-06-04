@@ -8,6 +8,7 @@
     justify-content: space-evenly;
     color: white;
     white-space: nowrap;
+    margin-bottom: 32px;
     img {
       display: none;
     }
@@ -36,6 +37,10 @@
     }
   }
   .encuentros__content {
+    a {
+      color: black;
+      list-style-type: none;
+    }
     display: flex;
     justify-content: space-evenly;
     padding-left: 100px;

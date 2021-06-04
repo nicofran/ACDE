@@ -1,13 +1,11 @@
 const Inscripcion = () => {
   return (
     <div className="inscripcion container">
-      <div className="inscript__media">
-        <p className="inscript__text">se requiere acreditación previa</p>
-        <button className="inscript__button">Inscribite</button>
-        <div className="inscript__hashtags">
-          <p>#VamosAlEncuentro</p>
-          <p>#EncuentroAnualACDE</p>
-        </div>
+      <p className="inscripcion__text">se requiere acreditación previa</p>
+      <button className="inscripcion__button">Inscribite</button>
+      <div className="inscripcion__hashtags">
+        <p>#VamosAlEncuentro</p>
+        <p>#EncuentroAnualACDE</p>
       </div>
     </div>
   );
