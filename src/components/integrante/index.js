@@ -3,18 +3,19 @@ import React, { useState } from "react";
 // Components
 import Modal from "../../components/modal/modal";
 
-const Expositor = ({ nombre, biografia, imagen }) => {
+const Integrante = ({ nombre, biografia, imagen, posicion }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="speaker col-md-6 col-lg-3 col-sm-6">
+    <div className="integrante col-md-6 col-lg-3 col-sm-6">
       <img src={imagen} alt={nombre} />
-      <div className="speaker__separador"></div>
+      <div className="comision__separador"></div>
       <p>{nombre}</p>
+      <p className="integrante__posicion">{posicion}</p>
 
       <button
         type="button"
-        className="button__modal"
+        className="integrante__button"
         onClick={() => setShow(true)}
       >
         Ver más
@@ -30,4 +31,4 @@ const Expositor = ({ nombre, biografia, imagen }) => {
   );
 };
 
-export default Expositor;
+export default Integrante;

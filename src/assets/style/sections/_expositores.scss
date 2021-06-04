@@ -50,11 +50,11 @@
     flex-wrap: wrap;
 
     @include response(medium) {
-      padding-left: 200px;
-      padding-right: 200px;
+      padding-left: 100px;
+      padding-right: 100px;
     }
     .speaker {
-      padding: 10px;
+      padding-bottom: 70px;
       display: flex;
       position: center;
       text-transform: uppercase;

@@ -51,14 +51,14 @@
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     white-space: nowrap;
 
     @include response(medium) {
-      padding-left: 200px;
-      padding-right: 200px;
+      padding-left: 100px;
+      padding-right: 100px;
     }
 
     .integrante {
@@ -69,8 +69,9 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-size: 14px;
-      padding-bottom: 12px;
+      font-size: 19px;
+      padding-bottom: 70px;
+
       img {
         width: 212px;
         height: 212px;
@@ -83,11 +84,29 @@
         }
       }
       .comision__separador {
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 54px;
         height: 4px;
         background-color: #52ae39;
+      }
+      .integrante__posicion {
+        font-size: 400;
+        font-size: 12px;
+        white-space: pre-wrap;
+        text-align: center;
+      }
+      .integrante__button {
+        background-color: #52ae39;
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        padding: 7px 14px;
+        &:hover {
+          background-color: white;
+          color: #52ae39;
+          border: 1px solid #52ae39;
+        }
       }
     }
   }
