@@ -8,10 +8,33 @@ import acde from "../../assets/images/logo-acde1.svg";
 
 const Camino = () => {
   var settings = {
-    // dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 1,
+    slidesToShow: 3,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 700,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="camino">
@@ -21,12 +44,12 @@ const Camino = () => {
           <h3 className="camino__title">camino al encuentro</h3>
         </div>
       </div>
-
-      <Slider {...settings}>
-        <div className="camino__camino">
+      <div className="camino__sliders">
+        <Slider {...settings}>
+          {/* ARTICULO 1 START  */}
           <div className="camino__article">
             <img src={acde} alt="ACDE" />
-            <p>
+            <p className="slider__titulo">
               Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
               Anual ACDE 2021
             </p>
@@ -34,9 +57,11 @@ const Camino = () => {
               Ver más
             </a>
           </div>
+          {/* ARTICULO 1 END  */}
+          {/* ARTICULO 2 START  */}
           <div className="camino__article">
             <img src={acde} alt="ACDE" />
-            <p>
+            <p className="slider__titulo">
               Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
               Anual ACDE 2021
             </p>
@@ -44,9 +69,11 @@ const Camino = () => {
               Ver más
             </a>
           </div>
+          {/* ARTICULO 2 END  */}
+          {/* ARTICULO 3 START  */}
           <div className="camino__article">
             <img src={acde} alt="ACDE" />
-            <p>
+            <p className="slider__titulo">
               Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
               Anual ACDE 2021
             </p>
@@ -54,8 +81,21 @@ const Camino = () => {
               Ver más
             </a>
           </div>
-        </div>
-      </Slider>
+          {/* ARTICULO 3 END  */}
+          {/* ARTICULO 3 START  */}
+          <div className="camino__article">
+            <img src={acde} alt="ACDE" />
+            <p className="slider__titulo">
+              Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
+              Anual ACDE 2021
+            </p>
+            <a href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/">
+              Ver más
+            </a>
+          </div>
+          {/* ARTICULO 3 END  */}
+        </Slider>
+      </div>
     </div>
   );
 };

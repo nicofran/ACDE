@@ -2,10 +2,6 @@
   color: white;
   height: 142px;
   background-color: #1673b9;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
   .inscript__text {
     text-transform: uppercase;
@@ -34,12 +30,11 @@
   }
 
   .inscript__media {
-    @include response(medium) {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
   }
   .inscript__hashtags {
     display: none;
