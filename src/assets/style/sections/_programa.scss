@@ -17,7 +17,8 @@
     .logo {
       width: 280px;
       height: 101px;
-      padding-right: 120px;
+      padding-right: 90px;
+      margin-right: 120px;
       display: none;
       @include response(medium) {
         display: block;
@@ -43,7 +44,7 @@
       text-align: center;
       @include response(medium) {
         padding-right: 150px;
-        margin-right: 190px;
+        margin-right: 220px;
         font-size: 32px;
       }
     }
