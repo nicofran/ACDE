@@ -1,5 +1,5 @@
 .carta {
-  padding-top: 80px;
+  padding-top: 40px;
 
   .carta__rectangulo {
     display: flex;
@@ -43,7 +43,8 @@
   }
   .carta__text {
     @include response(medium) {
-      padding-top: 80px;
+      //padding-top: 80px;
+      padding-top: 40px;
       padding-left: 200px;
       padding-right: 200px;
     }
@@ -55,10 +56,12 @@
     .foto_presidente {
       display: block;
       float: left;
-      width: 295px;
+      width: 300px;
       height: 300px;
       object-fit: cover;
       border-radius: 50%;
+      margin-bottom: 5px;
+      margin-right: 20px;
     }
 
     .carta__parrafo__cita {
@@ -73,7 +76,7 @@
   .carta__firma {
     font-weight: 700;
     float: right;
-    padding-top: 40px;
+    //padding-top: 10px;
     text-transform: uppercase;
 
     .carta__firma__nombre {

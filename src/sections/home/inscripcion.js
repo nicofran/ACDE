@@ -4,7 +4,7 @@ const Inscripcion = () => {
       <p className="inscripcion__text">se requiere acreditación previa</p>
       <button className="inscripcion__button">Inscribite</button>
       <div className="inscripcion__hashtags">
-        <p>#VamosAlEncuentro</p>
+        <span>#VamosAlEncuentro</span>
         <p>#EncuentroAnualACDE</p>
       </div>
     </div>

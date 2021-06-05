@@ -40,10 +40,12 @@
     a {
       color: black;
       list-style-type: none;
+      font-family: 'Roboto', sans-serif;
+
     }
     display: flex;
     justify-content: space-evenly;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
   }
 }
