@@ -27,7 +27,11 @@ const Menu = () => {
               Encuentro Virtual<br></br>Sin Cargo
             </span>
           </p>
-          <img src={Bicentenario} className="img-bicentenario" />
+          <img
+            src={Bicentenario}
+            alt="Enrique Shaw"
+            className="img-bicentenario"
+          />
           <Acde className="img-acde" />
         </div>
         {/* BANNERS END */}

@@ -49,6 +49,7 @@ const Expositores = () => {
         <Expositor
           nombre="Rab Alejandro Avruj"
           imagen={rab_alejandro_avruj}
+          posicion={""}
           biografia={
             <React.Fragment>
               Rab. Alejandro Avruj está casado con Marina Degtiar y tiene cuatro
@@ -521,7 +522,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Emilio Persíco"
+          nombre="Emilio Pérsico"
           imagen={emilio_persico}
           biografia={
             <React.Fragment>
