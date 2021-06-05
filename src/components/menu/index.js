@@ -2,7 +2,7 @@
 
 import { ReactComponent as Acde } from "../../assets/images/logo-acde1.svg";
 import Banner from "../../assets/images/banner-thumneil.png";
-import { ReactComponent as Bicentenario } from "../../assets/images/bicentenario-menu.svg";
+import Bicentenario from "../../assets/images/bicentenario-menu.svg";
 
 import { useState } from "react";
 
@@ -27,7 +27,7 @@ const Menu = () => {
               Encuentro Virtual<br></br>Sin Cargo
             </span>
           </p>
-          <Bicentenario className="img-bicentenario" />
+          <img src={Bicentenario} className="img-bicentenario" />
           <Acde className="img-acde" />
         </div>
         {/* BANNERS END */}
