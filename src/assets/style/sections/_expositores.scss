@@ -1,45 +1,49 @@
 .expositores {
-  padding-top: 50px; // Valor previo = 120px
-  .expo__rectangulo {
+  padding-top: 120px;
+
+  .expo__span {
+    width: 100%;
+    height: 74px;
+    background-color: #e22084;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 
-    .expo__span {
-      width: 596px;
-      height: 74px;
-      background-color: #e22084;
-      margin: 0;
-      padding: 0;
+    .logo {
+      width: 230px;
+      height: 102px;
+      margin: 0 auto;
       display: none;
-
-      .logo {
-        width: 230px;
-        height: 102px;
-        margin: 0 auto;
-      }
-
-      img {
-        width: 63px;
-        height: 57px;
-        padding-right: 12px;
-      }
-
       @include response(medium) {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
+        display: block;
+      }
+    }
+
+    img {
+      width: 63px;
+      height: 57px;
+      padding-right: 12px;
+      display: none;
+      @include response(medium) {
+        display: block;
       }
     }
 
     .carta__titulo {
-      font-size: 32px;
+      font-size: 22px;
       text-transform: uppercase;
-      color: #e22084;
+      color: white;
       font-weight: 700;
       text-align: center;
-      margin: 0 auto;
+      @include response(medium) {
+        padding-right: 550px;
+        margin-right: 20px;
+        font-size: 32px;
+      }
     }
   }
+
   .expo__speakers {
     padding-top: 42px;
     padding-right: 50px;

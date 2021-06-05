@@ -10,7 +10,6 @@ const Carta = () => {
       <div className="carta__span">
         <img className="logo" src={logo} alt="ACDE" />
         <img src={icon} alt="ACDE" />
-
         <h1 className="carta__titulo">carta del presidente</h1>
       </div>
       <div className="carta__text">

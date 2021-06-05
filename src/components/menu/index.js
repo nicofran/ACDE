@@ -22,7 +22,7 @@ const Menu = () => {
             <img src={Banner} alt="ACDE" className="img-encuentro" />
           </div>
           <p className="menu__fecha">
-            30 de Junio<br></br>y 1 de Julio<br></br>
+            30 de junio<br></br>y 1 de julio<br></br>
             <span>
               Encuentro Virtual<br></br>Sin Cargo
             </span>
@@ -43,7 +43,7 @@ const Menu = () => {
               <a href="#expositores">Expositores</a>
             </li>
             <li>
-              <a href="#comision">Comisión Organizadora</a>
+              <a href="#comision">Comisión organizadora</a>
             </li>
             <li>
               <a href="#auspiciantes">Auspiciantes</a>
@@ -52,7 +52,7 @@ const Menu = () => {
               <a href="#camino">Camino al encuentro</a>
             </li>
             <li>
-              <a href="#encuentros">Encuentros Anteriores</a>
+              <a href="#encuentros">Encuentros anteriores</a>
             </li>
           </ul>
         </div>
