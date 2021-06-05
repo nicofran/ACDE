@@ -1,6 +1,6 @@
 .inscripcion {
   width: 100%;
-  height: 90px;
+  height: 142px;
   color: white;
   background-color: #1673b9;
   margin: 0 auto;
@@ -9,14 +9,13 @@
   align-items: center;
   justify-content: center;
   letter-spacing: -1px;
-  padding-right: 76px;
-  font-family: 'Gilroy-Bold', sans-serif;
-
+  padding: 0px;
+  font-family: "Gilroy-Bold", sans-serif;
 
   @include response(medium) {
     flex-direction: row;
+    padding-right: 76px;
   }
-
 
   .inscripcion__text {
     text-transform: uppercase;
