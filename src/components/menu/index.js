@@ -23,8 +23,7 @@ const Menu = () => {
           </div>
 
           <p className="menu__fecha">
-            30 de Junio y 1<br></br>
-            de Julio<br></br>
+            30 de Junio<br></br>y 1 de Julio<br></br>
             <span>
               Encuentro Virtual<br></br>Sin Cargo
             </span>
