@@ -20,17 +20,17 @@ import nicolas_braun from "../../assets/images/nicolas_braun.png";
 import rab_alejandro_avruj from "../../assets/images/rab_alejandro_avruj.png";
 import roberto_vassollo from "../../assets/images/roberto_vassollo.png";
 import rosana_negrini from "../../assets/images/rosana_negrini.png";
-import immacule_ilibagiza from "../../assets/images/immacule_ilibagiza.jpg";
-// import maximo_cavazzani from "../../assets/images/rosana_negrini.png";
-import cristian_geronimo from "../../assets/images/cristian_geronimo.jpg";
-// import veronica_marcelo from "../../assets/images/rosana_negrini.png";
-// import emilio_persico from "../../assets/images/rosana_negrini.png";
-import federico_poletto from "../../assets/images/federico_poletto.jpeg";
-import julia_pomares from "../../assets/images/julia_pomares.JPG";
+import immacule_ilibagiza from "../../assets/images/immacule_ilibagiza.png";
+import maximo_cavazzani from "../../assets/images/maximo_cavazzani.png";
+import cristian_geronimo from "../../assets/images/cristian_jeronimo.png";
+import veronica_marcelo from "../../assets/images/veronica_marcelo.png";
+import emilio_persico from "../../assets/images/emilio_persico.png";
+import federico_poletto from "../../assets/images/federico_poletto.png";
+import julia_pomares from "../../assets/images/julia_pomares.png";
 import marysol_rodriguez from "../../assets/images/marysol_rodriguez.png";
 import gonzalo_tanoira from "../../assets/images/gonzalo_tanoira.png";
-import padre_augusto_zamipini from "../../assets/images/padre_augusto_zampini.jpg";
-import juan_bosch from "../../assets/images/juan_bosch.jpeg";
+import padre_augusto_zamipini from "../../assets/images/padre_augusto_zampini.png";
+import juan_bosch from "../../assets/images/juan_bosch.png";
 import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz.png";
 
 //Componente de Expositor
@@ -179,8 +179,8 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Maximo Cavazzani (falta foto)"
-          imagen={marina_dal_poggetto}
+          nombre="Maximo Cavazzani"
+          imagen={maximo_cavazzani}
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
@@ -433,7 +433,7 @@ const Expositores = () => {
         />
         <Expositor
           nombre="Verónica Marcelo"
-          imagen={marina_dal_poggetto}
+          imagen={veronica_marcelo}
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
@@ -522,7 +522,7 @@ const Expositores = () => {
         />
         <Expositor
           nombre="Emilio Persíco"
-          imagen={marina_dal_poggetto}
+          imagen={emilio_persico}
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.

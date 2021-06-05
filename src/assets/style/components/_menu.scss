@@ -37,9 +37,10 @@
   }
   .img-bicentenario {
     display: none;
-    background-color: transparent;
+
     @include response(medium) {
       display: flex;
+      background-color: transparent;
     }
   }
   .menu__fecha {
