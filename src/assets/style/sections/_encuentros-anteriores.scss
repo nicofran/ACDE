@@ -37,12 +37,21 @@
     }
   }
   .encuentros__content {
+    display: flex;
+    flex-direction: column;
+
+    @include response(medium) {
+      flex-direction: row;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
     a {
       color: black;
       list-style-type: none;
       font-family: "Roboto", sans-serif;
     }
-    display: flex;
-    justify-content: space-evenly;
+    li {
+      padding-bottom: 20px;
+    }
   }
 }
