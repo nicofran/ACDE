@@ -4,7 +4,7 @@
 
   .programa__span {
     width: 100%;
-    height: 74px;
+    height: 100px;
     background-color: #1673b9;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     .logo {
       width: 280px;
       height: 101px;
-      padding-right: 150px;
+      padding-right: 120px;
       display: none;
       @include response(medium) {
         display: block;
