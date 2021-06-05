@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // Components
 import Modal from "../../components/modal/modal";
 
-const Expositor = ({ nombre, biografia, imagen }) => {
+const Expositor = ({ nombre, biografia, imagen, descripcion }) => {
   const [show, setShow] = useState(false);
 
   return (
@@ -11,7 +11,7 @@ const Expositor = ({ nombre, biografia, imagen }) => {
       <img src={imagen} alt={nombre} />
       <div className="speaker__separador"></div>
       <p>{nombre}</p>
-
+      <p className="speaker__descripcion">{descripcion}</p>
       <button
         type="button"
         className="button__modal"
