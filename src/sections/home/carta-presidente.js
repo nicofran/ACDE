@@ -34,15 +34,14 @@ const Carta = () => {
             valor del esfuerzo y el mérito y de hecho los aumenta. Hay que
             enseñar a pescar, pero las parábolas nos enseñan que existen
             situaciones en las que también hay que ofrecer el pescado.
-          </p>
-          <br></br>
-          <p>
+            <br></br>
+            <br></br>
             Debemos integrarnos de forma (muy) inteligente al mundo, del mismo
             modo que saber vivir con lo nuestro, potenciando nuestros activos y
             capacidades - que son muchas. En época de pandemia, debemos proteger
             la vida pero también la forma de ganarse la vida.
-          </p>
-          <p>
+            <br></br>
+            <br></br>
             Durante nuestro XXIV Encuentro Anual buscaremos responder varias
             preguntas para iluminar un camino de encuentro en torno a un
             capitalismo más humano: ¿Qué debemos hacer mejor o distinto? ¿Cómo
@@ -61,8 +60,8 @@ const Carta = () => {
             de todos los días y a toda hora. ¿Qué esperanza puedo transmitir a
             los que me rodean? ¿Cómo puedo crear mayor certidumbre para los que
             dependen de mi?.
-          </p>
-          <p>
+            <br></br>
+            <br></br>
             En sus últimos meses de vida, allá por 1962, nuestro fundador
             Enrique Shaw participó de una reunión de la Organización
             Internacional Católica. En ese momento ya estaba postrado en cama
@@ -71,8 +70,9 @@ const Carta = () => {
             describir con trazos muy pesimistas la situación social de
             Argentina, Enrique pidió la palabra y dijo - y hoy nos dice a
             nosotros:
-          </p>
-          <p className="carta__parrafo__cita">
+            <br></br>
+            <br></br>
+            <p className="carta__parrafo__cita">
             "Bienaventurada es nuestra patria porque en ella un cristiano puede
             llegar a ser santo. Bienaventuranza es una palabra que quiere decir
             felicidad, y con ese significado la explicó nuestro Señor Jesucristo
@@ -84,6 +84,10 @@ const Carta = () => {
             que ello contribuya de un modo u otro. Si empleamos bien todos los
             medios existentes a nuestra disposición, somos más fuertes de lo que
             pensamos. ¡Actuemos!"
+            </p>
+            ¡Vamos al Encuentro!
+
+
           </p>
           <p className="carta__firma">
             <span></span>IGNACIO GORUPICZ<br></br>

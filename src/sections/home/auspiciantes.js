@@ -39,7 +39,7 @@ import pinamar_sa from "../../assets/icons/pinamar-sa.png";
 const Auspiciantes = () => {
   return (
     <div className="ausp container" id="auspiciantes">
-      <h1 className="ausp__title">Auspiciantes</h1>
+      <h1 className="ausp__title">Agradecemos a nuestros auspiciantes</h1>
 
       {/* Auspiciante PLATINO START */}
       <div className="auspiciantes">

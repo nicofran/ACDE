@@ -21,7 +21,6 @@ const Menu = () => {
           <div>
             <img src={Banner} alt="ACDE" className="img-encuentro" />
           </div>
-
           <p className="menu__fecha">
             30 de junio<br></br>y 1 de julio<br></br>
             <span>
@@ -105,62 +104,5 @@ const Menu = () => {
     </div>
   );
 };
-// return (
-//   <div className="menu">
-//     <div className="menu__banners">
-//       <img src={Banner} alt="ACDE" className="img__acde" />
-//       <p className="menu__fecha">
-//         30 de Junio y 1<br></br>
-//         de Julio<br></br>
-//         <span>
-//           Encuentro Virtual<br></br>Sin Cargo
-//         </span>
-//       </p>
-//       {/* MENU TOGGLE START */}
-//       <button
-//         className={
-//           activo ? "menu__toggler menu__toggler--activo" : "menu__toggler"
-//         }
-//         onClick={toggleMenu}
-//       >
-//         <span></span>
-//         <span></span>
-//         <span></span>
-//       </button>
-//       {/* MENU TOGGLE END */}
-//       <img src={bicentenario} alt="ACDE" className="img"></img>
-//       <Acde className="img" />
-//     </div>
-//     <div
-//       className={
-//         activo ? "menu__content menu__content--activo" : "menu__content"
-//       }
-//     >
-//       <ul className="menu__list">
-//         <li>
-//           <a href="#carta">Carta al Presidente</a>
-//         </li>
-//         <li>
-//           <a href="#hero">Programa</a>
-//         </li>
-//         <li>
-//           <a href="#Expositores">Expositores</a>
-//         </li>
-//         <li>
-//           <a href="#Comision">Comisión Organizadora</a>
-//         </li>
-//         <li>
-//           <a href="#Auspiciantes">Auspicientes</a>
-//         </li>
-//         <li>
-//           <a href="#Camino">Camino al encuentro</a>
-//         </li>
-//         <li>
-//           <a href="#Encuentros">Encuentros Anteriores</a>
-//         </li>
-//       </ul>
-//     </div>
-//   </div>
-// );
 
 export default Menu;

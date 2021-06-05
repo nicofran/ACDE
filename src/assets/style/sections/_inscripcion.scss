@@ -1,6 +1,6 @@
 .inscripcion {
   width: 100%;
-  height: 142px;
+  height: 90px;
   color: white;
   background-color: #1673b9;
   margin: 0 auto;
@@ -8,14 +8,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  letter-spacing: -1px;
+  padding-right: 76px;
+  font-family: 'Gilroy-Bold', sans-serif;
+
 
   @include response(medium) {
     flex-direction: row;
   }
 
+
   .inscripcion__text {
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 18px;
   }
 
   .inscripcion__hashtags {
@@ -23,6 +29,10 @@
     @include response(medium) {
       display: block;
     }
+    margin-top: 12px;
+    margin-left: 4px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
   }
 
   .inscripcion__button {
@@ -32,10 +42,12 @@
     height: 49px;
     border-radius: 16px;
     background-color: #ffffff;
-    color: grey;
+    color: black;
     text-transform: uppercase;
     font-weight: 700;
     border: 0;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
     &:hover {
       background-color: #1673b9;
       border: 1px solid white;

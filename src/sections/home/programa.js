@@ -14,7 +14,7 @@ const Programa = () => {
           Generando un ciclo virtuoso para promover el bien<br></br>
           común y construir confianza social
         </p>
-        <br></br>
+       {/* <br></br> */}
         <p className="programa__content">
           El XXIV Encuentro Anual ACDE parte del interrogante general respecto
           de cómo el capitalismo debe evolucionar para lograr generar
@@ -44,11 +44,11 @@ const Programa = () => {
           instituciones más robustas y un entramado social más justo.
           <br></br>
           <br></br>
-          El evento se desarrollará de forma virtual durante las mañanas del
-          miércoles 30 de junio y jueves 1 de julio de 2021.
+{/*           El evento se desarrollará de forma virtual durante las mañanas del
+          miércoles 30 de junio y jueves 1 de julio de 2021. */}
         </p>
-        <br></br>
-        <br></br>
+{/*         <br></br>
+        <br></br> */}
         <div className="programa__desarrollo">
           <span className="programa__desarrollo__del__encuentro">
             Desarrollo del Encuentro
@@ -360,8 +360,7 @@ const Programa = () => {
                 </ul>
               </span>
             </p>
-            <br></br>
-            <br></br>
+            <br/>
           </div>
         </div>
       </div>
