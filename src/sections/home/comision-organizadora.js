@@ -128,26 +128,6 @@ const Comision = () => {
             }
           />
           <Integrante
-            nombre="Catalina López Lecube"
-            posicion={"Directora Ejecutiva de ACDE"}
-            imagen={catalina_lopez}
-            biografia={
-              <React.Fragment>
-                Catalina López Lecube es licenciada en Ciencias de la
-                Comunicación por la Universidad de Buenos Aires (UBA). Cursó la
-                Maestría en Gestión de la Comunicación en las Organizaciones por
-                la Universidad Austral. Cuenta con 20 años de experiencia
-                desarrollada en áreas de Comunicación y Comercial. Durante 8
-                años se desempeñó en diversos cargos en los Posgrados de la
-                Facultad de Derecho de la Universidad Austral. En marzo de 2017
-                ingresó como Coordinadora de Socios en la Asociación Cristiana
-                de Dirigentes de Empresa (ACDE) y, desde enero de 2018, se
-                desempeña como Líder de Comunicaciones & Socios en la misma
-                institución.
-              </React.Fragment>
-            }
-          />
-          <Integrante
             nombre="Carolina Abarca"
             posicion={"Directora Ejecutiva de Fundación Alumbrar"}
             imagen={carolina_abarca}
@@ -166,6 +146,26 @@ const Comision = () => {
               </React.Fragment>
             }
           />
+            <Integrante
+              nombre="Catalina López Lecube"
+              posicion={"Directora Ejecutiva de ACDE"}
+              imagen={catalina_lopez}
+              biografia={
+                <React.Fragment>
+                  Catalina López Lecube es licenciada en Ciencias de la
+                  Comunicación por la Universidad de Buenos Aires (UBA). Cursó la
+                  Maestría en Gestión de la Comunicación en las Organizaciones por
+                  la Universidad Austral. Cuenta con 20 años de experiencia
+                  desarrollada en áreas de Comunicación y Comercial. Durante 8
+                  años se desempeñó en diversos cargos en los Posgrados de la
+                  Facultad de Derecho de la Universidad Austral. En marzo de 2017
+                  ingresó como Coordinadora de Socios en la Asociación Cristiana
+                  de Dirigentes de Empresa (ACDE) y, desde enero de 2018, se
+                  desempeña como Líder de Comunicaciones & Socios en la misma
+                  institución.
+                </React.Fragment>
+              }
+            />
           <Integrante
             nombre="Elena Newkirk"
             posicion={
@@ -287,7 +287,7 @@ const Comision = () => {
             }
           />
           <Integrante
-            nombre="Ignacio Cornejo Sola"
+            nombre="Ignacio Cornejo Solá"
             posicion={
               "Responsable de Corporate Affairs, external advisor Arla Foods Ingredients"
             }
@@ -317,34 +317,6 @@ const Comision = () => {
               </React.Fragment>
             }
           />
-          <Integrante
-            nombre="Juan Manuel Vaquer"
-            posicion={"Abogado y empresario agropecuario"}
-            imagen={juan_vaquer}
-            biografia={
-              <React.Fragment>
-                Juan Manuel Vaquer es abogado graduado en la Universidad de
-                Buenos Aires (UBA), y con una maestría en Derecho Internacional
-                y Comparado en SMU, de Dallas, Texas. En 1990 ingresó a la
-                empresa DuPont, donde ocupó diversos cargos, en América Latina y
-                en Europa, retirándose como presidente para América Latina, en
-                mayo de 2019. Presidió la Cámara Americana de Comercio en
-                Argentina (AmCham) desde 2013 hasta junio de 2016 y la
-                Asociación Cristiana de Dirigentes de Empresa (ACDE), entre 2017
-                y 2020. Fue director del Instituto para el Desarrollo
-                Empresarial de la Argentina (IDEA), miembro de la Comisión
-                Directiva del Consejo Empresario Argentino para el Desarrollo
-                Sostenible (CEADS) y presidente del Directorio de Aleph
-                Midstream S.A.. Actualmente tiene una explotación familiar
-                agropecuaria, se desempeña como Of Counsel en el Estudio
-                Jurídico JP O´Farrell, integra el Consejo Asesor del Instituto
-                de Ética y Transparencia de AmCham Argentina, el Consejo Asesor
-                de la Universidad Austral, y lidera la Red de Gobierno
-                Corporativo de IDEA.
-              </React.Fragment>
-            }
-          />
-
           <Integrante
             nombre="Jorge Laroza"
             posicion={"Miembro del Consejo Directivo de ACDE"}
@@ -379,6 +351,35 @@ const Comision = () => {
             }
           />
           <Integrante
+            nombre="Sebastian Mocorrea"
+            posicion={
+              "Presidente de Argencon y Consultor en Estrategia Corporativa, Comunicaciones y Stakeholder Management"
+            }
+            imagen={sebastian_mocorrea}
+            biografia={
+              <React.Fragment>
+                Sebastián Mocorrea es consultor en Estrategia Corporativa,
+                Comunicaciones y Stakeholder Management. Desde septiembre de
+                2020 es, además, presidente de Argencon. Con más de treinta años
+                de experiencia corporativa, inició su carrera en los grupos de
+                medios de comunicación Clarín y Telefé. Fue presidente de la
+                Asociación de Televisión Argentina (ATA). Desarrolló
+                posteriormente una extensa carrera en IBM donde comenzó como
+                Director de Comunicaciones y Relaciones Externas de IBM
+                Latinoamérica Sur. Asumió posteriormente las posiciones de
+                Director Regional de IBM Latinoamérica, Vicepresidente de
+                Asuntos Públicos y Regulatorios para IBM Europa y Vicepresidente
+                de Global Market Support. Entre 2016 y 2020 fue Vicepresidente
+                Ejecutivo de Asuntos Corporativos, Marketing y Comunicaciones de
+                YPF. En 2018 fue Deputy Chair de la Taskforce on Energy,
+                Resource Efficiency and Sustainability (ERES) del B20. Es
+                abogado, graduado en la Facultad de Derecho de la Universidad de
+                Buenos Aires y licenciado en Ciencias Políticas de la
+                Universidad Católica Argentina. Está casado y tiene tres hijos.
+              </React.Fragment>
+            }
+          />
+          <Integrante
             nombre="Silvia Bulla"
             posicion={
               "Presidente de Danisco Argentina y Directora de HR de IFF para América Latina"
@@ -406,31 +407,29 @@ const Comision = () => {
             }
           />
           <Integrante
-            nombre="Sebastian Mocorrea"
-            posicion={
-              "Presidente de Argencon y Consultor en Estrategia Corporativa, Comunicaciones y Stakeholder Management"
-            }
-            imagen={sebastian_mocorrea}
+            nombre="Juan Manuel Vaquer"
+            posicion={"Abogado y empresario agropecuario"}
+            imagen={juan_vaquer}
             biografia={
               <React.Fragment>
-                Sebastián Mocorrea es consultor en Estrategia Corporativa,
-                Comunicaciones y Stakeholder Management. Desde septiembre de
-                2020 es, además, presidente de Argencon. Con más de treinta años
-                de experiencia corporativa, inició su carrera en los grupos de
-                medios de comunicación Clarín y Telefé. Fue presidente de la
-                Asociación de Televisión Argentina (ATA). Desarrolló
-                posteriormente una extensa carrera en IBM donde comenzó como
-                Director de Comunicaciones y Relaciones Externas de IBM
-                Latinoamérica Sur. Asumió posteriormente las posiciones de
-                Director Regional de IBM Latinoamérica, Vicepresidente de
-                Asuntos Públicos y Regulatorios para IBM Europa y Vicepresidente
-                de Global Market Support. Entre 2016 y 2020 fue Vicepresidente
-                Ejecutivo de Asuntos Corporativos, Marketing y Comunicaciones de
-                YPF. En 2018 fue Deputy Chair de la Taskforce on Energy,
-                Resource Efficiency and Sustainability (ERES) del B20. Es
-                abogado, graduado en la Facultad de Derecho de la Universidad de
-                Buenos Aires y licenciado en Ciencias Políticas de la
-                Universidad Católica Argentina. Está casado y tiene tres hijos.
+                Juan Manuel Vaquer es abogado graduado en la Universidad de
+                Buenos Aires (UBA), y con una maestría en Derecho Internacional
+                y Comparado en SMU, de Dallas, Texas. En 1990 ingresó a la
+                empresa DuPont, donde ocupó diversos cargos, en América Latina y
+                en Europa, retirándose como presidente para América Latina, en
+                mayo de 2019. Presidió la Cámara Americana de Comercio en
+                Argentina (AmCham) desde 2013 hasta junio de 2016 y la
+                Asociación Cristiana de Dirigentes de Empresa (ACDE), entre 2017
+                y 2020. Fue director del Instituto para el Desarrollo
+                Empresarial de la Argentina (IDEA), miembro de la Comisión
+                Directiva del Consejo Empresario Argentino para el Desarrollo
+                Sostenible (CEADS) y presidente del Directorio de Aleph
+                Midstream S.A.. Actualmente tiene una explotación familiar
+                agropecuaria, se desempeña como Of Counsel en el Estudio
+                Jurídico JP O´Farrell, integra el Consejo Asesor del Instituto
+                de Ética y Transparencia de AmCham Argentina, el Consejo Asesor
+                de la Universidad Austral, y lidera la Red de Gobierno
+                Corporativo de IDEA.
               </React.Fragment>
             }
           />

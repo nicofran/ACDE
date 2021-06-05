@@ -16,7 +16,7 @@ const Programa = () => {
           Generando un ciclo virtuoso para promover el bien<br></br>
           común y construir confianza social
         </p>
-        <br></br>
+       {/* <br></br> */}
         <p className="programa__content">
 
           El XXIV Encuentro Anual ACDE parte del interrogante general respecto de cómo el capitalismo debe evolucionar para lograr generar prosperidad y desarrollo para todos y mitigar los daños económicos y sociales que se han acentuado por la pandemia. Observamos con preocupación un incremento de desigualdad y de la pobreza. Todos los actores estamos llamados a hacer un esfuerzo común para responder ante este desafío. Un esfuerzo común que nos permita construir un presente y un futuro con oportunidades de desarrollo para todos los miembros de nuestra sociedad.
@@ -28,11 +28,11 @@ const Programa = () => {
           ¿Qué debemos hacer mejor o diferente hacia adelante? En el marco del centenario del nacimiento del fundador de ACDE, Enrique Shaw, convocamos a poner los valores en acción en el día a día, traducidos en virtudes cotidianas. El ciclo virtuoso que planteamos busca enlazar simultáneamente la promoción del Bien Común y la construcción de Confianza Social. Este ciclo virtuoso nos permitirá desarrollar instituciones más robustas y un entramado social más justo.
           <br></br>
           <br></br>
-          El evento se desarrollará de forma virtual durante las mañanas del
-          miércoles 30 de junio y jueves 1 de julio de 2021.
+{/*           El evento se desarrollará de forma virtual durante las mañanas del
+          miércoles 30 de junio y jueves 1 de julio de 2021. */}
         </p>
-        <br></br>
-        <br></br>
+{/*         <br></br>
+        <br></br> */}
         <div className="programa__desarrollo">
           <span className="programa__desarrollo__del__encuentro">Desarrollo del Encuentro</span>
           <br></br>
@@ -197,8 +197,7 @@ const Programa = () => {
                  </ul>
               </span> 
             </p>
-            <br></br>
-            <br></br>
+            <br/>
           </div>
         </div>
       </div>
