@@ -27,11 +27,9 @@ import Expositor from "../../components/expositor/";
 const Expositores = () => {
   return (
     <div className="expositores">
-      <div className="expo__rectangulo" id="expositores">
-        <div className="expo__span">
-          <img className="logo" src={icon} alt="ACDE" />
-          <img src={logo} alt="ACDE" />
-        </div>
+      <div className="expo__span" id="expositores">
+        <img className="logo" src={icon} alt="ACDE" />
+        <img src={logo} alt="ACDE" />
         <h1 className="carta__titulo">expositores</h1>
       </div>
 
