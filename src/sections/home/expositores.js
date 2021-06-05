@@ -33,8 +33,6 @@ import padre_augusto_zamipini from "../../assets/images/padre_augusto_zampini.jp
 import juan_bosch from "../../assets/images/juan_bosch.jpeg";
 import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz.png";
 
-
-
 //Componente de Expositor
 import Expositor from "../../components/expositor/";
 
@@ -77,109 +75,110 @@ const Expositores = () => {
             </React.Fragment>
           }
         />
-          <Expositor
-            nombre="Carolina Biquard"
-            imagen={carolina_biquard}
-            biografia={
-              <React.Fragment>
-                Carolina Biquard es cofundadora de Fundación Compromiso (FC), una
-                organización que, desde 1994, desarrolla y difunde un nuevo modelo
-                para apoyar e invertir con eficacia dentro de organizaciones de la
-                sociedad civil, empresas privadas e instituciones públicas de toda
-                América Latina. Actualmente trabaja de manera articulada junto con
-                los inversores de impacto de la región para generar y fortalecer
-                oportunidades en el ámbito cultural, social y ambiental. FC es
-                cofundadora de Creatividad, Cultura y Capital, una nueva
-                plataforma de investigación que nuclea a la comunidad de
-                inversores de impacto en la Economía creativa. Fue Presidente del
-                Fondo Nacional de las Artes, de diciembre de 2015 a noviembre de
-                2018.{" "}
-              </React.Fragment>
-            }
-          />
-          <Expositor
-            nombre="Martin Borchardt"
-            imagen={martin_borchardt}
-            biografia={
-              <React.Fragment>
-                Martín Borchardt es el fundador de HENRY, una academia que forma
-                desarrolladores de software con $0 costo inicial y los ayuda a
-                buscar trabajo a remoto, generando un fuerte impacto social.
-                Adicionalmente, es miembro director de VerdeAgua, una empresa B
-                Corp de cultivos de hojas verdes sustentables y saludables líder
-                en el mercado Uruguayo. Anteriormente, fundó Nubi, una fintech de
-                pagos cross border que introdujo a PayPal y Transferwise en el
-                mercado argentino, enfocada en inclusión financiera.
-              </React.Fragment>
-            }
-          />
-          <Expositor
-            nombre="Juan Bosch"
-            imagen={juan_bosch}
-            biografia={
-              <React.Fragment>
-                Juan Bosch es abogado, especialista en derecho administrativo y energía.
-                Tiene una vasta experiencia y conocimiento del mercado energético.
-                Preside SAESA, una empresa argentina con
-                más de 10 años de experiencia en el sector,
-                que se especializa en la comercialización de gas natural,
-                energía eléctrica y energía renovable.
-                Además de ser traders de energía en general, la compañía
-                ha puesto un especial interés en las distintas formas de generac
-                ión de energía a partir de fuentes renovables, considerándolas 
-                como desarrollos claves para el crecimiento sustentable de
-                nuestro país.
-                En este sentido, Juan Bosch ha desarrollado una plataforma comercial y
-                logística que permite suministrar productos energéticos valiosos de una manera
-                confiable y económicamente atractiva para sus clientes.
-                En 2018, convencido de que las energías renovables formarán parte esencial del futuro energético sustentable y
-                competitivo, fundó FLEX Energy S.A., mediante la cual ha desarrollado e instalado
-                soluciones de energía distribuida fotovoltaica, con y sin almacenamiento, en varias
-                provincias.
-                Ha disertado en los principales eventos nacionales e internacionales del sector tales
-                como: “The future of energy Summit” en Nueva York, “Energías Renovables: un nuevo
-                mercado en desarrollo” en Chile y en diversos eventos de Argentina como el Congreso
-                de AIREC (Argentina's Leading Renewable Energy Congress), y “El Futuro Solar”, entre
-                muchos otros.
-              </React.Fragment>
-            }
-          />
-          <Expositor
-            nombre="Nicolas Braun"
-            imagen={nicolas_braun}
-            biografia={
-              <React.Fragment>
-                Nicolás Braun tiene 48 años, está casado con Florencia, y tiene
-                dos hijos: Sofía, de 18 años, y Félix, de 15. Durante los últimos
-                16 años dentro de La Anónima se desempeñó como Director de
-                Mercaderías, teniendo también a su cargo las dos Plantas
-                Frigoríficas, y anteriormente fue Gerente de Planeamiento. Previo
-                a ingresar a La Anónima trabajó en la consultora Hermes Management
-                Consulting (The Exxel Group), y en la División de Operaciones de
-                Supermercados Supersol (Ahold), en España. Es ingeniero egresado
-                del Instituto Tecnológico de Buenos Aires (ITBA), y tiene un MBA
-                de la Universidad Columbia.
-              </React.Fragment>
-            }
-          />
-          <Expositor
-            nombre="Carolina Castro"
-            imagen={carolina_castro}
-            biografia={
-              <React.Fragment>
-                Carolina Castro es empresaria industrial, tercera generación en la
-                conducción de la empresa familiar autopartista Industrias Guidi.
-                En la gremial empresaria, es Prosecretaria de la Unión Industrial
-                Argentina, Secretaria PyME de AFAC (cámara autopartista) y
-                Vicepresidenta 2º de la Unión Industrial de Almirante Brown. Es
-                licenciada en Ciencia Política de la Universidad de Buenos Aires
-                (UBA). Es autora del libro “Rompimos el cristal”, en el cual
-                entrevista a 18 mujeres líderes de la política, las empresas, el
-                arte y la ciencia.{" "}
-              </React.Fragment>
-            }
-          />
-          <Expositor
+        <Expositor
+          nombre="Carolina Biquard"
+          imagen={carolina_biquard}
+          biografia={
+            <React.Fragment>
+              Carolina Biquard es cofundadora de Fundación Compromiso (FC), una
+              organización que, desde 1994, desarrolla y difunde un nuevo modelo
+              para apoyar e invertir con eficacia dentro de organizaciones de la
+              sociedad civil, empresas privadas e instituciones públicas de toda
+              América Latina. Actualmente trabaja de manera articulada junto con
+              los inversores de impacto de la región para generar y fortalecer
+              oportunidades en el ámbito cultural, social y ambiental. FC es
+              cofundadora de Creatividad, Cultura y Capital, una nueva
+              plataforma de investigación que nuclea a la comunidad de
+              inversores de impacto en la Economía creativa. Fue Presidente del
+              Fondo Nacional de las Artes, de diciembre de 2015 a noviembre de
+              2018.{" "}
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Martin Borchardt"
+          imagen={martin_borchardt}
+          biografia={
+            <React.Fragment>
+              Martín Borchardt es el fundador de HENRY, una academia que forma
+              desarrolladores de software con $0 costo inicial y los ayuda a
+              buscar trabajo a remoto, generando un fuerte impacto social.
+              Adicionalmente, es miembro director de VerdeAgua, una empresa B
+              Corp de cultivos de hojas verdes sustentables y saludables líder
+              en el mercado Uruguayo. Anteriormente, fundó Nubi, una fintech de
+              pagos cross border que introdujo a PayPal y Transferwise en el
+              mercado argentino, enfocada en inclusión financiera.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Juan Bosch"
+          imagen={juan_bosch}
+          className="exp"
+          biografia={
+            <React.Fragment>
+              Juan Bosch es abogado, especialista en derecho administrativo y
+              energía. Tiene una vasta experiencia y conocimiento del mercado
+              energético. Preside SAESA, una empresa argentina con más de 10
+              años de experiencia en el sector, que se especializa en la
+              comercialización de gas natural, energía eléctrica y energía
+              renovable. Además de ser traders de energía en general, la
+              compañía ha puesto un especial interés en las distintas formas de
+              generac ión de energía a partir de fuentes renovables,
+              considerándolas como desarrollos claves para el crecimiento
+              sustentable de nuestro país. En este sentido, Juan Bosch ha
+              desarrollado una plataforma comercial y logística que permite
+              suministrar productos energéticos valiosos de una manera confiable
+              y económicamente atractiva para sus clientes. En 2018, convencido
+              de que las energías renovables formarán parte esencial del futuro
+              energético sustentable y competitivo, fundó FLEX Energy S.A.,
+              mediante la cual ha desarrollado e instalado soluciones de energía
+              distribuida fotovoltaica, con y sin almacenamiento, en varias
+              provincias. Ha disertado en los principales eventos nacionales e
+              internacionales del sector tales como: “The future of energy
+              Summit” en Nueva York, “Energías Renovables: un nuevo mercado en
+              desarrollo” en Chile y en diversos eventos de Argentina como el
+              Congreso de AIREC (Argentina's Leading Renewable Energy Congress),
+              y “El Futuro Solar”, entre muchos otros.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Nicolas Braun"
+          imagen={nicolas_braun}
+          biografia={
+            <React.Fragment>
+              Nicolás Braun tiene 48 años, está casado con Florencia, y tiene
+              dos hijos: Sofía, de 18 años, y Félix, de 15. Durante los últimos
+              16 años dentro de La Anónima se desempeñó como Director de
+              Mercaderías, teniendo también a su cargo las dos Plantas
+              Frigoríficas, y anteriormente fue Gerente de Planeamiento. Previo
+              a ingresar a La Anónima trabajó en la consultora Hermes Management
+              Consulting (The Exxel Group), y en la División de Operaciones de
+              Supermercados Supersol (Ahold), en España. Es ingeniero egresado
+              del Instituto Tecnológico de Buenos Aires (ITBA), y tiene un MBA
+              de la Universidad Columbia.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Carolina Castro"
+          imagen={carolina_castro}
+          biografia={
+            <React.Fragment>
+              Carolina Castro es empresaria industrial, tercera generación en la
+              conducción de la empresa familiar autopartista Industrias Guidi.
+              En la gremial empresaria, es Prosecretaria de la Unión Industrial
+              Argentina, Secretaria PyME de AFAC (cámara autopartista) y
+              Vicepresidenta 2º de la Unión Industrial de Almirante Brown. Es
+              licenciada en Ciencia Política de la Universidad de Buenos Aires
+              (UBA). Es autora del libro “Rompimos el cristal”, en el cual
+              entrevista a 18 mujeres líderes de la política, las empresas, el
+              arte y la ciencia.{" "}
+            </React.Fragment>
+          }
+        />
+        <Expositor
           nombre="Maximo Cavazzani (falta foto)"
           imagen={marina_dal_poggetto}
           biografia={
@@ -341,21 +340,21 @@ const Expositores = () => {
           imagen={ignacio_gorupicz}
           biografia={
             <React.Fragment>
-                Desde hace 12 años Ignacio Gorupicz se desempeña en McKinsey &
-                Company, donde es Socio y Líder de la práctica de
-                Transformación de las Operaciones para América Latina Hispana.
-                Ha servido múltiples clientes en estrategia, transformación
-                digital, operaciones y organización en el sector privado y
-                público, principalmente, en Argentina, Chile, Brasil, Perú y
-                Colombia. Anteriormente desarrolló su carrera en Finanzas
-                Corporativas en Siemens y DuPont. Tiene un MBA de Stanford
-                University y un master en Finanzas de la Universidad Torcuato
-                Di Tella (UTDT). Es Licenciado en Administración y Contador
-                por la Facultad de Ciencias Económicas de la Universidad de
-                Buenos Aires (UBA). Miembro del Directorio de la ONG Help
-                Argentina, que canaliza donaciones desde el exterior hacia
-                ONGs en el país. También es miembro del Consejo Directivo de
-                la Asociación Cristiana de Dirigentes de Empresa (ACDE).
+              Desde hace 12 años Ignacio Gorupicz se desempeña en McKinsey &
+              Company, donde es Socio y Líder de la práctica de Transformación
+              de las Operaciones para América Latina Hispana. Ha servido
+              múltiples clientes en estrategia, transformación digital,
+              operaciones y organización en el sector privado y público,
+              principalmente, en Argentina, Chile, Brasil, Perú y Colombia.
+              Anteriormente desarrolló su carrera en Finanzas Corporativas en
+              Siemens y DuPont. Tiene un MBA de Stanford University y un master
+              en Finanzas de la Universidad Torcuato Di Tella (UTDT). Es
+              Licenciado en Administración y Contador por la Facultad de
+              Ciencias Económicas de la Universidad de Buenos Aires (UBA).
+              Miembro del Directorio de la ONG Help Argentina, que canaliza
+              donaciones desde el exterior hacia ONGs en el país. También es
+              miembro del Consejo Directivo de la Asociación Cristiana de
+              Dirigentes de Empresa (ACDE).
             </React.Fragment>
           }
         />
@@ -499,50 +498,50 @@ const Expositores = () => {
             </React.Fragment>
           }
         />
-          <Expositor
-            nombre="Rosana Negrini"
-            imagen={rosana_negrini}
-            biografia={
-              <React.Fragment>
-                Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
-                Fue Subgerente de Análisis Macroeconómico del Banco Central de la
-                República Argentina y Jefa de Asesores de la Secretaría de
-                Política Económica del Ministerio de Economía. También desempeñó
-                tareas en el Instituto Nacional de Estadística y Censos (INDEC).
-                Fue profesora de Cuentas Nacionales, economía y finanzas en la
-                Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
-                Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
-                (UCES); y Consultora del Banco BID, de la Comunidad Europea y
-                Unicef. Desde 2006 se dedica a la consultoría
-                económico-financiera, co-dirigió el Estudio Bein y asociados hasta
-                2017, cuando se transformó en Eco Go Consultores. Es economista de
-                la UBA y Magíster en Políticas Públicas de UTDT. Realiza
-                contribuciones periódicas a diferentes medios periodísticos.
-              </React.Fragment>
-            }
-          />
-          <Expositor
-            nombre="Emilio Persíco"
-            imagen={marina_dal_poggetto}
-            biografia={
-              <React.Fragment>
-                Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
-                Fue Subgerente de Análisis Macroeconómico del Banco Central de la
-                República Argentina y Jefa de Asesores de la Secretaría de
-                Política Económica del Ministerio de Economía. También desempeñó
-                tareas en el Instituto Nacional de Estadística y Censos (INDEC).
-                Fue profesora de Cuentas Nacionales, economía y finanzas en la
-                Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
-                Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
-                (UCES); y Consultora del Banco BID, de la Comunidad Europea y
-                Unicef. Desde 2006 se dedica a la consultoría
-                económico-financiera, co-dirigió el Estudio Bein y asociados hasta
-                2017, cuando se transformó en Eco Go Consultores. Es economista de
-                la UBA y Magíster en Políticas Públicas de UTDT. Realiza
-                contribuciones periódicas a diferentes medios periodísticos.
-              </React.Fragment>
-            }
-          />
+        <Expositor
+          nombre="Rosana Negrini"
+          imagen={rosana_negrini}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Emilio Persíco"
+          imagen={marina_dal_poggetto}
+          biografia={
+            <React.Fragment>
+              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
+              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
+              República Argentina y Jefa de Asesores de la Secretaría de
+              Política Económica del Ministerio de Economía. También desempeñó
+              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
+              Fue profesora de Cuentas Nacionales, economía y finanzas en la
+              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
+              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
+              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
+              Unicef. Desde 2006 se dedica a la consultoría
+              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
+              2017, cuando se transformó en Eco Go Consultores. Es economista de
+              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
+              contribuciones periódicas a diferentes medios periodísticos.
+            </React.Fragment>
+          }
+        />
         <Expositor
           nombre="Federico Poletto"
           imagen={federico_poletto}
@@ -610,15 +609,17 @@ const Expositores = () => {
           imagen={gonzalo_tanoira}
           biografia={
             <React.Fragment>
-              Gonzalo Tanoira es licenciado en Administración de Empresas por la Universidad
-              de Belgrano, tiene un máster en Business Administration de Wharton School. 
-              Es vicepresidente de S.A. San Miguel, director del Grupo Peñaflor S.A. y del
-              Banco Quilvest. Es fundador del Movimiento de Dirigentes Cristianos y cofundador
-              de GAM (Generación por una Argentina Mejor). Es miembro del Consejo Asesor de la
-              Universidad Austral y del IAE. Ganó el Premio LIDE en la categoría Empresario
-              de Agronegocios, el Premio Fortuna a la Mejor empresa agroindustrial (2015), el
-              Premio Galicia Excelencia Agropecuaria por mejor Gestión Ambiental (2017), y
-              el Premio Konex como empresario de la agroindustria (2018).
+              Gonzalo Tanoira es licenciado en Administración de Empresas por la
+              Universidad de Belgrano, tiene un máster en Business
+              Administration de Wharton School. Es vicepresidente de S.A. San
+              Miguel, director del Grupo Peñaflor S.A. y del Banco Quilvest. Es
+              fundador del Movimiento de Dirigentes Cristianos y cofundador de
+              GAM (Generación por una Argentina Mejor). Es miembro del Consejo
+              Asesor de la Universidad Austral y del IAE. Ganó el Premio LIDE en
+              la categoría Empresario de Agronegocios, el Premio Fortuna a la
+              Mejor empresa agroindustrial (2015), el Premio Galicia Excelencia
+              Agropecuaria por mejor Gestión Ambiental (2017), y el Premio Konex
+              como empresario de la agroindustria (2018).
             </React.Fragment>
           }
         />
@@ -654,22 +655,32 @@ const Expositores = () => {
           imagen={padre_augusto_zamipini}
           biografia={
             <React.Fragment>
-              P. Augusto Zampini Davies nació en Buenos Aires, Argentina, el 25 de julio de 1969. Fue
-              ordenado sacerdote, incardinándose a la Diócesis de San Isidro (Argentina), el 22 de octubre de
-              2004. A partir de entonces se ha desempeñado en diferentes parroquias e instituciones en
-              nuestro país y en Inglaterra.<br/>
-              A partir de 2017, se ha desempeñado como Coordinador de la oficina de Fe y Desarrollo del
-              Dicasterio para el Servicio del Desarrollo Humano Integral del Vaticano. En 2018, el Papa
-              Francisco lo nombró como uno de los expertos/asesores del Sínodo para la Amazonía en 2019.
-              El 8 de abril de 2020 fue nombrado por el Santo Padre como Secretario Adjunto del Dicasterio
-              para el Servicio del Desarrollo Humano Integral.<br/>
-              Antes de ingresar al seminario estudió Derecho en la Universidad Católica Argentina (UCA), de
-              1987 a 1993, trabajando luego como abogado en el Banco Central de la Argentina y en el bufete
-              internacional Baker & McKenzie, de 1993 a 1997. Posteriormente, realizó la formación en
-              teología moral en el Colegio Máximo de la Universidad del Salvador (2004-2006); cursó la
-              Maestría en Desarrollo Internacional en la Universidad de Bath (2009-2010, becario Chevening),
-              obtuvo el Doctorado en Teología en la Universidad de Roehampton (Londres, 2010-2014, becario del Sagrado Corazón), y ha sido becario de investigación posdoctoral en el Instituto
-              Margaret Beaufort de la Universidad de Cambridge (2013-2014, becario Cardenal Hume).
+              P. Augusto Zampini Davies nació en Buenos Aires, Argentina, el 25
+              de julio de 1969. Fue ordenado sacerdote, incardinándose a la
+              Diócesis de San Isidro (Argentina), el 22 de octubre de 2004. A
+              partir de entonces se ha desempeñado en diferentes parroquias e
+              instituciones en nuestro país y en Inglaterra.
+              <br />
+              A partir de 2017, se ha desempeñado como Coordinador de la oficina
+              de Fe y Desarrollo del Dicasterio para el Servicio del Desarrollo
+              Humano Integral del Vaticano. En 2018, el Papa Francisco lo nombró
+              como uno de los expertos/asesores del Sínodo para la Amazonía en
+              2019. El 8 de abril de 2020 fue nombrado por el Santo Padre como
+              Secretario Adjunto del Dicasterio para el Servicio del Desarrollo
+              Humano Integral.
+              <br />
+              Antes de ingresar al seminario estudió Derecho en la Universidad
+              Católica Argentina (UCA), de 1987 a 1993, trabajando luego como
+              abogado en el Banco Central de la Argentina y en el bufete
+              internacional Baker & McKenzie, de 1993 a 1997. Posteriormente,
+              realizó la formación en teología moral en el Colegio Máximo de la
+              Universidad del Salvador (2004-2006); cursó la Maestría en
+              Desarrollo Internacional en la Universidad de Bath (2009-2010,
+              becario Chevening), obtuvo el Doctorado en Teología en la
+              Universidad de Roehampton (Londres, 2010-2014, becario del Sagrado
+              Corazón), y ha sido becario de investigación posdoctoral en el
+              Instituto Margaret Beaufort de la Universidad de Cambridge
+              (2013-2014, becario Cardenal Hume).
             </React.Fragment>
           }
         />
