@@ -1,13 +1,16 @@
 .ausp {
   .ausp__banner {
     width: 100%;
-    height: 74px;
+    height: 204px;
     background-color: #1673b9;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
     margin-bottom: 60px;
+    @include response(medium) {
+      height: 120px;
+    }
     .ausp__title {
       text-align: center;
       text-transform: uppercase;
