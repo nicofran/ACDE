@@ -1,5 +1,6 @@
 .programa {
-  padding-top: 200px;
+  //padding-top: 200px;
+  padding-top: 60px;
   padding-bottom: 32px;
   .programa__rectangulo {
     display: flex;
@@ -42,7 +43,8 @@
   }
   .programa__programa {
     @include response(medium) {
-      padding-top: 80px;
+      //padding-top:  80px;
+      padding-top: 40px;
       padding-left: 200px;
       padding-right: 200px;
     }
