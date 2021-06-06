@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 const modalBox = ({ title, body, show, hide }) => {
   return (
     <div>
-      <Modal dialogClassName="modal-90w" show={show} onHide={hide}>
+      <Modal dialogClassName="modal-90w" show={show} onHide={hide} centered>
         <Modal.Header closeButton>
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
