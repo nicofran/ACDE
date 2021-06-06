@@ -201,6 +201,7 @@ const Programa = () => {
             </p>
             <p>
               <br></br>
+
               12.30 h. | <span>PALABRAS DE CIERRE</span>
             </p>
             <br></br>
@@ -255,6 +256,7 @@ const Programa = () => {
             <br></br>
             <p>
               10.00 h. | <span>PROMOCIÓN DEL BIEN COMÚN: INVERTIR</span>
+
               <br></br>
               <span className="pregunta">
                 La generación de riqueza es una contribución a la sociedad.
