@@ -82,10 +82,11 @@
         }
       }
       .speaker__descripcion {
-        font-size: 10px;
+        font-size: 15px;
         white-space: pre-wrap;
         text-align: center;
-        padding-right: 8px;
+        text-transform: none;
+        color: grey;
       }
       .speaker__separador {
         margin-top: 15px;

@@ -25,6 +25,8 @@ import sebastian_mocorrea from "../../assets/images/sebastian_mocorrea.png";
 import silvia_bulla from "../../assets/images/silvia_bulla.png";
 import juan_vaquer from "../../assets/images/vaquer_juan.png";
 import victor_valle from "../../assets/images/victor_manuel_valle.png";
+import hernan_etchaleco from "../../assets/images/hernan_etchaleco.jpeg";
+import gonzalo_oliva from "../../assets/images/gonzalo_oliva.jpeg";
 
 //Componente de Integrante
 
@@ -91,7 +93,7 @@ const Comision = () => {
             }
           />
           <Integrante
-            nombre="Hernán Alberro"
+            nombre="Hernan Alberro"
             posicion={"Consultor independiente"}
             imagen={hernan_alberro}
             biografia={
@@ -220,26 +222,27 @@ const Comision = () => {
           />
           <Integrante
             nombre="Hernán Etchaleco"
-            posicion={
-              "Director de Identia PR"
-            }
-            imagen={ignacio_cornejo_sola}
+            posicion={"Director de Identia PR"}
+            imagen={hernan_etchaleco}
             biografia={
               <React.Fragment>
-                Hernán Etchaleco es licenciado en Ciencias de la Comunicación Social, egresado 
-                de la Universidad de Buenos Aires (UBA). Fue docente en las carreras de Ciencia
-                Política y Comunicación Social (UBA). Cuenta con una especialización en administración 
-                y resolución de conflictos (Fundación Friedrich Naumann; Alemania, 2009). 
-                Fue asesor parlamentario en la Cámara de Diputados de la Nación para el Bloque Coalición
-                Cívica-ARI, y jefe de Prensa del Bloque Coalición Cívica-ARI (Cámara de Diputados de la 
-                Nación 2007-2009). Ex periodista especializado en política, política internacional y 
-                economía. Especializado en comunicación de crisis y conflictos, tiene a su cargo el área 
-                de Asuntos Públicos en Identia.
+                Hernán Etchaleco es licenciado en Ciencias de la Comunicación
+                Social, egresado de la Universidad de Buenos Aires (UBA). Fue
+                docente en las carreras de Ciencia Política y Comunicación
+                Social (UBA). Cuenta con una especialización en administración y
+                resolución de conflictos (Fundación Friedrich Naumann; Alemania,
+                2009). Fue asesor parlamentario en la Cámara de Diputados de la
+                Nación para el Bloque Coalición Cívica-ARI, y jefe de Prensa del
+                Bloque Coalición Cívica-ARI (Cámara de Diputados de la Nación
+                2007-2009). Ex periodista especializado en política, política
+                internacional y economía. Especializado en comunicación de
+                crisis y conflictos, tiene a su cargo el área de Asuntos
+                Públicos en Identia.
               </React.Fragment>
             }
           />
           <Integrante
-            nombre="Bárbara Harteneck"
+            nombre="Barbara Harteneck"
             posicion={"Directora Ejecutiva de UNAJE"}
             imagen={barbara_harteneck}
             biografia={
@@ -283,7 +286,7 @@ const Comision = () => {
           />
           <Integrante
             nombre="Catalina López Lecube"
-            posicion={"Líder de Comunicaciones & Socios de ACDE"}
+            posicion={"Líder de Comunicaciones & Socios en ACDE"}
             imagen={catalina_lopez}
             biografia={
               <React.Fragment>
@@ -374,19 +377,13 @@ const Comision = () => {
             }
           />
           <Integrante
-            nombre="Gonzalo Oliva Beltrán"
+            nombre="Gonzalo Oliva Beltran"
             posicion={
               "Socio en BARREIRO, OLIVA, DE LUCA, JACA & NICASTRO Abogados"
             }
-            imagen={elena_newkirk}
+            imagen={gonzalo_oliva}
             biografia={
-              <React.Fragment>
-                Gonzalo Oliva Beltrán es socio fundador de Barreiro, Oliva, De Luca, Jaca & 
-                Nicastro. Lidera la práctica de Empresas y Tecnología y asesora regularmente 
-                a empresas locales e internacionales en aspectos legales vinculados con 
-                finanzas, tecnología, regulaciones cambiarias, fusiones y adquisiciones, 
-                derecho corporativo, y ONG.
-              </React.Fragment>
+              "Gonzalo Oliva Beltrán es socio fundador de Barreiro, Oliva, De Luca, Jaca & Nicastro. Lidera la práctica de Empresas y Tecnología y asesora regularmente a empresas locales e internacionales en aspectos legales vinculados con finanzas, tecnología, regulaciones cambiarias, fusiones y adquisiciones, derecho corporativo, y ONG.Es abogado egresado de la Universidad Católica Argentina, tiene un Máster en Derecho Financiero (LL.M. con honores) por la Universidad de Westminster, y es doctorando por la Universidad Austral. Fue fundador de la Fundación GSF y en la actualidad es miembro del Consejo Directivo de la Asociación Cristiana de Dirigentes de Empresa (ACDE) y de la Sociedad Argentina de Cultura."
             }
           />
           <Integrante
@@ -409,7 +406,114 @@ const Comision = () => {
             imagen={ana_pico}
             biografia={
               <React.Fragment>
-                Ana María Pico Aguirre es ingeniera industrial por la Universidad de Buenos
+                Ana María Pico Aguirre es ingeniera industrial por la
+                Universidad de Buenos Aires (UBA), con un posgrado en Gestión de
+                Empresas por la Universidad Católica Argentina (UCA). Es
+                Especialista en Organizaciones sin fines de lucro por la
+                Universidad de San Andrés, Di Tella y Cedes. Es Directora
+                Ejecutiva de ACDE desde abril de 2016, habiendo ingresado en
+                2015 como consultor. Colabora con diferentes Organizaciones
+                sociales y es miembro del Consejo Directivo de Fundación
+                Escolares. Ha desarrollado su carrera en el ámbito empresarial,
+                especializándose en Logística y Consultoría de procesos. En
+                paralelo, siempre tuvo diferentes roles en distintas
+                organizaciones sociales: Asociación Civil María de las Cárceles,
+                Fundación Arché y Fundación Red Comunidades Rurales. Fue docente
+                en materias de grado de Ingeniería en la UBA, de posgrado de
+                UTN- Fundación Andreani y en la Fundación Forge.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Arturo Simone"
+            posicion={"Director General Grupo RDA"}
+            imagen={arturo_simone}
+            biografia={
+              <React.Fragment>
+                Arturo Simone posee un MBA del CEM, graduado de la carrera de
+                Administración de la Universidad Católica Argentina (UCA), de
+                donde es ex alumno destacado. Es CEO y fundador de AWTO
+                Argentina. Fundó Grupo RDA (Argentina, Uruguay y Colombia), de
+                donde es Director General. Es miembro del Global Fleet Advisory
+                Board Latin America. Obtuvo la nominación a Mayor Promesa Forbes
+                2019, y fue galardonado Emprendedor Endeavor 2018. Se destacó
+                como Board Member de Arval – BNP Paribas Group, Presidente de la
+                Cámara de Administradores de Flota de Argentina (CAFLA) y
+                miembro consultor de ADEFA. También integró el Latam Mobility
+                Lab y es Presidente en Carpro S.A. Además, fue Director de la
+                Asociación de Leasing de Argentina, Director The Trade Company
+                LLC y Presidente de Subway Argentina. Desde 2016 es miembro de
+                la Asociación Cristiana de Dirigentes de Empresa (ACDE) y lidera
+                el espacio de ACDE PyME.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Gonzalo Tanoira"
+            posicion={"Presidente de ACDE"}
+            imagen={gonzalo_tanoira}
+            biografia={
+              <React.Fragment>
+                Gonzalo Tanoira es licenciado en Administración de Empresas por
+                la Universidad de Belgrano, tiene un máster en Business
+                Administration de Wharton School. Es vicepresidente de S.A. San
+                Miguel, director del Grupo Peñaflor S.A. y del Banco Quilvest.
+                Es fundador del Movimiento de Dirigentes Cristianos y cofundador
+                de GAM (Generación por una Argentina Mejor). Es miembro del
+                Consejo Asesor de la Universidad Austral y del IAE. Ganó el
+                Premio LIDE en la categoría Empresario de Agronegocios, el
+                Premio Fortuna a la Mejor empresa agroindustrial (2015), el
+                Premio Galicia Excelencia Agropecuaria por mejor Gestión
+                Ambiental (2017), y el Premio Konex como empresario de la
+                agroindustria (2018).
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Victor Valle"
+            posicion={
+              "Managing Director en Google para los Mercados de Habla Hispana de América Latina"
+            }
+            imagen={victor_valle}
+            biografia={
+              <React.Fragment>
+                Víctor Valle es un ejecutivo de Google Latinoamérica. En el año
+                2006 lideró la apertura de la oficina de Buenos Aires, el tercer
+                Headquarter de Google a nivel mundial. Actualmente se desempeña
+                como Managing Director para los Mercados de Habla Hispana de
+                América Latina, siendo responsable del desarrollo del negocio de
+                Google Ads para Startups, PyMEs y Grandes Empresas Emergentes en
+                la región. Antes de unirse a Google ejerció roles de liderazgo
+                en Sony, Kimberly-Clark, Havas y PricewaterhouseCoopers. Víctor
+                es Licenciado en Administración de Empresas y Contador Público
+                de la Universidad Católica Argentina, y MBA de IAE Business
+                School. Es miembro del Consejo Asesor de la Universidad Austral
+                y Profesor de Posgrado en su Facultad de Comunicaciones. Víctor
+                está casado y es padre de cuatro hijos.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Juan Manuel Vaquer"
+            posicion={"Abogado y empresario agropecuario"}
+            imagen={juan_vaquer}
+            biografia={
+              <React.Fragment>
+                Fernando Oris de Roa es empresario emprendedor en compañías como
+                San Miguel y Avex. Director de Orocobre (litio) y otras empresas
+                nacionales. Fue Embajador argentino en los Estados Unidos. Tiene
+                una maestría en Políticas Públicas de Harvard Kennedy School of
+                Government.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Ana Pico"
+            posicion={"Directora Ejecutiva de ACDE"}
+            imagen={ana_pico}
+            biografia={
+              <React.Fragment>
+                Ana Pico es ingeniera industrial por la Universidad de Buenos
                 Aires (UBA), con un posgrado en Gestión de Empresas por la
                 Universidad Católica Argentina (UCA). Es Especialista en
                 Organizaciones sin fines de lucro por la Universidad de San
@@ -472,30 +576,30 @@ const Comision = () => {
               </React.Fragment>
             }
           />
-            <Integrante
-              nombre="Victor Valle"
-              posicion={
-                "Managing Director en Google para los Mercados de Habla Hispana de América Latina"
-              }
-              imagen={victor_valle}
-              biografia={
-                <React.Fragment>
-                  Víctor Valle es un ejecutivo de Google Latinoamérica. En el año
-                  2006 lideró la apertura de la oficina de Buenos Aires, el tercer
-                  Headquarter de Google a nivel mundial. Actualmente se desempeña
-                  como Managing Director para los Mercados de Habla Hispana de
-                  América Latina, siendo responsable del desarrollo del negocio de
-                  Google Ads para Startups, PyMEs y Grandes Empresas Emergentes en
-                  la región. Antes de unirse a Google ejerció roles de liderazgo
-                  en Sony, Kimberly-Clark, Havas y PricewaterhouseCoopers. Víctor
-                  es Licenciado en Administración de Empresas y Contador Público
-                  de la Universidad Católica Argentina, y MBA de IAE Business
-                  School. Es miembro del Consejo Asesor de la Universidad Austral
-                  y Profesor de Posgrado en su Facultad de Comunicaciones. Víctor
-                  está casado y es padre de cuatro hijos.
-                </React.Fragment>
-              }
-            />
+          <Integrante
+            nombre="Victor Valle"
+            posicion={
+              "Managing Director en Google para los Mercados de Habla Hispana de América Latina"
+            }
+            imagen={victor_valle}
+            biografia={
+              <React.Fragment>
+                Víctor Valle es un ejecutivo de Google Latinoamérica. En el año
+                2006 lideró la apertura de la oficina de Buenos Aires, el tercer
+                Headquarter de Google a nivel mundial. Actualmente se desempeña
+                como Managing Director para los Mercados de Habla Hispana de
+                América Latina, siendo responsable del desarrollo del negocio de
+                Google Ads para Startups, PyMEs y Grandes Empresas Emergentes en
+                la región. Antes de unirse a Google ejerció roles de liderazgo
+                en Sony, Kimberly-Clark, Havas y PricewaterhouseCoopers. Víctor
+                es Licenciado en Administración de Empresas y Contador Público
+                de la Universidad Católica Argentina, y MBA de IAE Business
+                School. Es miembro del Consejo Asesor de la Universidad Austral
+                y Profesor de Posgrado en su Facultad de Comunicaciones. Víctor
+                está casado y es padre de cuatro hijos.
+              </React.Fragment>
+            }
+          />
           <Integrante
             nombre="Juan Manuel Vaquer"
             posicion={"Abogado y empresario agropecuario"}
@@ -523,109 +627,6 @@ const Comision = () => {
               </React.Fragment>
             }
           />
-          {/* <div className="integrante col-md-5 col-lg-12 col-sm-6">
-            <img src={ignacio_gorupicz} alt="Ignacio Gorupicz"></img>
-            <div className="comision__separador"></div>
-            <p>Ignacio Gorupicz</p>
-          </div>{" "} */}
-          {/* <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={ana_pico} alt="Ana Pico"></img>
-            <div className="comision__separador"></div>
-            <p>Ana Pico</p>
-          </div>
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={arturo_simone} alt="Arturo Simone"></img>
-            <div className="comision__separador"></div>
-            <p>Arturo Simone</p> */}
-          {/* </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={barbara_harteneck} alt="Bárbara Harteneck"></img>
-            <div className="comision__separador"></div>
-            <p>Bárbara Harteneck</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={carolina_abarca} alt="Carolina Abarca"></img>
-            <div className="comision__separador"></div>
-            <p>Carolina Abarca</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={catalina_lopez} alt="Catalina López"></img>
-            <div className="comision__separador"></div>
-            <p>Catalina López</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={elena_newkirk} alt="Elena Newkirk"></img>
-            <div className="comision__separador"></div>
-            <p>Elena Newkirk</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={fernando_ambroa} alt="Fernando Ambroa"></img>
-            <div className="comision__separador"></div>
-            <p>Fernando Ambroa</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={fernando_oris_de_roa} alt="Fernando Oris de Roa"></img>
-            <div className="comision__separador"></div>
-            <p>Fernando oris de roa</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={gabriel_castelli} alt="Gabriel Castelli"></img>
-            <div className="comision__separador"></div>
-            <p>Gabriel Castelli</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={gonzalo_tanoira} alt="Gonzalo Tanoira"></img>
-            <div className="comision__separador"></div>
-            <p>Gonzalo Tanoira</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={graciela_martini} alt="Graciela Martini"></img>
-            <div className="comision__separador"></div>
-            <p>Graciela Martini</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={hernan_alberro} alt="Hernan Alberro"></img>
-            <div className="comision__separador"></div>
-            <p>Hernan Alberro</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={ignacio_cornejo_sola} alt="Ignacio Cornejo Sola"></img>
-            <div className="comision__separador"></div>
-            <p>Ignacio Cornejo Solá</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={jorge_laroza} alt="Jorge Laroza"></img>
-            <div className="comision__separador"></div>
-            <p>Jorge Laroza</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img
-              src={maria_gabriela_capacete}
-              alt="Maria Gabriela Capacete"
-            ></img>
-            <div className="comision__separador"></div>
-            <p>María Gabriela Capacete</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={sebastian_mocorrea} alt="Sebastían Mocorrea"></img>
-            <div className="comision__separador"></div>
-            <p>Sebastían Mocorrea</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={silvia_bulla} alt="Silvia Bulla"></img>
-            <div className="comision__separador"></div>
-            <p>Silvia Bulla</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={juan_vaquer} alt="Juan Vaquer"></img>
-            <div className="comision__separador"></div>
-            <p>Juan Vaquer</p>
-          </div>{" "}
-          <div className="integrante col-md-5 col-lg-3 col-sm-6">
-            <img src={victor_valle} alt="Victor Valle"></img>
-            <div className="comision__separador"></div>
-            <p>Víctor Valle</p>
-          </div> */}
         </div>
       </div>
     </div>
