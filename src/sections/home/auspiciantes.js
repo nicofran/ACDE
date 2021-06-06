@@ -36,6 +36,9 @@ import lartirigoyen from "../../assets/images/lartirigoyen.png";
 import lartirigoyenx2 from "../../assets/images/lartirigoyen@2x.png";
 import pinamar_sa from "../../assets/icons/pinamar-sa.png";
 
+//Acompañan
+import beccar_varela from "../../assets/images/beccar-varela.jpg";
+
 const Auspiciantes = () => {
   return (
     <div className="ausp container" id="auspiciantes">
@@ -166,11 +169,27 @@ const Auspiciantes = () => {
               />
             </a>
             <a href="https://www.pinamar.com.ar">
-              <img src={pinamar_sa} alt="Pinamar S.A" width="190" height="84" />
+              <img src={pinamar_sa} alt="Pinamar S.A" width="190" height="90" />
             </a>
           </div>
         </div>
         {/* AUSPICIANTE BRONCE END */}
+
+        {/* ACOMPANAN START*/}
+        <div className="auspiciantes">
+          <p className="ausp__tipo">
+            <span></span>Acompañan<span></span>
+          </p>
+          <div className="ausp__marca">
+            <img
+              src={beccar_varela}
+              alt="Beccar Varela"
+              width="190"
+              height="120"
+            />
+          </div>
+        </div>
+        {/* ACOMPANAN END */}
       </div>
     </div>
   );

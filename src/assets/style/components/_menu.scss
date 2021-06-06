@@ -40,7 +40,9 @@
 
     @include response(medium) {
       display: flex;
-      background-color: transparent;
+      width: 176px;
+      height: 101px;
+      background-color: grey;
     }
   }
   .menu__fecha {

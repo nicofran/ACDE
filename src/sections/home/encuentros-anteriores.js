@@ -6,7 +6,7 @@ const Encuentros = () => {
     <div className="encuentros">
       <div className="container">
         <div className="encuentros__banner">
-          <img src={logo_acde} alt="Logo ACDE"></img>
+          <img src={logo_acde} alt="Logo ACDE" className="logo"></img>
           <div className="banner__content">
             <img src={logo} alt="encuentros anteriores"></img>
             <h3 className="banner__title">encuentros anteriores</h3>
@@ -40,8 +40,8 @@ const Encuentros = () => {
             </a>
             <a href="http://www.encuentroanualacde.com.ar/acde2014/">
               <li>
-                XVII: «Argentina sin Atajos. Nuestro compromiso como
-                empresarios y cuidadanos» | 2014
+                XVII: «Argentina sin Atajos. Nuestro compromiso como empresarios
+                y cuidadanos» | 2014
               </li>
             </a>
             <a href="http://www.encuentroanualacde.com.ar/acde2013/">
@@ -69,13 +69,14 @@ const Encuentros = () => {
             </a>
             <a href="http://www.encuentroanualacde.com.ar/acde2009/">
               <li>
-                XII: "De la crisis, al progreso. El desafío de los dirigentes" | 2009
+                XII: "De la crisis, al progreso. El desafío de los dirigentes" |
+                2009
               </li>
             </a>
             <a href="http://www.encuentroanualacde.com.ar/acde2008/">
               <li>
-                XI: "Argentina: una nación por construir ¿Que país queremos
-                los argentinos? | 2008
+                XI: "Argentina: una nación por construir ¿Que país queremos los
+                argentinos? | 2008
               </li>
             </a>
             <a href="http://www.encuentroanualacde.com.ar/acde2007/">
