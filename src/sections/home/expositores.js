@@ -21,7 +21,6 @@ import rab_alejandro_avruj from "../../assets/images/rab_alejandro_avruj.png";
 import roberto_vassollo from "../../assets/images/roberto_vassollo.png";
 import rosana_negrini from "../../assets/images/rosana_negrini.png";
 import immacule_ilibagiza from "../../assets/images/immacule_ilibagiza.png";
-import maximo_cavazzani from "../../assets/images/maximo_cavazzani.png";
 import cristian_geronimo from "../../assets/images/cristian_jeronimo.png";
 import veronica_marcelo from "../../assets/images/veronica_marcelo.png";
 import emilio_persico from "../../assets/images/emilio_persico.png";
@@ -183,12 +182,6 @@ const Expositores = () => {
               arte y la ciencia.{" "}
             </React.Fragment>
           }
-        />
-        <Expositor
-          nombre="Maximo Cavazzani"
-          imagen={maximo_cavazzani}
-          descripcion={"Fundador de Etermax"}
-          biografia={<React.Fragment></React.Fragment>}
         />
         <Expositor
           nombre="Marina Dal Poggetto"
