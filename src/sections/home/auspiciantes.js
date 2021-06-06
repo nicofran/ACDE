@@ -49,19 +49,23 @@ const Auspiciantes = () => {
           <span></span>platino<span></span>
         </p>
         <div className="ausp__marca">
-          <img
-            src={Clarin}
-            alt="Grupo Clarin"
-            srcSet={Clarinx2 + " 2x"}
-            width="293"
-            height="66"
-          ></img>
-          <img
-            src={Pan_American}
-            alt="Pan American Energy"
-            srcSet={Pan_Americanx2 + " 2x"}
-            height="180"
-          ></img>
+          <a href="https://grupoclarin.com">
+            <img
+              src={Clarin}
+              alt="Grupo Clarin"
+              srcSet={Clarinx2 + " 2x"}
+              width="293"
+              height="66"
+            ></img>
+          </a>
+          <a href="https://www.pan-energy.com">
+            <img
+              src={Pan_American}
+              alt="Pan American Energy"
+              srcSet={Pan_Americanx2 + " 2x"}
+              height="180"
+            ></img>
+          </a>
         </div>
         {/* AUSPICIANTE PLATINO END */}
 
@@ -71,13 +75,19 @@ const Auspiciantes = () => {
             <span></span>oro<span></span>
           </p>
           <div className="ausp__marca">
-            <img src={cgc} alt="CGC" srcSet={cgcx2 + " 2x"}></img>
-            <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
-            <img
-              src={galicia}
-              alt="Pan American Energy"
-              srcSet={galiciax2 + " 2x"}
-            ></img>
+            <a href="https://www.es.cgc.energy">
+              <img src={cgc} alt="CGC" srcSet={cgcx2 + " 2x"}></img>
+            </a>
+            <a href="https://new.dupont.com">
+              <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
+            </a>
+            <a href="https://bancogalicia.com">
+              <img
+                src={galicia}
+                alt="Pan American Energy"
+                srcSet={galiciax2 + " 2x"}
+              ></img>
+            </a>
           </div>
         </div>
         {/* AUSPICIANTE ORO END */}
@@ -88,39 +98,53 @@ const Auspiciantes = () => {
             <span></span>plata<span></span>
           </p>
           <div className="ausp__marca">
-            <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"}></img>
-            <img
-              src={accenture}
-              alt="Pan American Energy"
-              srcSet={accenturex2 + " 2x"}
-            ></img>
-            <img src={arcor} alt="Grupo Arcor" srcSet={arcorx2 + " 2x"}></img>
-            <img
-              src={superville}
-              alt="Grupo SuperVille"
-              srcSet={supervillex2 + " 2x"}
-            ></img>
-            <img
-              src={murchison}
-              alt="Grupo Murchison"
-              srcSet={murchisonx2 + " 2x"}
-            ></img>
-            <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"}></img>
-            <img
-              src={mabxience}
-              alt="mABxience"
-              srcSet={mabxiencex2 + " 2x"}
-            ></img>
-            <img
-              src={mckinsey}
-              alt="McKinsey & Company"
-              srcSet={mckinseyx2 + " 2x"}
-            ></img>
-            <img
-              src={propymes}
-              alt="PRO PYMES"
-              srcSet={propymesx2 + " 2x"}
-            ></img>
+            <a href="https://radioamadues.com.ar">
+              <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
+            </a>
+            <a href="https://accenture.com">
+              <img
+                src={accenture}
+                alt="Pan American Energy"
+                srcSet={accenturex2 + " 2x"}
+              />
+            </a>
+            <a href="https://www.arcor.com">
+              <img src={arcor} alt="Grupo Arcor" srcSet={arcorx2 + " 2x"} />
+            </a>
+            <a href="https://gruposupervielle.com">
+              <img
+                src={superville}
+                alt="Grupo SuperVille"
+                srcSet={supervillex2 + " 2x"}
+              />
+            </a>
+            <a href="https://www.grupomurchinson.com.ar">
+              <img
+                src={murchison}
+                alt="Grupo Murchison"
+                srcSet={murchisonx2 + " 2x"}
+              />
+            </a>
+            <a href="https://www.ibm.com/ar-es">
+              <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
+            </a>
+            <a href="https://www.mabxience.com/es/">
+              <img
+                src={mabxience}
+                alt="mABxience"
+                srcSet={mabxiencex2 + " 2x"}
+              />
+            </a>
+            <a href="https://www.mckinsey.com/ar/overview">
+              <img
+                src={mckinsey}
+                alt="McKinsey & Company"
+                srcSet={mckinseyx2 + " 2x"}
+              />
+            </a>
+            <a href="http://www.programapropymes.com">
+              <img src={propymes} alt="PRO PYMES" srcSet={propymesx2 + " 2x"} />
+            </a>
           </div>
         </div>
         {/* AUSPICIANTE PLATA END  */}
@@ -131,17 +155,19 @@ const Auspiciantes = () => {
             <span></span>bronce<span></span>
           </p>
           <div className="ausp__marca ">
-            <img
-              src={andreani}
-              alt="Andreani"
-              srcSet={andreanix2 + " 2x"}
-            ></img>
-            <img
-              src={lartirigoyen}
-              alt="Lartirigoyen"
-              srcSet={lartirigoyenx2 + " 2x"}
-            />
-            <img src={pinamar_sa} alt="Pinamar S.A" width="190" height="84" />
+            <a href="www.andreani.com">
+              <img src={andreani} alt="Andreani" srcSet={andreanix2 + " 2x"} />
+            </a>
+            <a href="http://www.lartirigoyen.com.ar">
+              <img
+                src={lartirigoyen}
+                alt="Lartirigoyen"
+                srcSet={lartirigoyenx2 + " 2x"}
+              />
+            </a>
+            <a href="https://www.pinamar.com.ar">
+              <img src={pinamar_sa} alt="Pinamar S.A" width="190" height="84" />
+            </a>
           </div>
         </div>
         {/* AUSPICIANTE BRONCE END */}
