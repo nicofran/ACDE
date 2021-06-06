@@ -2,7 +2,7 @@
 
 import { ReactComponent as Acde } from "../../assets/images/logo-acde1.svg";
 import Banner from "../../assets/images/banner-thumneil.png";
-import Bicentenario from "../../assets/images/bicentenario-menu-3.jpeg";
+import Bicentenario from "../../assets/icons/bicentenario-menu2.png";
 
 import { useState } from "react";
 
