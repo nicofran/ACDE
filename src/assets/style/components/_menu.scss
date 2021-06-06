@@ -9,25 +9,45 @@
   z-index: 9000;
   background-color: #ededed;
   box-sizing: border-box;
-  padding: 40px 10px 5px;
+  padding: 10px 10px 5px;
+  .menu__media {
+    float: left;
+    top: 1;
+    left: 0;
+    position: absolute;
+    display: none;
+    svg {
+      margin-right: 5px;
+      margin-left: 5px;
+      * {
+        color: grey;
+      }
+    }
+    &:first-child {
+      margin: 0;
+    }
+    @include response(medium) {
+      display: block;
+    }
+  }
 
   .menu__banners {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2px;
+    padding: 50px 30px 10px;
     @include response(medium) {
       flex-direction: row;
       justify-content: space-evenly;
     }
-
     .img-encuentro {
       width: 215px;
       height: 60px;
-      margin-top: 20px;
+      margin-bottom: 20px;
       @include response(large) {
         width: 260px;
         height: 70px;
+        margin-top: 20px;
       }
     }
   }
@@ -42,7 +62,7 @@
     display: none;
 
     @include response(medium) {
-      display: flex;
+      display: block;
       width: 176px;
       height: 101px;
     }
@@ -55,6 +75,7 @@
     line-height: normal;
     text-align: left;
     padding-top: 26px;
+    display: none;
     span {
       font-weight: 400;
       color: #1673b9;
@@ -63,6 +84,9 @@
       @include response(medium) {
         font-size: 18px;
       }
+    }
+    @include response(medium) {
+      display: block;
     }
   }
 

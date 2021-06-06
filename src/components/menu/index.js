@@ -1,10 +1,15 @@
-//Images as Components
-
-import { ReactComponent as Acde } from "../../assets/images/logo-acde1.svg";
-import Banner from "../../assets/images/banner-thumneil.png";
-import Bicentenario from "../../assets/icons/bicentenario-menu2.png";
-
+// REACT USE STATE
 import { useState } from "react";
+//Images as Components
+import { ReactComponent as Acde } from "../../assets/images/logo-acde1.svg";
+import Banner from "../../assets/images/acde2021.png";
+import Bicentenario from "../../assets/icons/bicentenario-menu2.png";
+// MEDIA ICONS
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 
 const Menu = () => {
   const [activo, setActivo] = useState();
@@ -17,6 +22,23 @@ const Menu = () => {
     <div className="menu">
       <div className="container">
         {/* BANNERS  START*/}
+        <div className="menu__media">
+          <a href="https://twitter.com/acdeargentina?lang=en">
+            <TwitterIcon />
+          </a>
+          <a href="https://www.facebook.com/ACDEargentina/">
+            <FacebookIcon />
+          </a>
+          <a href="https://www.linkedin.com/company/asociaci-n-cristiana-de-dirigentes-de-empresa/?originalSubdomain=ar">
+            <LinkedInIcon />
+          </a>
+          <a href="https://www.youtube.com/channel/UCno2l6RbSdyBatIdrtQ84RA">
+            <YouTubeIcon />
+          </a>
+          <a href="https://www.instagram.com/acdeargentina/?hl=en">
+            <InstagramIcon />
+          </a>
+        </div>
         <div className="menu__banners">
           <div>
             <img src={Banner} alt="ACDE" className="img-encuentro" />
