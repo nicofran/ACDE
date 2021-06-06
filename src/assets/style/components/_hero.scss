@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 5px; // Valor previo = 40
-  padding-bottom: 5px; // Valor previo = 40
+  padding-top: 50px; // Valor previo = 40
+  padding-bottom: 50px; // Valor previo = 40
 
   .hero__video {
     padding-top: 20px;
@@ -13,6 +13,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    background-color: white;
 
     @include response(medium) {
       height: 323px;

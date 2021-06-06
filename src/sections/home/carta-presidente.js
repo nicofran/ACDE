@@ -7,17 +7,19 @@ import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz2.jpg";
 const Carta = () => {
   return (
     <div className="carta container" id="carta">
-      <div className="carta__rectangulo">
-        <div className="carta__span">
-          <img className="logo" src={logo} alt="ACDE" />
-          <img src={icon} alt="ACDE" />
-        </div>
+      <div className="carta__span">
+        <img className="logo" src={logo} alt="ACDE" />
+        <img src={icon} alt="ACDE" />
         <h1 className="carta__titulo">carta del presidente</h1>
       </div>
       <div className="carta__text">
         <p>
           <p className="parrafo_inicial">
-            <img src={ignacio_gorupicz} alt="" className="foto_presidente" />
+            <img
+              src={ignacio_gorupicz}
+              alt="Ignacio Gorupicz"
+              className="foto_presidente"
+            />
             Muchas gracias a todos los que decidieron dedicar esta mañana fría
             de invierno a reflexionar juntos sobre este momento tan especial en
             la historia de la humanidad y de nuestra Patria. <br />

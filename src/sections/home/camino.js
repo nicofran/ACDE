@@ -37,7 +37,7 @@ const Camino = () => {
     ],
   };
   return (
-    <div className="camino">
+    <div className="camino" id="camino">
       <div className="container">
         <div className="camino__banner">
           <img src={banner} alt="ACDE"></img>

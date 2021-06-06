@@ -124,7 +124,23 @@ const Comision = () => {
             posicion={"Directora Ejecutiva de UNAJE"}
             imagen={barbara_harteneck}
             biografia={
-              <React.Fragment>Directora Ejecutiva de UNAJE</React.Fragment>
+              <React.Fragment>
+                Bárbara Harteneck se caracteriza por su espíritu curioso, en la
+                constante exploración y búsqueda de soluciones. Es licenciada en
+                Administración de Empresas por la Universidad de Buenos Aires
+                (UBA), con varios posgrados, en comunicación, marketing
+                corporativo, gestión de proyectos sociales y liderazgo
+                consciente. Se especializa en el triple impacto de los negocios.
+                Cuenta con un recorrido profesional como consultora en temas de
+                sustentabilidad, estrategia y comunicación; gestión de marcas y
+                proyectos; articulación público-privada-OSC. Actualmente es
+                Directora Ejecutiva de la Unión Argentina de Jóvenes Empresarios
+                y forma parte del equipo de Damasco Sustentabilidad (Empresa B
+                Certificada). Fue ayudante de cátedra en la Facultad de Ciencias
+                Económicas de la UBA y tutora de emprendimientos del Centro de
+                Emprendedores de la FCE, UBA, y facilitadora del programa "Vos
+                lo hacés", del Gobierno de la Ciudad de Buenos Aires.
+              </React.Fragment>
             }
           />
           <Integrante
@@ -146,26 +162,26 @@ const Comision = () => {
               </React.Fragment>
             }
           />
-            <Integrante
-              nombre="Catalina López Lecube"
-              posicion={"Directora Ejecutiva de ACDE"}
-              imagen={catalina_lopez}
-              biografia={
-                <React.Fragment>
-                  Catalina López Lecube es licenciada en Ciencias de la
-                  Comunicación por la Universidad de Buenos Aires (UBA). Cursó la
-                  Maestría en Gestión de la Comunicación en las Organizaciones por
-                  la Universidad Austral. Cuenta con 20 años de experiencia
-                  desarrollada en áreas de Comunicación y Comercial. Durante 8
-                  años se desempeñó en diversos cargos en los Posgrados de la
-                  Facultad de Derecho de la Universidad Austral. En marzo de 2017
-                  ingresó como Coordinadora de Socios en la Asociación Cristiana
-                  de Dirigentes de Empresa (ACDE) y, desde enero de 2018, se
-                  desempeña como Líder de Comunicaciones & Socios en la misma
-                  institución.
-                </React.Fragment>
-              }
-            />
+          <Integrante
+            nombre="Catalina López Lecube"
+            posicion={"Directora Ejecutiva de ACDE"}
+            imagen={catalina_lopez}
+            biografia={
+              <React.Fragment>
+                Catalina López Lecube es licenciada en Ciencias de la
+                Comunicación por la Universidad de Buenos Aires (UBA). Cursó la
+                Maestría en Gestión de la Comunicación en las Organizaciones por
+                la Universidad Austral. Cuenta con 20 años de experiencia
+                desarrollada en áreas de Comunicación y Comercial. Durante 8
+                años se desempeñó en diversos cargos en los Posgrados de la
+                Facultad de Derecho de la Universidad Austral. En marzo de 2017
+                ingresó como Coordinadora de Socios en la Asociación Cristiana
+                de Dirigentes de Empresa (ACDE) y, desde enero de 2018, se
+                desempeña como Líder de Comunicaciones & Socios en la misma
+                institución.
+              </React.Fragment>
+            }
+          />
           <Integrante
             nombre="Elena Newkirk"
             posicion={
@@ -267,7 +283,21 @@ const Comision = () => {
             nombre="Graciela Martini"
             posicion={"Directora Asociada de Infomedia"}
             imagen={graciela_martini}
-            biografia={<React.Fragment></React.Fragment>}
+            biografia={
+              <React.Fragment>
+                Licenciada en Letras, Master de NYU y consultora de comunicación
+                corporativa e institucional durante los últimos 30 años.
+                Actualmente Directora Asociada del grupo INFOMEDIA Consulting,
+                especializado en Reputación Corporativa, Comunicación
+                Estratégica con Medios y Redes Sociales, Gestión de Crisis y
+                Asuntos Públicos. Previamente, vicepresidente de Edelman PR
+                Argentina, consultora senior de Porter Novelli Argentina y
+                fundadora de Grupo Dimco Comunicación. Miembro de varias
+                instituciones como ACDE, Consejo de Fundación Luminis y Enablis
+                Argentina, Comisión Cultura CARI y Vice-presidente de IWF,
+                International Women Forum Argentina, entre otras.
+              </React.Fragment>
+            }
           />
           <Integrante
             nombre="Hernan Albarro"
