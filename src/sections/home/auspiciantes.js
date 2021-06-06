@@ -78,13 +78,17 @@ const Auspiciantes = () => {
             <span></span>oro<span></span>
           </p>
           <div className="ausp__marca">
-            <a href="https://www.es.cgc.energy" target="_blank">
+            <a
+              href="https://www.es.cgc.energy"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={cgc} alt="CGC" srcSet={cgcx2 + " 2x"}></img>
             </a>
-            <a href="https://new.dupont.com" target="_blank">
+            <a href="https://new.dupont.com" target="_blank" rel="noreferrer">
               <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
             </a>
-            <a href="https://bancogalicia.com" target="_blank">
+            <a href="https://bancogalicia.com" targe="_blank">
               <img
                 src={galicia}
                 alt="Pan American Energy"
@@ -101,51 +105,75 @@ const Auspiciantes = () => {
             <span></span>plata<span></span>
           </p>
           <div className="ausp__marca">
-            <a href="https://radioamadeus.com.ar" target="_blank">
+
+            <a href="https://radioamadues.com.ar" targe="_blank">
               <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
             </a>
-            <a href="https://accenture.com" target="_blank">
+            <a href="https://accenture.com" targe="_blank">
               <img
                 src={accenture}
                 alt="Pan American Energy"
                 srcSet={accenturex2 + " 2x"}
               />
             </a>
-            <a href="https://www.arcor.com" target="_blank">
+
+            <a href="https://www.arcor.com" target="_blank" rel="noreferrer">
               <img src={arcor} alt="Grupo Arcor" srcSet={arcorx2 + " 2x"} />
             </a>
-            <a href="https://www.gruposupervielle.com/Spanish/Nuestra-Compaa/Responsabilidad-Social-Corporativa/default.aspx" target="_blank">
+            <a
+              href="https://gruposupervielle.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={superville}
                 alt="Grupo SuperVille"
                 srcSet={supervillex2 + " 2x"}
               />
             </a>
-            <a href="http://www.grupomurchison.com.ar" target="_blank">
+            <a
+              href="https://www.grupomurchinson.com.ar"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={murchison}
                 alt="Grupo Murchison"
                 srcSet={murchisonx2 + " 2x"}
               />
             </a>
-            <a href="https://www.ibm.com/ar-es" target="_blank">
+
+            <a href="https://www.ibm.com/ar-es" targe="_blank">
               <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
             </a>
-            <a href="https://www.mabxience.com/es/" target="_blank">
+            <a
+              href="https://www.mabxience.com/es/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={mabxience}
                 alt="mABxience"
                 srcSet={mabxiencex2 + " 2x"}
               />
             </a>
-            <a href="https://www.mckinsey.com/ar/overview" target="_blank">
+            <a
+              href="https://www.mckinsey.com/ar/overview"
+              target="_blank"
+              rel="noreferrer"
+            >
+
               <img
                 src={mckinsey}
                 alt="McKinsey & Company"
                 srcSet={mckinseyx2 + " 2x"}
               />
             </a>
-            <a href="http://www.programapropymes.com" target="_blank">
+            <a
+              href="http://www.programapropymes.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={propymes} alt="PRO PYMES" srcSet={propymesx2 + " 2x"} />
             </a>
           </div>
@@ -158,17 +186,25 @@ const Auspiciantes = () => {
             <span></span>bronce<span></span>
           </p>
           <div className="ausp__marca ">
-            <a href="http://www.andreani.com" target="_blank">
+            <a href="www.andreani.com" target="_blank" rel="noreferrer">
               <img src={andreani} alt="Andreani" srcSet={andreanix2 + " 2x"} />
             </a>
-            <a href="http://www.lartirigoyen.com.ar" target="_blank">
+            <a
+              href="http://www.lartirigoyen.com.ar"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={lartirigoyen}
                 alt="Lartirigoyen"
                 srcSet={lartirigoyenx2 + " 2x"}
               />
             </a>
-            <a href="https://www.pinamar.com.ar" target="_blank">
+            <a
+              href="https://www.pinamar.com.ar"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={pinamar_sa} alt="Pinamar S.A" width="190" height="90" />
             </a>
           </div>
@@ -181,13 +217,17 @@ const Auspiciantes = () => {
             <span></span>Acompañan<span></span>
           </p>
           <div className="ausp__marca">
-            <a href="https://beccarvarela.com/" target="_blank">
-            <img
-              src={beccar_varela}
-              alt="Beccar Varela"
-              width="190"
-              height="120"
-            />
+            <a
+              href="https://beccarvarela.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={beccar_varela}
+                alt="Beccar Varela"
+                width="190"
+                height="120"
+              />
             </a>
           </div>
         </div>
