@@ -58,7 +58,7 @@ const Programa = () => {
           <span className="programa__fecha">MIÉRCOLES 30 JUNIO</span>
           <div className="programa__evento">
             <p>
-              9.00 H. | <span>APERTURA Y BIENVENIDA</span>
+              9.00 h. | <span>APERTURA Y BIENVENIDA</span>
               <span className="programa__oradores">
                 <ul>
                   <li>
@@ -73,7 +73,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              9.15 H. |{" "}
+              9.15 h. |{" "}
               <span>LA MIRADA CRISTIANA DE LA ECONOMÍA Y LA SOCIEDAD</span>
               <br></br>
               <span className="pregunta">
@@ -103,7 +103,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              10.00 H. |{" "}
+              10.00 h. |{" "}
               <span>
                 CONSTRUCCIÓN DE CONFIANZA ENTRE SINDICALISTAS Y EMPRESARIOS
               </span>
@@ -140,7 +140,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              10.50 H. |{" "}
+              10.50 h. |{" "}
               <span>EL VALOR Y LOS DESAFÍOS DE LA ECONOMÍA SOCIAL</span>
               <br></br>
               <span className="pregunta">
@@ -174,7 +174,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              11.40 H. | <span>EL PODER DE LAS PYMES PARA GENERAR EMPLEO</span>
+              11.40 h. | <span>EL PODER DE LAS PYMES PARA GENERAR EMPLEO</span>
               <br></br>
               <span className="pregunta">
                 Su efecto multiplicador en la economía y el bienestar de la
@@ -201,7 +201,7 @@ const Programa = () => {
             </p>
             <p>
               <br></br>
-              12.30 H. | <span>PALABRAS DE CIERRE</span>
+              12.30 h. | <span>PALABRAS DE CIERRE</span>
             </p>
             <br></br>
             <br></br>
@@ -209,11 +209,11 @@ const Programa = () => {
           <span className="programa__fecha">jueves 1 de julio </span>
           <div className="programa__evento">
             <p>
-              9.00 H. | <span>BIENVENIDA Y ORACION</span>
+              9.00 h. | <span>BIENVENIDA Y ORACIÓN</span>
             </p>
             <br></br>
             <p>
-              9.15 H. | <span>PROMOCIÓN DEL BIEN COMÚN: CREAR EMPLEO</span>
+              9.15 h. | <span>PROMOCIÓN DEL BIEN COMÚN: CREAR EMPLEO</span>
               <br></br>
               <span className="pregunta">
                 Las bondades de las cadenas de valor y el impacto en sus
@@ -254,7 +254,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              10.00 H. | <span>PROMOCIÓN DEL BIEN COMÚN: INVERTIR</span>
+              10.00 h. | <span>PROMOCIÓN DEL BIEN COMÚN: INVERTIR</span>
               <br></br>
               <span className="pregunta">
                 La generación de riqueza es una contribución a la sociedad.
@@ -288,7 +288,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              10.45 H. | <span>UN TESTIMONIO QUE NOS INTERPELA</span>
+              10.45 h. | <span>UN TESTIMONIO QUE NOS INTERPELA</span>
               <br></br>
               <span className="pregunta">
                 La reconciliación como paso necesario para lograr la unidad.
@@ -307,7 +307,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              11.30 H. | <span>CONSTRUCCIÓN DE CONFIANZA SOCIAL</span>
+              11.30 h. | <span>CONSTRUCCIÓN DE CONFIANZA SOCIAL</span>
               <br></br>
               <span className="pregunta">
                 La importancia de la verdad y la justicia. La confianza como el
@@ -325,9 +325,9 @@ const Programa = () => {
                   <li>
                     <span className="programa__evento">•</span>{" "}
                     <span className="programa__orador__nombre">
-                      Rab Alejandro Avruj.
+                      Rab. Alejandro Avruj.
                     </span>{" "}
-                    Rabino de la Comunidad Amijai.
+                    Presidente de la Asamble Rabínica Latinoamericana.
                   </li>
                   <li>
                     <span className="programa__evento">•</span>{" "}
@@ -346,7 +346,7 @@ const Programa = () => {
             </p>
             <p>
               <br></br>
-              12.00 H. | <span>PALABRAS DE CIERRE</span>
+              12.00 h. | <span>PALABRAS DE CIERRE</span>
               <br></br>
               <span className="programa__oradores">
                 <ul>
