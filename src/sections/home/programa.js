@@ -11,8 +11,8 @@ const Programa = () => {
       <div className="programa__programa">
         <h2 className="programa__title">Hacia un capitalismo más humano</h2>
         <p className="programa__sub">
-          Generando un ciclo virtuoso para promover el bien<br></br>
-          común y construir confianza social
+          Generando un ciclo virtuoso para promover<br></br>
+          el bien común y construir confianza social
         </p>
         {/* <br></br> */}
         <p className="programa__content">
