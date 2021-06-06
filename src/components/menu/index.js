@@ -22,7 +22,7 @@ const Menu = () => {
             <img src={Banner} alt="ACDE" className="img-encuentro" />
           </div>
           <p className="menu__fecha">
-            30 de junio<br></br>y 1 de julio<br></br>
+            30 de junio<br></br>1 de julio<br></br>
             <span>
               Encuentro Virtual<br></br>Sin Cargo
             </span>
