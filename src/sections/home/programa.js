@@ -104,7 +104,9 @@ const Programa = () => {
             <br></br>
             <p>
               10.00 h. |{" "}
-              <span>CONSTRUCCIÓN DE CONFIANZA ENTRE SINDICALISTAS Y EMPRESARIOS</span>
+              <span>
+                CONSTRUCCIÓN DE CONFIANZA ENTRE SINDICALISTAS Y EMPRESARIOS
+              </span>
               <br></br>
               <span className="pregunta">
                 Escuchar al otro como base de la generación de confianza y el
@@ -198,7 +200,8 @@ const Programa = () => {
               </span>
             </p>
             <p>
-            <br></br>
+              <br></br>
+
               12.30 h. | <span>PALABRAS DE CIERRE</span>
             </p>
             <br></br>
@@ -211,8 +214,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              9.15 h. |{" "}
-              <span>PROMOCIÓN DEL BIEN COMÚN: CREAR EMPLEO</span>
+              9.15 h. | <span>PROMOCIÓN DEL BIEN COMÚN: CREAR EMPLEO</span>
               <br></br>
               <span className="pregunta">
                 Las bondades de las cadenas de valor y el impacto en sus
@@ -253,8 +255,8 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              10.00 h. |{" "}
-              <span>PROMOCIÓN DEL BIEN COMÚN: INVERTIR</span>
+              10.00 h. | <span>PROMOCIÓN DEL BIEN COMÚN: INVERTIR</span>
+
               <br></br>
               <span className="pregunta">
                 La generación de riqueza es una contribución a la sociedad.
@@ -288,8 +290,7 @@ const Programa = () => {
             </p>
             <br></br>
             <p>
-              10.45 h. |{" "}
-              <span>UN TESTIMONIO QUE NOS INTERPELA</span>
+              10.45 h. | <span>UN TESTIMONIO QUE NOS INTERPELA</span>
               <br></br>
               <span className="pregunta">
                 La reconciliación como paso necesario para lograr la unidad.
@@ -326,9 +327,9 @@ const Programa = () => {
                   <li>
                     <span className="programa__evento">•</span>{" "}
                     <span className="programa__orador__nombre">
-                      Rab Alejandro Avruj.
+                      Rab. Alejandro Avruj.
                     </span>{" "}
-                    Rabino de la Comunidad Amijai.
+                    Presidente de la Asamble Rabínica Latinoamericana.
                   </li>
                   <li>
                     <span className="programa__evento">•</span>{" "}
@@ -346,11 +347,10 @@ const Programa = () => {
               </span>
             </p>
             <p>
-            <br></br>
+              <br></br>
               12.00 h. | <span>PALABRAS DE CIERRE</span>
-             <br></br>
-             <span className="programa__oradores">
-
+              <br></br>
+              <span className="programa__oradores">
                 <ul>
                   <li>
                     <span className="programa__evento">•</span>{" "}
