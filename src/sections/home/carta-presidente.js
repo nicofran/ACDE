@@ -91,7 +91,7 @@ const Carta = () => {
           </p>
           <p className="carta__firma">
             <span></span>IGNACIO GORUPICZ<br></br>
-            <span>PRESIDENTE DEL XXIV ENCUENTRO ANUAL DE ACDE</span>
+            <span>PRESIDENTE DEL XXIV ENCUENTRO ANUAL ACDE</span>
           </p>
           {/* <span className="carta__firma">
             <p className="carta__firma__nombre">IGNACIO GORUPICZ</p>

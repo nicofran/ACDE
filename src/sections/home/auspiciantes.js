@@ -52,7 +52,7 @@ const Auspiciantes = () => {
           <span></span>platino<span></span>
         </p>
         <div className="ausp__marca">
-          <a href="https://grupoclarin.com">
+          <a href="https://grupoclarin.com" target="_blank">
             <img
               src={Clarin}
               alt="Grupo Clarin"
@@ -61,7 +61,7 @@ const Auspiciantes = () => {
               height="66"
             ></img>
           </a>
-          <a href="https://www.pan-energy.com">
+          <a href="https://www.pan-energy.com" target="_blank">
             <img
               src={Pan_American}
               alt="Pan American Energy"
@@ -105,6 +105,7 @@ const Auspiciantes = () => {
             <span></span>plata<span></span>
           </p>
           <div className="ausp__marca">
+
             <a href="https://radioamadues.com.ar" targe="_blank">
               <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
             </a>
@@ -115,6 +116,7 @@ const Auspiciantes = () => {
                 srcSet={accenturex2 + " 2x"}
               />
             </a>
+
             <a href="https://www.arcor.com" target="_blank" rel="noreferrer">
               <img src={arcor} alt="Grupo Arcor" srcSet={arcorx2 + " 2x"} />
             </a>
@@ -140,6 +142,7 @@ const Auspiciantes = () => {
                 srcSet={murchisonx2 + " 2x"}
               />
             </a>
+
             <a href="https://www.ibm.com/ar-es" targe="_blank">
               <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
             </a>
@@ -159,6 +162,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
+
               <img
                 src={mckinsey}
                 alt="McKinsey & Company"

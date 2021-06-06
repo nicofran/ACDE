@@ -46,7 +46,7 @@ const Expositores = () => {
 
       <div className="expo__speakers col-12">
         <Expositor
-          nombre="Rab Alejandro Avruj"
+          nombre="Rab. Alejandro Avruj"
           imagen={rab_alejandro_avruj}
           descripcion={"Presidente de la Asamblea Rabiníca Latinoamericana"}
           biografia={
@@ -97,7 +97,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Martin Borchardt"
+          nombre="Martín Borchardt"
           imagen={martin_borchardt}
           descripcion={"Fundador de HENRY"}
           biografia={
@@ -147,7 +147,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Nicolas Braun"
+          nombre="Nicolás Braun"
           imagen={nicolas_braun}
           descripcion={"Gerente General de La Anónima"}
           biografia={
@@ -207,7 +207,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Juan Martin de la Serna"
+          nombre="Juan Martín de la Serna"
           imagen={juan_martin_dela_serna}
           descripcion={"Presidente de Mercado Libre Argentina"}
           biografia={
@@ -228,7 +228,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Candelaria Fernandez"
+          nombre="María Candelaria Fernandez"
           imagen={candelaria_fernandez}
           descripcion={"Coordinadora de Generación 2040"}
           biografia={
@@ -298,7 +298,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Geronimo Frigerio"
+          nombre="Gerónimo Frigerio"
           imagen={geronimo_frigerio}
           descripcion={"Director general de gf Consulting Group"}
           biografia={
@@ -405,12 +405,12 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Cristian Geronimo"
+          nombre="Cristián Gerónimo"
           imagen={cristian_geronimo}
           descripcion={"Secretario General de la Juventud Sindical Nacional"}
           biografia={
             <React.Fragment>
-              Cristian Jerónimo es dirigente sindical de la industria del
+              Cristián Gerónimo es dirigente sindical de la industria del
               vidrio, es Secretario General de SEIVARA (Sindicato de Empleados
               de la Industria del Vidrio y Afines de la República Argentina)
               desde 2019, y es referente nacional de la Juventud Sindical
@@ -471,7 +471,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Maria Migliore"
+          nombre="María Migliore"
           imagen={maria_migliore}
           descripcion={"Ministra de Desarrollo Humano y Hábitat del GCBA"}
           biografia={
@@ -626,7 +626,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Roberto Vassollo"
+          nombre="Roberto Vassolo"
           imagen={roberto_vassollo}
           descripcion={
             "Economista del IAE Business School - Universidad Austral"
