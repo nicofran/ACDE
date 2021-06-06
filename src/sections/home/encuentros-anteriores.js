@@ -3,7 +3,7 @@ import logo from "../../assets/icons/icon-carta1.png";
 import logo_acde from "../../assets/icons/logo-acde.png";
 const Encuentros = () => {
   return (
-    <div className="encuentros">
+    <div className="encuentros" id="encuentros">
       <div className="container">
         <div className="encuentros__banner">
           <img src={logo_acde} alt="Logo ACDE" className="logo"></img>
