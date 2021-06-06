@@ -49,7 +49,7 @@ const Expositores = () => {
         <Expositor
           nombre="Rab Alejandro Avruj"
           imagen={rab_alejandro_avruj}
-          posicion={""}
+          descripcion={"Presidente de la Asamblea Rabiníca Latinoamericana"}
           biografia={
             <React.Fragment>
               Rab. Alejandro Avruj está casado con Marina Degtiar y tiene cuatro
@@ -79,6 +79,7 @@ const Expositores = () => {
         <Expositor
           nombre="Carolina Biquard"
           imagen={carolina_biquard}
+          descripcion={"Cofundadora de la Fundación Compromiso"}
           biografia={
             <React.Fragment>
               Carolina Biquard es cofundadora de Fundación Compromiso (FC), una
@@ -99,6 +100,7 @@ const Expositores = () => {
         <Expositor
           nombre="Martin Borchardt"
           imagen={martin_borchardt}
+          descripcion={"Fundador de HENRY"}
           biografia={
             <React.Fragment>
               Martín Borchardt es el fundador de HENRY, una academia que forma
@@ -115,6 +117,7 @@ const Expositores = () => {
         <Expositor
           nombre="Juan Bosch"
           imagen={juan_bosch}
+          descripcion={"Director de Negocios Internacionales de SAESA"}
           className="exp"
           biografia={
             <React.Fragment>
@@ -147,6 +150,7 @@ const Expositores = () => {
         <Expositor
           nombre="Nicolas Braun"
           imagen={nicolas_braun}
+          descripcion={"Gerente General de La Anónima"}
           biografia={
             <React.Fragment>
               Nicolás Braun tiene 48 años, está casado con Florencia, y tiene
@@ -165,6 +169,7 @@ const Expositores = () => {
         <Expositor
           nombre="Carolina Castro"
           imagen={carolina_castro}
+          descripcion={"Directora de la PyME autopartista Industrias Guidi"}
           biografia={
             <React.Fragment>
               Carolina Castro es empresaria industrial, tercera generación en la
@@ -182,6 +187,7 @@ const Expositores = () => {
         <Expositor
           nombre="Maximo Cavazzani"
           imagen={maximo_cavazzani}
+          descripcion={"Fundador de Etermax"}
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
@@ -204,6 +210,7 @@ const Expositores = () => {
         <Expositor
           nombre="Marina Dal Poggetto"
           imagen={marina_dal_poggetto}
+          descripcion={"Directora Ejecutiva de la consultora Eco Go"}
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
@@ -226,6 +233,7 @@ const Expositores = () => {
         <Expositor
           nombre="Juan Martin de la Serna"
           imagen={juan_martin_dela_serna}
+          descripcion={"Presidente de Mercado Libre Argentina"}
           biografia={
             <React.Fragment>
               Juan Martín de la Serna se incorporó hace más de 20 años a Mercado
@@ -246,6 +254,7 @@ const Expositores = () => {
         <Expositor
           nombre="Candelaria Fernandez"
           imagen={candelaria_fernandez}
+          descripcion={"Coordinadora de Generación 2040"}
           biografia={
             <React.Fragment>
               Candelaria Fernández es politóloga especialista en asuntos
@@ -281,6 +290,7 @@ const Expositores = () => {
         <Expositor
           nombre="Delia Ferreira Rubio"
           imagen={delia_ferreira}
+          descripcion={"Presidenta de Transparencia Internacional"}
           biografia={
             <React.Fragment>
               Delia M. Ferreira Rubio es Presidente de Transparency
@@ -314,6 +324,7 @@ const Expositores = () => {
         <Expositor
           nombre="Geronimo Frigerio"
           imagen={geronimo_frigerio}
+          descripcion={"Director general de gf Consulting Group"}
           biografia={
             <React.Fragment>
               Gerónimo Frigerio es un especialista internacional con veinte años
@@ -339,6 +350,7 @@ const Expositores = () => {
         <Expositor
           nombre="Ignacio Gorupicz"
           imagen={ignacio_gorupicz}
+          descripcion={"Presidente del XXIV Encuentro Anual ACDE"}
           biografia={
             <React.Fragment>
               Desde hace 12 años Ignacio Gorupicz se desempeña en McKinsey &
@@ -360,8 +372,9 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Immaculée Ilibagiza "
+          nombre="Immaculée Ilibagiza"
           imagen={immacule_ilibagiza}
+          descripcion={"Conferencista y escritora ruandesa"}
           biografia={
             <React.Fragment>
               Se considera a Immaculée Ilibagiza como una de las principales
@@ -418,6 +431,7 @@ const Expositores = () => {
         <Expositor
           nombre="Cristian Geronimo"
           imagen={cristian_geronimo}
+          descripcion={"Secretario General de la Juventud Sindical Nacional"}
           biografia={
             <React.Fragment>
               Cristian Jerónimo es dirigente sindical de la industria del
@@ -435,6 +449,7 @@ const Expositores = () => {
         <Expositor
           nombre="Verónica Marcelo"
           imagen={veronica_marcelo}
+          descripcion={"Gerente General de Natura"}
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
@@ -457,6 +472,7 @@ const Expositores = () => {
         <Expositor
           nombre="Joan Antoni Melé"
           imagen={joan_antoni}
+          descripcion={"Presidente de la Fundación Dinero y Conciencia"}
           biografia={
             <React.Fragment>
               Joan Antoni Melé lidera el proceso de desarrollo de la Banca Ética
@@ -481,6 +497,7 @@ const Expositores = () => {
         <Expositor
           nombre="Maria Migliore"
           imagen={maria_migliore}
+          descripcion={"Ministra de Desarrollo Humano y Hábitat del GCBA"}
           biografia={
             <React.Fragment>
               El objetivo de María Migliore es fomentar la igualdad de
@@ -502,6 +519,7 @@ const Expositores = () => {
         <Expositor
           nombre="Rosana Negrini"
           imagen={rosana_negrini}
+          descripcion={"Presidente de Agrometal"}
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
@@ -524,6 +542,9 @@ const Expositores = () => {
         <Expositor
           nombre="Emilio Pérsico"
           imagen={emilio_persico}
+          descripcion={
+            "Secretario de Economía Social y líder de Movimiento Evita"
+          }
           biografia={
             <React.Fragment>
               Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
@@ -546,6 +567,7 @@ const Expositores = () => {
         <Expositor
           nombre="Federico Poletto"
           imagen={federico_poletto}
+          descripcion={"CEO de MDZ"}
           biografia={
             <React.Fragment>
               Federico Poletto está casado desde hace 18 años y es padre de 3
@@ -564,6 +586,7 @@ const Expositores = () => {
         <Expositor
           nombre="Julia Pomares"
           imagen={julia_pomares}
+          descripcion={"Jefa de asesores del GCBA"}
           biografia={
             <React.Fragment>
               Julia Pomares es Jefa de Asesores del Gobierno de la Ciudad de
@@ -592,6 +615,7 @@ const Expositores = () => {
         <Expositor
           nombre="Marysol Rodriguez"
           imagen={marysol_rodriguez}
+          descripcion={"Secretaria de UIA Joven"}
           biografia={
             <React.Fragment>
               Marysol Rodríguez pertenece a la tercera generación de la familia
@@ -608,6 +632,7 @@ const Expositores = () => {
         <Expositor
           nombre="Gonzalo Tanoira"
           imagen={gonzalo_tanoira}
+          descripcion={"Presidente de ACDE"}
           biografia={
             <React.Fragment>
               Gonzalo Tanoira es licenciado en Administración de Empresas por la
@@ -627,6 +652,9 @@ const Expositores = () => {
         <Expositor
           nombre="Roberto Vassollo"
           imagen={roberto_vassollo}
+          descripcion={
+            "Economista del IAE Business School - Universidad Austral"
+          }
           biografia={
             <React.Fragment>
               Roberto Vassolo es profesor titular del área de Política de
@@ -654,6 +682,9 @@ const Expositores = () => {
         <Expositor
           nombre="P. Augusto Zampini"
           imagen={padre_augusto_zamipini}
+          descripcion={
+            "Secretario Adjunto del Dicasterio para el Desarrollo Humano Integral del Vaticano"
+          }
           biografia={
             <React.Fragment>
               P. Augusto Zampini Davies nació en Buenos Aires, Argentina, el 25

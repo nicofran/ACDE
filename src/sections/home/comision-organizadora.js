@@ -146,26 +146,26 @@ const Comision = () => {
               </React.Fragment>
             }
           />
-            <Integrante
-              nombre="Catalina López Lecube"
-              posicion={"Directora Ejecutiva de ACDE"}
-              imagen={catalina_lopez}
-              biografia={
-                <React.Fragment>
-                  Catalina López Lecube es licenciada en Ciencias de la
-                  Comunicación por la Universidad de Buenos Aires (UBA). Cursó la
-                  Maestría en Gestión de la Comunicación en las Organizaciones por
-                  la Universidad Austral. Cuenta con 20 años de experiencia
-                  desarrollada en áreas de Comunicación y Comercial. Durante 8
-                  años se desempeñó en diversos cargos en los Posgrados de la
-                  Facultad de Derecho de la Universidad Austral. En marzo de 2017
-                  ingresó como Coordinadora de Socios en la Asociación Cristiana
-                  de Dirigentes de Empresa (ACDE) y, desde enero de 2018, se
-                  desempeña como Líder de Comunicaciones & Socios en la misma
-                  institución.
-                </React.Fragment>
-              }
-            />
+          <Integrante
+            nombre="Catalina López Lecube"
+            posicion={"Directora Ejecutiva de ACDE"}
+            imagen={catalina_lopez}
+            biografia={
+              <React.Fragment>
+                Catalina López Lecube es licenciada en Ciencias de la
+                Comunicación por la Universidad de Buenos Aires (UBA). Cursó la
+                Maestría en Gestión de la Comunicación en las Organizaciones por
+                la Universidad Austral. Cuenta con 20 años de experiencia
+                desarrollada en áreas de Comunicación y Comercial. Durante 8
+                años se desempeñó en diversos cargos en los Posgrados de la
+                Facultad de Derecho de la Universidad Austral. En marzo de 2017
+                ingresó como Coordinadora de Socios en la Asociación Cristiana
+                de Dirigentes de Empresa (ACDE) y, desde enero de 2018, se
+                desempeña como Líder de Comunicaciones & Socios en la misma
+                institución.
+              </React.Fragment>
+            }
+          />
           <Integrante
             nombre="Elena Newkirk"
             posicion={
