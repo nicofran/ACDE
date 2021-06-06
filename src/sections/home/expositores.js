@@ -18,7 +18,7 @@ import marina_dal_poggetto from "../../assets/images/marina_dal_poggetto.png";
 import martin_borchardt from "../../assets/images/martin_borchardt.png";
 import nicolas_braun from "../../assets/images/nicolas_braun.png";
 import rab_alejandro_avruj from "../../assets/images/rab_alejandro_avruj.png";
-import roberto_vassollo from "../../assets/images/roberto_vassollo.png";
+import roberto_vassolo from "../../assets/images/roberto_vassollo.png";
 import rosana_negrini from "../../assets/images/rosana_negrini.png";
 import immacule_ilibagiza from "../../assets/images/immacule_ilibagiza.png";
 import cristian_geronimo from "../../assets/images/cristian_jeronimo.png";
@@ -46,7 +46,7 @@ const Expositores = () => {
 
       <div className="expo__speakers col-12">
         <Expositor
-          nombre="Rab Alejandro Avruj"
+          nombre="Rab. Alejandro Avruj"
           imagen={rab_alejandro_avruj}
           descripcion={"Presidente de la Asamblea Rabiníca Latinoamericana"}
           biografia={
@@ -97,7 +97,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Martin Borchardt"
+          nombre="Martín Borchardt"
           imagen={martin_borchardt}
           descripcion={"Fundador de HENRY"}
           biografia={
@@ -147,7 +147,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Nicolas Braun"
+          nombre="Nicolás Braun"
           imagen={nicolas_braun}
           descripcion={"Gerente General de La Anónima"}
           biografia={
@@ -207,7 +207,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Juan Martin de la Serna"
+          nombre="Juan Martín de la Serna"
           imagen={juan_martin_dela_serna}
           descripcion={"Presidente de Mercado Libre Argentina"}
           biografia={
@@ -228,7 +228,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Candelaria Fernandez"
+          nombre="María Candelaria Fernandez"
           imagen={candelaria_fernandez}
           descripcion={"Coordinadora de Generación 2040"}
           biografia={
@@ -298,7 +298,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Geronimo Frigerio"
+          nombre="Gerónimo Frigerio"
           imagen={geronimo_frigerio}
           descripcion={"Director general de gf Consulting Group"}
           biografia={
@@ -405,7 +405,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Cristian Geronimo"
+          nombre="Cristían Gerónimo"
           imagen={cristian_geronimo}
           descripcion={"Secretario General de la Juventud Sindical Nacional"}
           biografia={
@@ -471,7 +471,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Maria Migliore"
+          nombre="María Migliore"
           imagen={maria_migliore}
           descripcion={"Ministra de Desarrollo Humano y Hábitat del GCBA"}
           biografia={
@@ -626,8 +626,8 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Roberto Vassollo"
-          imagen={roberto_vassollo}
+          nombre="Roberto Vassolo"
+          imagen={roberto_vassolo}
           descripcion={
             "Economista del IAE Business School - Universidad Austral"
           }
@@ -658,9 +658,7 @@ const Expositores = () => {
         <Expositor
           nombre="P. Augusto Zampini"
           imagen={padre_augusto_zamipini}
-          descripcion={
-            "Secretario Adjunto del Dicasterio para el Desarrollo Humano Integral del Vaticano"
-          }
+          descripcion={"Presidente de la Asamble Rabínica Latinoamericana"}
           biografia={
             <React.Fragment>
               P. Augusto Zampini Davies nació en Buenos Aires, Argentina, el 25

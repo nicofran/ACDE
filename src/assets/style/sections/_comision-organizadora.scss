@@ -60,8 +60,8 @@
     white-space: nowrap;
 
     @include response(medium) {
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
     }
 
     .integrante {
@@ -94,10 +94,11 @@
         background-color: #52ae39;
       }
       .integrante__posicion {
-        font-size: 10px;
+        font-size: 15px;
         white-space: pre-wrap;
         text-align: center;
-        padding-right: 8px;
+        text-transform: none;
+        color: grey;
       }
       .integrante__button {
         background-color: #52ae39;
