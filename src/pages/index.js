@@ -28,6 +28,7 @@ const Home = () => {
       <Auspiciantes />
       <Camino />
       <EncuentrosAnteriores />
+      <Inscripcion />
       <Footer />
     </Layout>
   );
