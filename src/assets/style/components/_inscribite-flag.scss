@@ -1,54 +1,27 @@
-// .inscribite_flag{
-//     background-color: #E22084;
-//     color: white;
-//     height: 40px;
-//     width: 200px;
-//     border-radius: 10px;
-//     position: fixed;
-//     font-family: 'Gilroy-Bold', sans-serif;
-//     font-size: 21px;
-//     letter-spacing: 1.5px;
-//     margin-top: 3px;
-//     top: 12;
-//     right: 0;
-
-//     .inscribite_text{
-//         display: flex;
-//         height: 100%;
-//         width: 100%;
-//         top: 2000px;
-//         align-items: center;
-//         padding-left: 7px;
-//     }
-// }
-
-
-
 .inscribite__button {
-    position: fixed;
-    display: none;
-    right: -20px;
-    top: 20px;
-    width: 175px;
-    height: 49px;
-    padding-right: 25px;
-    border-radius: 16px;
-    background-color: #E22084;
-    color: white;
-    font-family: 'Gilroy-Bold', sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: 0;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-    &:hover {
-      background-color: white;
-      border: 1px solid white;
-      color: #E22084;
-    }
-
-    @include response(medium){
-        display: block;
-    }
+  position: fixed;
+  right: 0;
+  top: 1;
+  width: 175px;
+  height: 49px;
+  border-radius: 16px;
+  background-color: #e22084;
+  color: white;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 0;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  display: none;
+  &:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #e22084;
   }
+
+  @include response(medium) {
+    display: block;
+  }
+}

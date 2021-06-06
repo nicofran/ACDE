@@ -20,8 +20,8 @@ const Home = () => {
   return (
     <Layout>
       <Hero />
-      <Inscripcion />
       <InscribiteFlag />
+      <Inscripcion />
       <Carta />
       <Programa />
       <Inscripcion />

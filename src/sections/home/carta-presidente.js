@@ -73,21 +73,19 @@ const Carta = () => {
             <br></br>
             <br></br>
             <p className="carta__parrafo__cita">
-            "Bienaventurada es nuestra patria porque en ella un cristiano puede
-            llegar a ser santo. Bienaventuranza es una palabra que quiere decir
-            felicidad, y con ese significado la explicó nuestro Señor Jesucristo
-            en el Sermón de la Montaña. Felices somos, pues, nosotros, los
-            argentinos que podemos cumplir todas y cada una de esas
-            bienaventuranzas. Hay mucho de bueno que hacer en nuestro país aun
-            cuando a veces no lo parezca. Está a nuestro alcance y posibilidades
-            hacer triunfar el cristianismo, y, por lo tanto, debemos hacer lo
-            que ello contribuya de un modo u otro. Si empleamos bien todos los
-            medios existentes a nuestra disposición, somos más fuertes de lo que
-            pensamos. ¡Actuemos!"
+              "Bienaventurada es nuestra patria porque en ella un cristiano
+              puede llegar a ser santo. Bienaventuranza es una palabra que
+              quiere decir felicidad, y con ese significado la explicó nuestro
+              Señor Jesucristo en el Sermón de la Montaña. Felices somos, pues,
+              nosotros, los argentinos que podemos cumplir todas y cada una de
+              esas bienaventuranzas. Hay mucho de bueno que hacer en nuestro
+              país aun cuando a veces no lo parezca. Está a nuestro alcance y
+              posibilidades hacer triunfar el cristianismo, y, por lo tanto,
+              debemos hacer lo que ello contribuya de un modo u otro. Si
+              empleamos bien todos los medios existentes a nuestra disposición,
+              somos más fuertes de lo que pensamos. ¡Actuemos!"
             </p>
             ¡Vamos al Encuentro!
-
-
           </p>
           <p className="carta__firma">
             <span></span>IGNACIO GORUPICZ<br></br>
