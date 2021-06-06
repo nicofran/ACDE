@@ -23,19 +23,39 @@ const Menu = () => {
       <div className="container">
         {/* BANNERS  START*/}
         <div className="menu__media">
-          <a href="https://twitter.com/acdeargentina?lang=en">
+          <a
+            href="https://twitter.com/acdeargentina?lang=en"
+            target="_blank"
+            rel="noreferrer"
+          >
             <TwitterIcon />
           </a>
-          <a href="https://www.facebook.com/ACDEargentina/">
+          <a
+            href="https://www.facebook.com/ACDEargentina/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FacebookIcon />
           </a>
-          <a href="https://www.linkedin.com/company/asociaci-n-cristiana-de-dirigentes-de-empresa/?originalSubdomain=ar">
+          <a
+            href="https://www.linkedin.com/company/asociaci-n-cristiana-de-dirigentes-de-empresa/?originalSubdomain=ar"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon />
           </a>
-          <a href="https://www.youtube.com/channel/UCno2l6RbSdyBatIdrtQ84RA">
+          <a
+            href="https://www.youtube.com/channel/UCno2l6RbSdyBatIdrtQ84RA"
+            target="_blank"
+            rel="noreferrer"
+          >
             <YouTubeIcon />
           </a>
-          <a href="https://www.instagram.com/acdeargentina/?hl=en">
+          <a
+            href="https://www.instagram.com/acdeargentina/?hl=en"
+            target="_blank"
+            rel="noreferrer"
+          >
             <InstagramIcon />
           </a>
         </div>
