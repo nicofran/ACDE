@@ -10,7 +10,7 @@ const Integrante = ({ nombre, biografia, imagen, posicion }) => {
     <div className="integrante col-md-6 col-lg-3 col-sm-6">
       <img src={imagen} alt={nombre} />
       <div className="comision__separador"></div>
-      <p>{nombre}</p>
+      <p className="integrante__nombre">{nombre}</p>
       <p className="integrante__posicion">{posicion}</p>
 
       <button

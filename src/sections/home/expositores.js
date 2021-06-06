@@ -410,7 +410,7 @@ const Expositores = () => {
           descripcion={"Secretario General de la Juventud Sindical Nacional"}
           biografia={
             <React.Fragment>
-              Cristian Jerónimo es dirigente sindical de la industria del
+              Cristián Gerónimo es dirigente sindical de la industria del
               vidrio, es Secretario General de SEIVARA (Sindicato de Empleados
               de la Industria del Vidrio y Afines de la República Argentina)
               desde 2019, y es referente nacional de la Juventud Sindical

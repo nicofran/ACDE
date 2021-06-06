@@ -197,7 +197,7 @@ const Comision = () => {
             imagen={ignacio_cornejo_sola}
             biografia={
               <React.Fragment>
-                Ignacio Cornejo, es un salteño que reside en Buenos Aires,
+                Ignacio Cornejo Solá, es un salteño que reside en Buenos Aires,
                 casado, padre de siete hijos y esperando el catorceavo nieto.
                 Recibido de Bachiller en Hutchinson High School Minnesota USA.
                 Graduado de Licenciado en Comercio Internacional en UADE
@@ -382,12 +382,121 @@ const Comision = () => {
               "Socio en BARREIRO, OLIVA, DE LUCA, JACA & NICASTRO Abogados"
             }
             imagen={gonzalo_oliva}
-            biografia={""}
+            biografia={
+              "Gonzalo Oliva Beltrán es socio fundador de Barreiro, Oliva, De Luca, Jaca & Nicastro. Lidera la práctica de Empresas y Tecnología y asesora regularmente a empresas locales e internacionales en aspectos legales vinculados con finanzas, tecnología, regulaciones cambiarias, fusiones y adquisiciones, derecho corporativo, y ONG.Es abogado egresado de la Universidad Católica Argentina, tiene un Máster en Derecho Financiero (LL.M. con honores) por la Universidad de Westminster, y es doctorando por la Universidad Austral. Fue fundador de la Fundación GSF y en la actualidad es miembro del Consejo Directivo de la Asociación Cristiana de Dirigentes de Empresa (ACDE) y de la Sociedad Argentina de Cultura."
+            }
           />
           <Integrante
             nombre="Fernando Oris de Roa"
             posicion={"Director de Empresa"}
             imagen={fernando_oris_de_roa}
+            biografia={
+              <React.Fragment>
+                Fernando Oris de Roa es empresario emprendedor en compañías como
+                San Miguel y Avex. Director de Orocobre (litio) y otras empresas
+                nacionales. Fue Embajador argentino en los Estados Unidos. Tiene
+                una maestría en Políticas Públicas de Harvard Kennedy School of
+                Government.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Ana María Pico Aguirre"
+            posicion={"Directora Ejecutiva de ACDE"}
+            imagen={ana_pico}
+            biografia={
+              <React.Fragment>
+                Ana María Pico Aguirre es ingeniera industrial por la
+                Universidad de Buenos Aires (UBA), con un posgrado en Gestión de
+                Empresas por la Universidad Católica Argentina (UCA). Es
+                Especialista en Organizaciones sin fines de lucro por la
+                Universidad de San Andrés, Di Tella y Cedes. Es Directora
+                Ejecutiva de ACDE desde abril de 2016, habiendo ingresado en
+                2015 como consultor. Colabora con diferentes Organizaciones
+                sociales y es miembro del Consejo Directivo de Fundación
+                Escolares. Ha desarrollado su carrera en el ámbito empresarial,
+                especializándose en Logística y Consultoría de procesos. En
+                paralelo, siempre tuvo diferentes roles en distintas
+                organizaciones sociales: Asociación Civil María de las Cárceles,
+                Fundación Arché y Fundación Red Comunidades Rurales. Fue docente
+                en materias de grado de Ingeniería en la UBA, de posgrado de
+                UTN- Fundación Andreani y en la Fundación Forge.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Arturo Simone"
+            posicion={"Director General Grupo RDA"}
+            imagen={arturo_simone}
+            biografia={
+              <React.Fragment>
+                Arturo Simone posee un MBA del CEM, graduado de la carrera de
+                Administración de la Universidad Católica Argentina (UCA), de
+                donde es ex alumno destacado. Es CEO y fundador de AWTO
+                Argentina. Fundó Grupo RDA (Argentina, Uruguay y Colombia), de
+                donde es Director General. Es miembro del Global Fleet Advisory
+                Board Latin America. Obtuvo la nominación a Mayor Promesa Forbes
+                2019, y fue galardonado Emprendedor Endeavor 2018. Se destacó
+                como Board Member de Arval – BNP Paribas Group, Presidente de la
+                Cámara de Administradores de Flota de Argentina (CAFLA) y
+                miembro consultor de ADEFA. También integró el Latam Mobility
+                Lab y es Presidente en Carpro S.A. Además, fue Director de la
+                Asociación de Leasing de Argentina, Director The Trade Company
+                LLC y Presidente de Subway Argentina. Desde 2016 es miembro de
+                la Asociación Cristiana de Dirigentes de Empresa (ACDE) y lidera
+                el espacio de ACDE PyME.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Gonzalo Tanoira"
+            posicion={"Presidente de ACDE"}
+            imagen={gonzalo_tanoira}
+            biografia={
+              <React.Fragment>
+                Gonzalo Tanoira es licenciado en Administración de Empresas por
+                la Universidad de Belgrano, tiene un máster en Business
+                Administration de Wharton School. Es vicepresidente de S.A. San
+                Miguel, director del Grupo Peñaflor S.A. y del Banco Quilvest.
+                Es fundador del Movimiento de Dirigentes Cristianos y cofundador
+                de GAM (Generación por una Argentina Mejor). Es miembro del
+                Consejo Asesor de la Universidad Austral y del IAE. Ganó el
+                Premio LIDE en la categoría Empresario de Agronegocios, el
+                Premio Fortuna a la Mejor empresa agroindustrial (2015), el
+                Premio Galicia Excelencia Agropecuaria por mejor Gestión
+                Ambiental (2017), y el Premio Konex como empresario de la
+                agroindustria (2018).
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Victor Valle"
+            posicion={
+              "Managing Director en Google para los Mercados de Habla Hispana de América Latina"
+            }
+            imagen={victor_valle}
+            biografia={
+              <React.Fragment>
+                Víctor Valle es un ejecutivo de Google Latinoamérica. En el año
+                2006 lideró la apertura de la oficina de Buenos Aires, el tercer
+                Headquarter de Google a nivel mundial. Actualmente se desempeña
+                como Managing Director para los Mercados de Habla Hispana de
+                América Latina, siendo responsable del desarrollo del negocio de
+                Google Ads para Startups, PyMEs y Grandes Empresas Emergentes en
+                la región. Antes de unirse a Google ejerció roles de liderazgo
+                en Sony, Kimberly-Clark, Havas y PricewaterhouseCoopers. Víctor
+                es Licenciado en Administración de Empresas y Contador Público
+                de la Universidad Católica Argentina, y MBA de IAE Business
+                School. Es miembro del Consejo Asesor de la Universidad Austral
+                y Profesor de Posgrado en su Facultad de Comunicaciones. Víctor
+                está casado y es padre de cuatro hijos.
+              </React.Fragment>
+            }
+          />
+          <Integrante
+            nombre="Juan Manuel Vaquer"
+            posicion={"Abogado y empresario agropecuario"}
+            imagen={juan_vaquer}
             biografia={
               <React.Fragment>
                 Fernando Oris de Roa es empresario emprendedor en compañías como

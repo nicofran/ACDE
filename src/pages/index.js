@@ -7,6 +7,7 @@ import Hero from "../components/hero/hero";
 
 // Secciones
 import Inscripcion from "../sections/home/inscripcion";
+import InscribiteFlag from "../components/inscribite-flag/inscribite-flag";
 import Carta from "../sections/home/carta-presidente";
 import Programa from "../sections/home/programa";
 import Expositores from "../sections/home/expositores";
@@ -20,6 +21,7 @@ const Home = () => {
     <Layout>
       <Hero />
       <Inscripcion />
+      <InscribiteFlag />
       <Carta />
       <Programa />
       <Inscripcion />
