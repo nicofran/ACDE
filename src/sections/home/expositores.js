@@ -188,24 +188,7 @@ const Expositores = () => {
           nombre="Maximo Cavazzani"
           imagen={maximo_cavazzani}
           descripcion={"Fundador de Etermax"}
-          biografia={
-            <React.Fragment>
-              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
-              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
-              República Argentina y Jefa de Asesores de la Secretaría de
-              Política Económica del Ministerio de Economía. También desempeñó
-              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
-              Fue profesora de Cuentas Nacionales, economía y finanzas en la
-              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
-              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
-              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
-              Unicef. Desde 2006 se dedica a la consultoría
-              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
-              2017, cuando se transformó en Eco Go Consultores. Es economista de
-              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
-              contribuciones periódicas a diferentes medios periodísticos.
-            </React.Fragment>
-          }
+          biografia={<React.Fragment></React.Fragment>}
         />
         <Expositor
           nombre="Marina Dal Poggetto"

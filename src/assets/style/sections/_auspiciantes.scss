@@ -57,9 +57,9 @@
       align-items: center;
       flex-wrap: wrap;
 
-      :first-child {
-        margin-top: 32px;
-      }
+      // :first-child {
+      //   margin-top: 32px;
+      // }
       img {
         margin: 10px;
         @include response(medium) {
