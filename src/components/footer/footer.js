@@ -36,10 +36,12 @@ const Footer = () => {
           <HomeIcon />
           Paraguay 580 2° piso, CABA
         </p>
-        <p>
-          <EmailIcon />
-          eventos@acde.com.ar
-        </p>
+        <a href="mailto:eventos@acde.org.ar " className="contacto-acde">
+          <p>
+            <EmailIcon />
+            eventos@acde.com.ar
+          </p>
+        </a>
         <p>
           <PhoneIcon />
           (5411)5254-0030
