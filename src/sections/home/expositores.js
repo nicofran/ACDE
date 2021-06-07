@@ -300,7 +300,7 @@ const Expositores = () => {
         <Expositor
           nombre="Gerónimo Frigerio"
           imagen={geronimo_frigerio}
-          descripcion={"Director General de gf Consulting Group"}
+          descripcion={"Gerente General de gf Consulting Group"}
           biografia={
             <React.Fragment>
               Gerónimo Frigerio es un especialista internacional con veinte años
@@ -405,7 +405,7 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Cristían Gerónimo"
+          nombre="Cristian Jerónimo"
           imagen={cristian_geronimo}
           descripcion={"Secretario General de la Juventud Sindical Nacional"}
           biografia={
@@ -658,7 +658,7 @@ const Expositores = () => {
         <Expositor
           nombre="P. Augusto Zampini"
           imagen={padre_augusto_zamipini}
-          descripcion={"Presidente de la Asamble Rabínica Latinoamericana"}
+          descripcion={"Secretario Adjunto del Dicasterio para el Desarrollo Humano Integral del Vaticano"}
           biografia={
             <React.Fragment>
               P. Augusto Zampini Davies nació en Buenos Aires, Argentina, el 25
