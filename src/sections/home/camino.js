@@ -4,9 +4,28 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 //IMAGES
 import banner from "../../assets/icons/logo-acde.png";
-import acde from "../../assets/images/logo-acde1.svg";
+import acde from "../../assets/images/logo-carrousel.png";
+//ARROW prev & next
+import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
+import { ReactComponent as IconNext } from "../../assets/icons/Next.svg";
 
 const Camino = () => {
+  const ArrowBack = (props) => {
+    return (
+      <button className={props.className} onClick={props.onClick}>
+        <IconBack />
+      </button>
+    );
+  };
+
+  const ArrowNext = (props) => {
+    return (
+      <button className={props.className} onClick={props.onClick}>
+        <IconNext />
+      </button>
+    );
+  };
+
   var settings = {
     infinite: true,
     speed: 300,
@@ -15,9 +34,11 @@ const Camino = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     dots: true,
+    prevArrow: <ArrowBack />,
+    nextArrow: <ArrowNext />,
     responsive: [
       {
-        breakpoint: 700,
+        breakpoint: 900,
         settings: {
           arrows: false,
           slidesToShow: 1,

@@ -1,5 +1,5 @@
 .camino {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   .camino__banner {
     width: 100%;
     height: 76px;
@@ -31,19 +31,39 @@
         height: 204px;
       }
     }
+    @include response(medium) {
+      margin: 50px;
+    }
 
     .camino__article {
       display: flex;
       flex-direction: column;
       text-align: center;
+      align-content: center;
       justify-content: space-around;
+
+      img {
+        padding-right: 30px;
+        margin-left: 70px;
+        width: 250px;
+        @include response(medium) {
+          width: 320px;
+          border: 0;
+          padding-right: 40px;
+          margin-left: 118px;
+        }
+        // @include response(small) {
+        //   padding: 0;
+        //   margin: 0;
+        //   width: 300px;
+        // }
+      }
 
       .slider__titulo {
         font-size: 18px;
         font-weight: 700;
         color: #1673b9;
       }
-
       .camino__autor {
         border-bottom: 1px solid grey;
         padding-bottom: 20px;
