@@ -12,6 +12,16 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 
 const Menu = () => {
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-350px";
+    }
+    prevScrollpos = currentScrollPos;
+  };
   const [activo, setActivo] = useState();
 
   const toggleMenu = () => {
@@ -19,7 +29,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="menu">
+    <div className="menu" id="navbar">
       <div className="container">
         {/* BANNERS  START*/}
         <div className="menu__media">
