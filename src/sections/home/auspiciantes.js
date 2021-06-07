@@ -97,14 +97,18 @@ const Auspiciantes = () => {
             <a href="https://www.dupont.com/" target="_blank" rel="noreferrer">
               <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
             </a>
-            <a href="https://bancogalicia.com" target="_blank">
+            <a href="https://bancogalicia.com" target="_blank" rel="noreferrer">
               <img
                 src={galicia}
                 alt="Banco Galicia"
                 srcSet={galiciax2 + " 2x"}
               ></img>
             </a>
-            <a href="https://www.immaculee.com/" target="_blank">
+            <a
+              href="https://www.immaculee.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={immacule}
                 alt="Immacule"
@@ -121,10 +125,14 @@ const Auspiciantes = () => {
             <span></span>plata<span></span>
           </p>
           <div className="ausp__marca">
-            <a href="https://www.radioamadeus.com.ar" target="_blank">
+            <a
+              href="https://www.radioamadeus.com.ar"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
             </a>
-            <a href="https://accenture.com" target="_blank">
+            <a href="https://accenture.com" target="_blank" rel="noreferrer">
               <img
                 src={accenture}
                 alt="Pan American Energy"
@@ -158,7 +166,11 @@ const Auspiciantes = () => {
               />
             </a>
 
-            <a href="https://www.ibm.com/ar-es" target="_blank">
+            <a
+              href="https://www.ibm.com/ar-es"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
             </a>
             <a
