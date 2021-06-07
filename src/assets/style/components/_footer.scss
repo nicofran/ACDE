@@ -21,13 +21,18 @@
   .footer__contact {
     color: grey;
   }
-  .footer__media {
-    a {
-      margin-right: 15px;
 
-      &:last-child {
-        margin: 0;
-      }
+  .contacto-acde {
+    color: grey;
+  }
+}
+
+.footer__media {
+  a {
+    margin-right: 15px;
+
+    &:last-child {
+      margin: 0;
     }
   }
 }

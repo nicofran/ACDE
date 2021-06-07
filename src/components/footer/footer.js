@@ -17,7 +17,9 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 const Footer = () => {
   return (
     <div className="footer">
-      <img src={acde} alt="ACDE" className="acde" />
+      <a href="https://www.acde.org.ar" target="_blank" rel="noreferrer">
+        <img src={acde} alt="ACDE" className="acde" />
+      </a>
       <p className="footer_hashtags">
         #VamosAlEncuentro<br></br>
         <br></br>
@@ -32,20 +34,22 @@ const Footer = () => {
         <p className="contacto-p">Contacto</p>
         <p>
           <HomeIcon />
-          Paraguay 580 2 piso, CABA
+          Paraguay 580 2° piso, CABA
         </p>
         <p>
           <EmailIcon />
-          evento@acde.com.ar
+          eventos@acde.com.ar
         </p>
         <p>
           <PhoneIcon />
           (5411)5254-0030
         </p>
-        <p>
-          <DesktopMacIcon />
-          www.acde.org.ar
-        </p>
+        <a href="https://www.acde.org.ar" className="contacto-acde">
+          <p>
+            <DesktopMacIcon />
+            www.acde.org.ar
+          </p>
+        </a>
         <div className="footer__media">
           <a href="https://www.facebook.com/ACDEargentina/">
             <img src={facebook} alt="Facebook" width="20" height="20" />
