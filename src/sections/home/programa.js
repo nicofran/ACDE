@@ -338,7 +338,7 @@ const Programa = () => {
                       <span className="programa__orador__nombre">
                         Delia Ferreira Rubio.
                       </span>{" "}
-                      Presidenta de Transparencia Internacional
+                      Presidente de Transparencia Internacional
                     </li>
                     <li>
                       <span className="programa__evento">•</span>{" "}
