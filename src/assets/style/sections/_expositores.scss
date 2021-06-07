@@ -81,12 +81,24 @@
           border-radius: 70px;
         }
       }
+
+
+      .div__speaker__nombre__posicion{
+        height: 80px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
       .speaker__descripcion {
         font-size: 15px;
         white-space: pre-wrap;
         text-align: center;
         text-transform: none;
         color: grey;
+        width: 250px;
       }
       .speaker__separador {
         margin-top: 15px;
