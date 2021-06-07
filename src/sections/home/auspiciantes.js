@@ -65,7 +65,11 @@ const Auspiciantes = () => {
               height="66"
             ></img>
           </a>
-          <a href="https://www.pan-energy.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.pan-energy.com/Paginas/Inicio.aspx"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={Pan_American}
               alt="Pan American Energy"
@@ -89,7 +93,7 @@ const Auspiciantes = () => {
             >
               <img src={cgc} alt="CGC" srcSet={cgcx2 + " 2x"}></img>
             </a>
-            <a href="https://new.dupont.com" target="_blank" rel="noreferrer">
+            <a href="https://www.dupont.com/" target="_blank" rel="noreferrer">
               <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
             </a>
             <a href="https://bancogalicia.com" targe="_blank">
@@ -109,7 +113,7 @@ const Auspiciantes = () => {
             <span></span>plata<span></span>
           </p>
           <div className="ausp__marca">
-            <a href="https://radioamadues.com.ar" targe="_blank">
+            <a href="www.radioamadeus.com.ar" targe="_blank">
               <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
             </a>
             <a href="https://accenture.com" targe="_blank">
@@ -124,7 +128,7 @@ const Auspiciantes = () => {
               <img src={arcor} alt="Grupo Arcor" srcSet={arcorx2 + " 2x"} />
             </a>
             <a
-              href="https://gruposupervielle.com"
+              href="https://www.gruposupervielle.com/Spanish/Nuestra-Compaa/Responsabilidad-Social-Corporativa/default.aspx"
               target="_blank"
               rel="noreferrer"
             >
@@ -135,7 +139,7 @@ const Auspiciantes = () => {
               />
             </a>
             <a
-              href="https://www.grupomurchinson.com.ar"
+              href="http://www.grupomurchison.com.ar/"
               target="_blank"
               rel="noreferrer"
             >

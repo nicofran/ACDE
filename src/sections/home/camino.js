@@ -12,6 +12,9 @@ const Camino = () => {
     speed: 300,
     slidesToShow: 3,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: true,
     responsive: [
       {
         breakpoint: 700,
@@ -53,7 +56,14 @@ const Camino = () => {
               Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
               Anual ACDE 2021
             </p>
-            <a href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/">
+            <p className="camino__autor">
+              6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
+            </p>
+            <a
+              href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Ver más
             </a>
           </div>
@@ -65,7 +75,14 @@ const Camino = () => {
               Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
               Anual ACDE 2021
             </p>
-            <a href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/">
+            <p className="camino__autor">
+              6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
+            </p>
+            <a
+              href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Ver más
             </a>
           </div>
@@ -77,7 +94,14 @@ const Camino = () => {
               Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
               Anual ACDE 2021
             </p>
-            <a href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/">
+            <p className="camino__autor">
+              6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
+            </p>
+            <a
+              href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Ver más
             </a>
           </div>
@@ -89,7 +113,14 @@ const Camino = () => {
               Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
               Anual ACDE 2021
             </p>
-            <a href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/">
+            <p className="camino__autor">
+              6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
+            </p>
+            <a
+              href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Ver más
             </a>
           </div>
