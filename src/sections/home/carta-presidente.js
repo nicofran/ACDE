@@ -97,7 +97,6 @@ const Carta = () => {
           </span> */}
         </p>
       </div>
-      <div id="programa"></div>
     </div>
   );
 };
