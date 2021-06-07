@@ -41,7 +41,7 @@ const Encuentros = () => {
               rel="noreferrer"
             >
               <li>
-                XX: «Trabajo e inclusión: desafíos frente al conocimiento y la
+                XX: «Trabajo e inclusión: desafíos frente al crecimiento y la
                 innovación» | 2017
               </li>
             </a>
