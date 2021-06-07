@@ -2,7 +2,9 @@ const Inscripcion = () => {
   return (
     <div className="inscripcion container">
       <p className="inscripcion__text">se requiere acreditación previa</p>
-      <button className="inscripcion__button">Inscribite</button>
+      <a href="https://forms.gle/7hCYrBq7DQ5wTqEq5">
+        <button className="inscripcion__button">Inscribite</button>
+      </a>
       <div className="inscripcion__hashtags">
         <span>#VamosAlEncuentro</span>
         <p>#EncuentroAnualACDE</p>
