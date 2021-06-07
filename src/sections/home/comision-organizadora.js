@@ -49,7 +49,7 @@ const Comision = () => {
             <Integrante
               nombre="Ignacio Gorupicz"
               posicion={
-                "Presidente del XXIV Encuentro Anual ACDE Socio en McKinsey & Company"
+                "Presidente del XXIV Encuentro Anual ACDE            Socio en McKinsey & Company"
               }
               imagen={ignacio_gorupicz}
               biografia={
