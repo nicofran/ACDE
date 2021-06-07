@@ -499,11 +499,23 @@ const Comision = () => {
             imagen={juan_vaquer}
             biografia={
               <React.Fragment>
-                Fernando Oris de Roa es empresario emprendedor en compañías como
-                San Miguel y Avex. Director de Orocobre (litio) y otras empresas
-                nacionales. Fue Embajador argentino en los Estados Unidos. Tiene
-                una maestría en Políticas Públicas de Harvard Kennedy School of
-                Government.
+                Juan Manuel Vaquer tiene una explotación familiar agropecuaria,
+                se desempeña como Of Counsel en el Estudio Jurídico JP
+                O´Farrell, integra el Consejo Asesor del Instituto de Ética y
+                Transparencia de AmCham Argentina, el Consejo Asesor de la
+                Universidad Austral, y lidera la Red de Gobierno Corporativo de
+                IDEA. En 1990 ingresó a la empresa DuPont, donde ocupó diversos
+                cargos, en América Latina y en Europa, retirándose como
+                presidente para América Latina, en mayo de 2019. Presidió la
+                Cámara Americana de Comercio en Argentina (AmCham) desde 2013
+                hasta junio de 2016, y la Asociación Cristiana de Dirigentes de
+                Empresa (ACDE), entre 2017 y 2020. Fue director del Instituto
+                para el Desarrollo Empresarial de la Argentina (IDEA), miembro
+                de la Comisión Directiva del Consejo Empresario Argentino para
+                el Desarrollo Sostenible (CEADS) y presidente del Directorio de
+                Aleph Midstream S.A.. Es abogado graduado en la Universidad de
+                Buenos Aires (UBA), y con una maestría en Derecho Internacional
+                y Comparado en SMU, de Dallas, Texas.
               </React.Fragment>
             }
           />
