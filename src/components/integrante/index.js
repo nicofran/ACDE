@@ -10,16 +10,19 @@ const Integrante = ({ nombre, biografia, imagen, posicion }) => {
     <div className="integrante col-md-6 col-lg-3 col-sm-6">
       <img src={imagen} alt={nombre} />
       <div className="comision__separador"></div>
-      <p className="integrante__nombre">{nombre}</p>
-      <p className="integrante__posicion">{posicion}</p>
-
-      <button
-        type="button"
-        className="integrante__button"
-        onClick={() => setShow(true)}
-      >
-        Ver más
-      </button>
+      <div className="div__nombre__posicion">
+        <span className="integrante__nombre">{nombre}</span>
+        <span className="integrante__posicion">{posicion}</span>
+      </div>
+      <div>
+        <button
+         type="button"
+         className="integrante__button"
+         onClick={() => setShow(true)}
+        >
+         Ver más
+        </button>
+      </div>
 
       <Modal
         show={show}

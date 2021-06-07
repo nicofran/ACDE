@@ -11,8 +11,7 @@ const Programa = () => {
       <div className="programa__programa">
         <h2 className="programa__title">Hacia un capitalismo más humano</h2>
         <p className="programa__sub">
-          Generando un ciclo virtuoso para promover<br></br>
-          el bien común y construir confianza social
+          Generando un ciclo virtuoso para promover el bien común y construir confianza social
         </p>
         {/* <br></br> */}
         <p className="programa__content">
@@ -98,6 +97,13 @@ const Programa = () => {
                     Secretario Adjunto del Dicasterio para el Desarrollo Humano
                     Integral del Vaticano.
                   </li>
+                  <li>
+                    <span className="programa__evento">•</span>{" "}
+                    <span className="programa__orador__nombre">
+                      Coordina: Marina Dal Poggetto.
+                    </span>{" "}
+                    Directora ejecutiva de Eco Go.
+                  </li>
                 </ul>
               </span>
             </p>
@@ -126,12 +132,12 @@ const Programa = () => {
                     <span className="programa__orador__nombre">
                       Marysol Rodríguez.
                     </span>{" "}
-                    Directora de Sinteplast S.A.
+                    Secretaria de UIA Joven.
                   </li>
                   <li>
                     <span className="programa__evento">•</span>{" "}
                     <span className="programa__orador__nombre">
-                      Coordina: Candelaria Fernández.
+                      Coordina: María Candelaria Fernández.
                     </span>{" "}
                     Coordinadora de Generación 2040
                   </li>
@@ -167,7 +173,7 @@ const Programa = () => {
                     <span className="programa__orador__nombre">
                       Coordina: Carolina Biquard.
                     </span>{" "}
-                    Directora ejecutiva de Fundación Compromiso.
+                    Directora Ejecutiva de Fundación Compromiso.
                   </li>
                 </ul>
               </span>
@@ -195,6 +201,13 @@ const Programa = () => {
                       Carolina Castro.
                     </span>{" "}
                     Directora de la PyME autopartista Industrias Guidi.
+                  </li>
+                  <li>
+                    <span className="programa__evento">•</span>{" "}
+                    <span className="programa__orador__nombre">
+                      Coordina: Juan Manuel Vaquer.
+                    </span>{" "}
+                    Abogado y empresario.
                   </li>
                 </ul>
               </span>
@@ -234,7 +247,7 @@ const Programa = () => {
                     <span className="programa__orador__nombre">
                       Nicolás Braun.
                     </span>{" "}
-                    Gerente general de La Anónima.
+                    Gerente General de La Anónima.
                   </li>
                   <li>
                     <span className="programa__evento">•</span>{" "}
@@ -276,7 +289,7 @@ const Programa = () => {
                     <span className="programa__orador__nombre">
                       Verónica Marcelo.
                     </span>{" "}
-                    Gerente general de Natura.
+                    Gerente General de Natura.
                   </li>
                   <li>
                     <span className="programa__evento">•</span>{" "}
@@ -322,14 +335,14 @@ const Programa = () => {
                     <span className="programa__orador__nombre">
                       Delia Ferreira Rubio.
                     </span>{" "}
-                    Presidencia de Transparencia Internacional
+                    Presidenta de Transparencia Internacional
                   </li>
                   <li>
                     <span className="programa__evento">•</span>{" "}
                     <span className="programa__orador__nombre">
                       Rab. Alejandro Avruj.
                     </span>{" "}
-                    Presidente de la Asamble Rabínica Latinoamericana.
+                    Presidente de la Asamblea Rabínica Latinoamericana.
                   </li>
                   <li>
                     <span className="programa__evento">•</span>{" "}
