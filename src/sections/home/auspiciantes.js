@@ -1,3 +1,6 @@
+//logo acde
+import logo from "../../assets/icons/logo-acde.png";
+
 // Auspiciantesde Platino
 import Clarin from "../../assets/images/logo-clarin.png";
 import Clarinx2 from "../../assets/images/logo-clarin@x2.png";
@@ -43,6 +46,7 @@ const Auspiciantes = () => {
   return (
     <div className="ausp container" id="auspiciantes">
       <div className="ausp__banner">
+        <img src={logo} alt="ACDE" />
         <h1 className="ausp__title">Agradecemos a nuestros auspiciantes</h1>
       </div>
 

@@ -8,7 +8,7 @@ const modalBox = ({ title, body, show, hide }) => {
         show={show}
         onHide={hide}
         centered
-        size="lg"
+        size="xl"
       >
         <Modal.Header closeButton>
           <Modal.Title>{title}</Modal.Title>
