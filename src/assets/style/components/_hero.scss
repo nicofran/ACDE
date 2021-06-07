@@ -2,8 +2,12 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 300px;
+  padding-top: 150px;
   padding-bottom: 50px;
+
+  @include response(medium) {
+    padding-top: 300px;
+  }
 
   .hero__video {
     padding-top: 20px;
