@@ -300,7 +300,7 @@ const Expositores = () => {
         <Expositor
           nombre="Gerónimo Frigerio"
           imagen={geronimo_frigerio}
-          descripcion={"Director general de gf Consulting Group"}
+          descripcion={"Director General de gf Consulting Group"}
           biografia={
             <React.Fragment>
               Gerónimo Frigerio es un especialista internacional con veinte años
