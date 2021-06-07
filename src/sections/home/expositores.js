@@ -266,7 +266,7 @@ const Expositores = () => {
         <Expositor
           nombre="Delia Ferreira Rubio"
           imagen={delia_ferreira}
-          descripcion={"Presidenta de Transparencia Internacional"}
+          descripcion={"Presidente de Transparencia Internacional"}
           biografia={
             <React.Fragment>
               Delia M. Ferreira Rubio es Presidente de Transparency
@@ -410,7 +410,7 @@ const Expositores = () => {
           descripcion={"Secretario General de la Juventud Sindical Nacional"}
           biografia={
             <React.Fragment>
-              Cristián Gerónimo es dirigente sindical de la industria del
+              Cristian Jerónimo es dirigente sindical de la industria del
               vidrio, es Secretario General de SEIVARA (Sindicato de Empleados
               de la Industria del Vidrio y Afines de la República Argentina)
               desde 2019, y es referente nacional de la Juventud Sindical
@@ -428,20 +428,7 @@ const Expositores = () => {
           descripcion={"Gerente General de Natura"}
           biografia={
             <React.Fragment>
-              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
-              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
-              República Argentina y Jefa de Asesores de la Secretaría de
-              Política Económica del Ministerio de Economía. También desempeñó
-              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
-              Fue profesora de Cuentas Nacionales, economía y finanzas en la
-              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
-              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
-              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
-              Unicef. Desde 2006 se dedica a la consultoría
-              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
-              2017, cuando se transformó en Eco Go Consultores. Es economista de
-              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
-              contribuciones periódicas a diferentes medios periodísticos.
+              -
             </React.Fragment>
           }
         />
@@ -498,20 +485,8 @@ const Expositores = () => {
           descripcion={"Presidente de Agrometal"}
           biografia={
             <React.Fragment>
-              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
-              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
-              República Argentina y Jefa de Asesores de la Secretaría de
-              Política Económica del Ministerio de Economía. También desempeñó
-              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
-              Fue profesora de Cuentas Nacionales, economía y finanzas en la
-              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
-              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
-              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
-              Unicef. Desde 2006 se dedica a la consultoría
-              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
-              2017, cuando se transformó en Eco Go Consultores. Es economista de
-              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
-              contribuciones periódicas a diferentes medios periodísticos.
+              Rosana María Negrini está casada con el Dr. Jorge Edgardo Crovara, y tiene cuatro hijos: Nicolás, Pablo, Ana Sol y Josefina.
+              Es Presidente de AGROMETAL S.A.I., Vicepresidente Regional de Córdoba Fundación  Mediterránea, Protesorera  de la Asociación de Fabricantes de Maquinaria  Agrícola y Agrocomponentes de Córdoba (AFAMAC) y Secretaria de la Cámara Argentina Fabricantes de Maquinaras Agrícolas (CAFMA). Es contadora pública por la Universidad Nacional de Córdoba y licenciada en Administración por la misma casa de estudios.
             </React.Fragment>
           }
         />
@@ -523,20 +498,7 @@ const Expositores = () => {
           }
           biografia={
             <React.Fragment>
-              Marina Dal Poggetto es Directora ejecutiva de Eco Go Consultores.
-              Fue Subgerente de Análisis Macroeconómico del Banco Central de la
-              República Argentina y Jefa de Asesores de la Secretaría de
-              Política Económica del Ministerio de Economía. También desempeñó
-              tareas en el Instituto Nacional de Estadística y Censos (INDEC).
-              Fue profesora de Cuentas Nacionales, economía y finanzas en la
-              Universidad de Buenos Aires (UBA), la Universidad Torcuato Di
-              Tella (UTDT) y la Universidad de Ciencias Empresariales y Sociales
-              (UCES); y Consultora del Banco BID, de la Comunidad Europea y
-              Unicef. Desde 2006 se dedica a la consultoría
-              económico-financiera, co-dirigió el Estudio Bein y asociados hasta
-              2017, cuando se transformó en Eco Go Consultores. Es economista de
-              la UBA y Magíster en Políticas Públicas de UTDT. Realiza
-              contribuciones periódicas a diferentes medios periodísticos.
+              Emilio Pérsico es secretario de Economía Social de la Nación y Secretario General del Movimiento Evita. Oriundo de La Plata, inició su militancia a los 14 años. En la última dictadura cívico militar estuvo exiliado en Brasil, Suecia, España y México. Al regresar al país trabajó en distintas fábricas en La Plata. Fue fundador del Movimiento de Trabajadores Desocupados Evita que, en 2006, en fusión con otras organizaciones del campo nacional y popular dio origen al Movimiento Evita. Su convicción es que la inclusión social se logra con trabajo, entendiendo que ése es el camino para la reconstrucción del país.
             </React.Fragment>
           }
         />

@@ -13,6 +13,7 @@ import galicia from "../../assets/images/galicia.png";
 import galiciax2 from "../../assets/images/galicia@x2.png";
 import dupont from "../../assets/images/dupont.png";
 import dupontx2 from "../../assets/images/dupont@x2.png";
+import immacule from "../../assets/images/logoimmaculee.png";
 //Auspiciantes de Plata
 import amadeus from "../../assets/images/amadeus.png";
 import amadeusx2 from "../../assets/images/amadeus@2x.png";
@@ -96,11 +97,18 @@ const Auspiciantes = () => {
             <a href="https://www.dupont.com/" target="_blank" rel="noreferrer">
               <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
             </a>
-            <a href="https://bancogalicia.com" targe="_blank">
+            <a href="https://bancogalicia.com" target="_blank">
               <img
                 src={galicia}
-                alt="Pan American Energy"
+                alt="Banco Galicia"
                 srcSet={galiciax2 + " 2x"}
+              ></img>
+            </a>
+            <a href="https://www.immaculee.com/" target="_blank">
+              <img
+                src={immacule}
+                alt="Immacule"
+                srcSet={immacule + " 2x"}
               ></img>
             </a>
           </div>
@@ -113,10 +121,10 @@ const Auspiciantes = () => {
             <span></span>plata<span></span>
           </p>
           <div className="ausp__marca">
-            <a href="www.radioamadeus.com.ar" targe="_blank">
+            <a href="https://www.radioamadeus.com.ar" target="_blank">
               <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
             </a>
-            <a href="https://accenture.com" targe="_blank">
+            <a href="https://accenture.com" target="_blank">
               <img
                 src={accenture}
                 alt="Pan American Energy"
@@ -150,7 +158,7 @@ const Auspiciantes = () => {
               />
             </a>
 
-            <a href="https://www.ibm.com/ar-es" targe="_blank">
+            <a href="https://www.ibm.com/ar-es" target="_blank">
               <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
             </a>
             <a
@@ -192,7 +200,7 @@ const Auspiciantes = () => {
             <span></span>bronce<span></span>
           </p>
           <div className="ausp__marca ">
-            <a href="www.andreani.com" target="_blank" rel="noreferrer">
+            <a href="https://www.andreani.com" target="_blank" rel="noreferrer">
               <img src={andreani} alt="Andreani" srcSet={andreanix2 + " 2x"} />
             </a>
             <a
