@@ -3,6 +3,7 @@ import { useState } from "react";
 //Images as Components
 import { ReactComponent as Acde } from "../../assets/images/logo-acde1.svg";
 import Banner from "../../assets/images/acde2021.png";
+import Bannerx2 from "../../assets/images/acde2021@2x.png";
 import Bicentenario from "../../assets/icons/bicentenario-menu2.png";
 // MEDIA ICONS
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -71,7 +72,12 @@ const Menu = () => {
         </div>
         <div className="menu__banners">
           <div>
-            <img src={Banner} alt="ACDE" className="img-encuentro" />
+            <img
+              src={Banner}
+              alt="ACDE"
+              srcSet={Bannerx2 + " 2x"}
+              className="img-encuentro"
+            />
           </div>
           <p className="menu__fecha">
             30 de junio<br></br>1 de julio<br></br>
