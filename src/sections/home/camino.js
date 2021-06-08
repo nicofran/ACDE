@@ -5,6 +5,7 @@ import Slider from "react-slick";
 //IMAGES
 import banner from "../../assets/icons/logo-acde.png";
 import acde from "../../assets/images/logo-carrousel.png";
+
 //ARROW prev & next
 import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
 import { ReactComponent as IconNext } from "../../assets/icons/Next.svg";
@@ -65,7 +66,7 @@ const Camino = () => {
       <div className="container">
         <div className="camino__banner">
           <img src={banner} alt="ACDE"></img>
-          <h3 className="camino__title">camino al encuentro</h3>
+          <h1 className="camino__title">camino al encuentro</h1>
         </div>
         <div className="camino__sliders">
           <Slider {...settings}>

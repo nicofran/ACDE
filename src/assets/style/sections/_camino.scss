@@ -2,22 +2,31 @@
   margin-bottom: 40px;
   .camino__banner {
     width: 100%;
-    height: 76px;
+    height: 100px;
     background-color: #e22084;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-bottom: 52px;
-
     img {
       display: none;
+    }
+
+    @include response(large) {
+      img {
+        display: block;
+        width: 180px;
+        height: 75px;
+        margin-right: 1000px;
+      }
     }
 
     .camino__title {
       text-transform: uppercase;
       font-weight: 700;
       color: white;
-      text-align: center;
+      position: absolute;
+      font-size: 32px;
     }
   }
   .camino__sliders {

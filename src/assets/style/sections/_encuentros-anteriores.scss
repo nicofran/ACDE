@@ -18,8 +18,8 @@
       }
     }
     .logo {
-      width: 170px;
-      height: 65px;
+      width: 180px;
+      height: 75px;
     }
   }
 
@@ -32,7 +32,7 @@
       text-transform: uppercase;
       font-weight: 700;
       color: white;
-      font-size: 22px;
+      font-size: 32px;
 
       @include response(medium) {
         padding-left: 20px;

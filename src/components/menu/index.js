@@ -140,7 +140,7 @@ const Menu = () => {
         >
           <ul className="menu__list">
             <li>
-              <a href="#carta">Carta al Presidente</a>
+              <a href="#carta">Carta del Presidente</a>
             </li>
             <li>
               <a href="#programa">Programa</a>
@@ -152,7 +152,7 @@ const Menu = () => {
               <a href="#comision">Comisión Organizadora</a>
             </li>
             <li>
-              <a href="#auspiciantes">Auspicientes</a>
+              <a href="#auspiciantes">Auspiciantes</a>
             </li>
             <li>
               <a href="#camino">Camino al encuentro</a>

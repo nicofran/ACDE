@@ -166,13 +166,7 @@ const Auspiciantes = () => {
               />
             </a>
 
-            <a
-              href="https://www.ibm.com/ar-es"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
-            </a>
+            <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
             <a
               href="https://www.mabxience.com/es/"
               target="_blank"
@@ -184,17 +178,12 @@ const Auspiciantes = () => {
                 srcSet={mabxiencex2 + " 2x"}
               />
             </a>
-            <a
-              href="https://www.mckinsey.com/ar/overview"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={mckinsey}
-                alt="McKinsey & Company"
-                srcSet={mckinseyx2 + " 2x"}
-              />
-            </a>
+
+            <img
+              src={mckinsey}
+              alt="McKinsey & Company"
+              srcSet={mckinseyx2 + " 2x"}
+            />
             <a
               href="http://www.programapropymes.com"
               target="_blank"
