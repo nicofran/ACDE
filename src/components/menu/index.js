@@ -146,19 +146,19 @@ const Menu = () => {
               <a href="#hero">Programa</a>
             </li>
             <li>
-              <a href="#Expositores">Expositores</a>
+              <a href="#expositores">Expositores</a>
             </li>
             <li>
-              <a href="#Comision">Comisión Organizadora</a>
+              <a href="#comision">Comisión Organizadora</a>
             </li>
             <li>
-              <a href="#Auspiciantes">Auspicientes</a>
+              <a href="#auspiciantes">Auspicientes</a>
             </li>
             <li>
-              <a href="#Camino">Camino al encuentro</a>
+              <a href="#camino">Camino al encuentro</a>
             </li>
             <li>
-              <a href="#Encuentros">Encuentros Anteriores</a>
+              <a href="#encuentros">Encuentros Anteriores</a>
             </li>
           </ul>
         </div>
