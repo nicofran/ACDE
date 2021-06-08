@@ -33,15 +33,16 @@ import mckinsey from "../../assets/images/mckinsey.png";
 import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
 import propymes from "../../assets/images/propymesrgb.png";
 import propymesx2 from "../../assets/images/propymesrgb@2x.png";
+import bareiro from "../../assets/images/barreiro-logo.png";
 //Auspiciantes de Bronce
 import andreani from "../../assets/images/andreani.png";
 import andreanix2 from "../../assets/images/andreani@2x.png";
 import lartirigoyen from "../../assets/images/lartirigoyen.png";
 import lartirigoyenx2 from "../../assets/images/lartirigoyen@2x.png";
 import pinamar_sa from "../../assets/icons/pinamar-sa.png";
-
 //Acompañan
 import beccar_varela from "../../assets/images/beccar-varela.jpg";
+import newsan from "../../assets/images/newsan-logo.png";
 
 const Auspiciantes = () => {
   return (
@@ -96,6 +97,9 @@ const Auspiciantes = () => {
             </a>
             <a href="https://www.dupont.com/" target="_blank" rel="noreferrer">
               <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
+            </a>
+            <a href="http://www.bodlegal.com/" target="_blank" rel="noreferrer">
+              <img src={bareiro} alt="Bareiro" width="200" height="200" />
             </a>
             <a href="https://bancogalicia.com" target="_blank" rel="noreferrer">
               <img
@@ -243,6 +247,13 @@ const Auspiciantes = () => {
                 width="190"
                 height="120"
               />
+            </a>
+            <a
+              href="http://www.newsan.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={newsan} alt="New San" width="220" height="75" />
             </a>
           </div>
         </div>
