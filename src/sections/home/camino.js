@@ -72,16 +72,20 @@ const Camino = () => {
           <Slider {...settings}>
             {/* ARTICULO 1 START  */}
             <div className="camino__article">
-              <img src={acde} alt="ACDE" />
+              <img
+                src="https://i2.wp.com/empresa.org.ar/wp-content/uploads/2021/06/MM-Preziosa-y-delia.png?w=1620&ssl=1"
+                alt="ACDE"
+              />
               <p className="slider__titulo">
-                Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
-                Anual ACDE 2021
+                Un café virtual con Delia Ferreira Rubio
               </p>
               <p className="camino__autor">
-                6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
+                07.06.2021 | Portal Empresa <br />
+                Autora: María Marta Preziosa
               </p>
+              <div></div>
               <a
-                href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
+                href="https://empresa.org.ar/2021/un-cafe-virtual-con-delia-ferreira-rubio/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -89,18 +93,20 @@ const Camino = () => {
               </a>
             </div>
             {/* ARTICULO 1 END  */}
+
             {/* ARTICULO 2 START  */}
             <div className="camino__article">
               <img src={acde} alt="ACDE" />
               <p className="slider__titulo">
-                Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
-                Anual ACDE 2021
+                Entrevista a Ignacio Gorupicz,
+                <br /> presidente del Encuentro Anual ACDE 2021
               </p>
               <p className="camino__autor">
-                6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
+                06.05.21 | Portal Empresa <br />
+                Autor: Tristán Rodríguez Loredo
               </p>
               <a
-                href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
+                href="https://i2.wp.com/empresa.org.ar/wp-content/uploads/2021/05/Diseno-sin-titulo-12.png?w=1620&ssl=1"
                 target="_blank"
                 rel="noreferrer"
               >

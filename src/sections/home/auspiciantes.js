@@ -253,7 +253,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={newsan} alt="New San" width="200" height="70" />
+              <img src={newsan} alt="New San" width="220" height="75" />
             </a>
           </div>
         </div>
