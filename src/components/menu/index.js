@@ -143,7 +143,7 @@ const Menu = () => {
               <a href="#carta">Carta al Presidente</a>
             </li>
             <li>
-              <a href="#hero">Programa</a>
+              <a href="#programa">Programa</a>
             </li>
             <li>
               <a href="#expositores">Expositores</a>
