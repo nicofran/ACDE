@@ -426,11 +426,7 @@ const Expositores = () => {
           nombre="Verónica Marcelo"
           imagen={veronica_marcelo}
           descripcion={"Gerente General de Natura"}
-          biografia={
-            <React.Fragment>
-              -
-            </React.Fragment>
-          }
+          biografia={<React.Fragment>-</React.Fragment>}
         />
         <Expositor
           nombre="Joan Antoni Melé"
@@ -485,8 +481,15 @@ const Expositores = () => {
           descripcion={"Presidente de Agrometal"}
           biografia={
             <React.Fragment>
-              Rosana María Negrini está casada con el Dr. Jorge Edgardo Crovara, y tiene cuatro hijos: Nicolás, Pablo, Ana Sol y Josefina.
-              Es Presidente de AGROMETAL S.A.I., Vicepresidente Regional de Córdoba Fundación  Mediterránea, Protesorera  de la Asociación de Fabricantes de Maquinaria  Agrícola y Agrocomponentes de Córdoba (AFAMAC) y Secretaria de la Cámara Argentina Fabricantes de Maquinaras Agrícolas (CAFMA). Es contadora pública por la Universidad Nacional de Córdoba y licenciada en Administración por la misma casa de estudios.
+              Rosana María Negrini está casada con el Dr. Jorge Edgardo Crovara,
+              y tiene cuatro hijos: Nicolás, Pablo, Ana Sol y Josefina. Es
+              Presidente de AGROMETAL S.A.I., Vicepresidente Regional de Córdoba
+              Fundación Mediterránea, Protesorera de la Asociación de
+              Fabricantes de Maquinaria Agrícola y Agrocomponentes de Córdoba
+              (AFAMAC) y Secretaria de la Cámara Argentina Fabricantes de
+              Maquinaras Agrícolas (CAFMA). Es contadora pública por la
+              Universidad Nacional de Córdoba y licenciada en Administración por
+              la misma casa de estudios.
             </React.Fragment>
           }
         />
@@ -498,7 +501,16 @@ const Expositores = () => {
           }
           biografia={
             <React.Fragment>
-              Emilio Pérsico es secretario de Economía Social de la Nación y Secretario General del Movimiento Evita. Oriundo de La Plata, inició su militancia a los 14 años. En la última dictadura cívico militar estuvo exiliado en Brasil, Suecia, España y México. Al regresar al país trabajó en distintas fábricas en La Plata. Fue fundador del Movimiento de Trabajadores Desocupados Evita que, en 2006, en fusión con otras organizaciones del campo nacional y popular dio origen al Movimiento Evita. Su convicción es que la inclusión social se logra con trabajo, entendiendo que ése es el camino para la reconstrucción del país.
+              Emilio Pérsico es secretario de Economía Social de la Nación y
+              Secretario General del Movimiento Evita. Oriundo de La Plata,
+              inició su militancia a los 14 años. En la última dictadura cívico
+              militar estuvo exiliado en Brasil, Suecia, España y México. Al
+              regresar al país trabajó en distintas fábricas en La Plata. Fue
+              fundador del Movimiento de Trabajadores Desocupados Evita que, en
+              2006, en fusión con otras organizaciones del campo nacional y
+              popular dio origen al Movimiento Evita. Su convicción es que la
+              inclusión social se logra con trabajo, entendiendo que ése es el
+              camino para la reconstrucción del país.
             </React.Fragment>
           }
         />
@@ -620,7 +632,9 @@ const Expositores = () => {
         <Expositor
           nombre="P. Augusto Zampini"
           imagen={padre_augusto_zamipini}
-          descripcion={"Secretario Adjunto del Dicasterio para el Desarrollo Humano Integral del Vaticano"}
+          descripcion={
+            "Secretario Adjunto del Dicasterio para el Desarrollo Humano Integral del Vaticano"
+          }
           biografia={
             <React.Fragment>
               P. Augusto Zampini Davies nació en Buenos Aires, Argentina, el 25
@@ -653,81 +667,6 @@ const Expositores = () => {
           }
         />
       </div>
-
-      {/* <div className="expo__speakers col-md-12">
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={carolina_biquard} alt="Candelaria Fernández" />
-          <div className="speaker__separador"></div>
-          <p>Carolina Biquard</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={candelaria_fernandez} alt="Candelaria Fernández" />
-          <div className="speaker__separador"></div>
-          <p>Candelaria Fernández</p>
-        </div>
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={carolina_castro} alt="Candelaria Fernández" />
-          <div className="speaker__separador"></div>
-          <p>Carolina Castro</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={delia_ferrerira} alt="Candelaria Fernández" />
-          <div className="speaker__separador"></div>
-          <p>Delia Ferreira</p>
-          <button variant="primary">ver mas</button>
-        </div>
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={geronimo_frigerio} alt="Geronimo Frigerio" />
-          <div className="speaker__separador"></div>
-          <p>Geronimo Frigerio</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={joan_antoni} alt="Joan Antoni Melé" />
-          <div className="speaker__separador"></div>
-          <p>Joan Antoni Melé</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={juan_martin_dela_serna} alt="Juan Martin de la Serna" />
-          <div className="speaker__separador"></div>
-          <p>Juan Martin de la Serna</p>
-          <button variant="primary">ver mas</button>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={maria_migliore} alt="Maria Migliore" />
-          <div className="speaker__separador"></div>
-          <p>Maria Migliore</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={marina_dal_poggetto} alt="Marina dal Poggetto" />
-          <div className="speaker__separador"></div>
-          <p>Marina dal poggetto</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={martin_borchardt} alt="Martin Borchardt" />
-          <div className="speaker__separador"></div>
-          <p>Martin borchardt</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={nicolas_braun} alt="Nicolas Braun" />
-          <div className="speaker__separador"></div>
-          <p>Nicolas Braun</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={rab_alejandro_avruj} alt="Rab Alejandro Avruj" />
-          <div className="speaker__separador"></div>
-          <p>Rab Alejandro Avruj</p>
-        </div>{" "}
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={roberto_vassollo} alt="Roberto Vasallo" />
-          <div className="speaker__separador"></div>
-          <p>Roberto Vassallo</p>
-        </div>
-        <div className="speaker col-md-4 col-lg-3 col-sm-6">
-          <img src={rosana_negrini} alt="Rosana Negrini" />
-          <div className="speaker__separador"></div>
-          <p>Rosana Negrini</p>
-        </div>
-      </div> */}
     </div>
   );
 };
