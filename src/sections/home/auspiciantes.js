@@ -43,6 +43,8 @@ import pinamar_sa from "../../assets/icons/pinamar-sa.png";
 //Acompañan
 import beccar_varela from "../../assets/images/beccar-varela.jpg";
 import newsan from "../../assets/images/newsan-logo.png";
+import manpower from "../../assets/images/MANPOWER.png";
+import raizen from "../../assets/images/RAIZEN.png";
 
 const Auspiciantes = () => {
   return (
@@ -248,6 +250,21 @@ const Auspiciantes = () => {
                 height="120"
               />
             </a>
+            <a
+              href="http://www.manpowergroup.com.ar/ "
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={manpower} alt="manpower" width="190" height="160" />
+            </a>
+            <a
+              href="http://www.raizen.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={raizen} alt="Raizen" width="200" height="175" />
+            </a>
+
             <a
               href="http://www.newsan.com.ar/"
               target="_blank"

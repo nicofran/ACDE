@@ -9,7 +9,7 @@ const Encuentros = () => {
           <img src={logo_acde} alt="Logo ACDE" className="logo"></img>
           <div className="banner__content">
             <img src={logo} alt="encuentros anteriores"></img>
-            <h1 className="banner__title">encuentros anteriores</h1>
+            <h1 className="banner__title">Encuentros Anteriores</h1>
           </div>
         </div>
         <div className="encuentros__content">
