@@ -4,7 +4,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 //IMAGES
 import banner from "../../assets/icons/logo-acde.png";
-import acde from "../../assets/images/logo-carrousel.png";
+import gontanoira from "../../assets/icons/gonzalotanoira.jpeg";
+import ignacio from "../../assets/icons/ignaciogoru.png";
 
 //ARROW prev & next
 import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
@@ -42,14 +43,14 @@ const Camino = () => {
         breakpoint: 900,
         settings: {
           arrows: false,
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
       {
-        breakpoint: 500,
+        breakpoint: 1200,
         settings: {
           arrows: false,
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
       {
@@ -66,7 +67,7 @@ const Camino = () => {
       <div className="container">
         <div className="camino__banner">
           <img src={banner} alt="ACDE"></img>
-          <h1 className="camino__title">camino al encuentro</h1>
+          <h1 className="camino__title">Camino al encuentro</h1>
         </div>
         <div className="camino__sliders">
           <Slider {...settings}>
@@ -77,11 +78,12 @@ const Camino = () => {
                 alt="ACDE"
               />
               <p className="slider__titulo">
+                <br></br>
                 Un café virtual con Delia Ferreira Rubio
               </p>
               <p className="camino__autor">
                 07.06.2021 | Portal Empresa <br />
-                Autora: María Marta Preziosa
+                Autor: María Marta Preziosa
               </p>
               <div></div>
               <a
@@ -96,7 +98,7 @@ const Camino = () => {
 
             {/* ARTICULO 2 START  */}
             <div className="camino__article">
-              <img src={acde} alt="ACDE" />
+              <img src={ignacio} alt="ACDE" />
               <p className="slider__titulo">
                 Entrevista a Ignacio Gorupicz,
                 <br /> presidente del Encuentro Anual ACDE 2021
@@ -106,7 +108,7 @@ const Camino = () => {
                 Autor: Tristán Rodríguez Loredo
               </p>
               <a
-                href="https://i2.wp.com/empresa.org.ar/wp-content/uploads/2021/05/Diseno-sin-titulo-12.png?w=1620&ssl=1"
+                href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -116,7 +118,27 @@ const Camino = () => {
             {/* ARTICULO 2 END  */}
             {/* ARTICULO 3 START  */}
             <div className="camino__article">
-              <img src={acde} alt="ACDE" />
+              <img src={gontanoira} alt="ACDE" width="200" height="150" />
+              <p className="slider__titulo">
+                Atraer inversiones reduce la pobreza. Combatiendo el capital
+                solo se la aumenta
+              </p>
+              <p className="camino__autor">
+                19.04.21 | AMBITO <br />
+                Autor: Liliana Franco
+              </p>
+              <a
+                href="https://www.ambito.com/economia/inversiones/gonzalo-tanoira-atraer-reduce-la-pobreza-combatiendo-el-capital-solo-se-la-aumenta-n5185529"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 3 END  */}
+            {/* ARTICULO 4 START  */}
+            {/* <div className="camino__article">
+              <img src={ignacio} alt="ACDE" />
               <p className="slider__titulo">
                 Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
                 Anual ACDE 2021
@@ -125,33 +147,14 @@ const Camino = () => {
                 6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
               </p>
               <a
-                href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
                 Ver más
               </a>
-            </div>
-            {/* ARTICULO 3 END  */}
-            {/* ARTICULO 3 START  */}
-            <div className="camino__article">
-              <img src={acde} alt="ACDE" />
-              <p className="slider__titulo">
-                Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
-                Anual ACDE 2021
-              </p>
-              <p className="camino__autor">
-                6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
-              </p>
-              <a
-                href="https://empresa.org.ar/2021/entrevista-a-ignacio-gorupicz-presidente-del-encuentro-anual-acde-2021/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ver más
-              </a>
-            </div>
-            {/* ARTICULO 3 END  */}
+            </div> */}
+            {/* ARTICULO 4 END  */}
           </Slider>
         </div>
       </div>
