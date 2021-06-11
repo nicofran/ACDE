@@ -103,9 +103,6 @@ const Auspiciantes = () => {
             <a href="https://www.dupont.com/" target="_blank" rel="noreferrer">
               <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
             </a>
-            <a href="http://www.bodlegal.com/" target="_blank" rel="noreferrer">
-              <img src={bareiro} alt="Bareiro" width="200" height="200" />
-            </a>
             <a href="https://bancogalicia.com" target="_blank" rel="noreferrer">
               <img
                 src={galicia}
@@ -151,6 +148,9 @@ const Auspiciantes = () => {
 
             <a href="https://www.arcor.com" target="_blank" rel="noreferrer">
               <img src={arcor} alt="Grupo Arcor" srcSet={arcorx2 + " 2x"} />
+            </a>
+            <a href="http://www.bodlegal.com/" target="_blank" rel="noreferrer">
+              <img src={bareiro} alt="Bareiro" width="171" height="171" />
             </a>
             <a
               href="https://www.gruposupervielle.com/Spanish/Nuestra-Compaa/Responsabilidad-Social-Corporativa/default.aspx"
@@ -284,7 +284,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={raizen} alt="Raizen" width="200" height="175" />
+              <img src={raizen} alt="Raizen" width="171" height="153" />
             </a>
           </div>
         </div>
