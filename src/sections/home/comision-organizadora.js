@@ -286,7 +286,7 @@ const Comision = () => {
           />
           <Integrante
             nombre="Catalina López Lecube"
-            posicion={"Líder de Comunicaciones & Socios en ACDE"}
+            posicion={"Líder en Comunicaciones & Socios en ACDE"}
             imagen={catalina_lopez}
             biografia={
               <React.Fragment>
