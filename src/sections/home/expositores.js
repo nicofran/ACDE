@@ -426,7 +426,29 @@ const Expositores = () => {
           nombre="Verónica Marcelo"
           imagen={veronica_marcelo}
           descripcion={"Gerente General de Natura"}
-          biografia={<React.Fragment>-</React.Fragment>}
+          biografia={
+            <React.Fragment>
+              Verónica Marcelo ha sabido construir un liderazgo genuino, basado
+              en el diálogo y el conocimiento en profundidad del modelo de venta
+              por relaciones. Es mamá de dos hijos y está casada. Asumió el
+              liderazgo de la operación de Natura en la Argentina en uno de los
+              momentos de mayor incertidumbre de la historia. Su desafío fue
+              consolidar el liderazgo de Natura Argentina en el mercado de
+              belleza y venta directa, con los mismos pilares que impulsa la
+              marca desde sus inicios: relaciones, innovación e impacto positivo
+              en las personas, las comunidades y la naturaleza. Trabaja desde
+              hace 16 años en Natura y se desarrolló en diferentes cargos. Fue
+              supervisora de ventas, gerenta y directora en diversas áreas,
+              tanto en el país como para la operación regional. Lideró equipos
+              en ventas; entrenamiento comercial para operaciones
+              internacionales; marketing, relacionamiento & entrenamiento; y
+              estuvo a cargo de todo el equipo comercial de Natura Argentina.
+              Conoce en profundidad la compañía y tiene plena confianza en la
+              nueva etapa de crecimiento de la gran red de relaciones que forman
+              parte de Natura. Estudió Turismo y realizó un Máster en Negocios
+              en la Universidad Torcuato Di Tella (UTDT).{" "}
+            </React.Fragment>
+          }
         />
         <Expositor
           nombre="Joan Antoni Melé"
