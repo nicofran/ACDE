@@ -1,6 +1,6 @@
 //IMAGES & BANNER
 import banner from "../../assets/images/banner-1.mp4";
-import thumbnnail from "../../assets/images/banner-thumneil.png";
+// import thumbnnail from "../../assets/images/banner-thumneil.png";
 // import InscribiteFlag from "../../components/inscribite-flag/inscribite-flag";
 
 //COMPONENTS
