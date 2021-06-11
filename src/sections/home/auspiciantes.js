@@ -29,8 +29,8 @@ import ibm from "../../assets/images/IBM.png";
 import ibmx2 from "../../assets/images/IBM@2x.png";
 import mabxience from "../../assets/images/mabxience.png";
 import mabxiencex2 from "../../assets/images/mabxience@2x.png";
-import mckinsey from "../../assets/images/mckinsey.png";
-import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
+// import mckinsey from "../../assets/images/mckinsey.png";
+// import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
 import propymes from "../../assets/images/propymesrgb.png";
 import propymesx2 from "../../assets/images/propymesrgb@2x.png";
 import bareiro from "../../assets/images/barreiro-logo.png";
@@ -40,10 +40,13 @@ import andreanix2 from "../../assets/images/andreani@2x.png";
 import lartirigoyen from "../../assets/images/lartirigoyen.png";
 import lartirigoyenx2 from "../../assets/images/lartirigoyen@2x.png";
 import pinamar_sa from "../../assets/icons/pinamar-sa.png";
+import caldenes from "../../assets/images/caldenes.jpg";
+import bullo from "../../assets/images/bullo-logo.jpg";
 //Acompañan
 import beccar_varela from "../../assets/images/beccar-varela.jpg";
 import newsan from "../../assets/images/newsan-logo.png";
 import manpower from "../../assets/images/MANPOWER.png";
+// import price from "../../assets/images/price.eps";
 import raizen from "../../assets/images/RAIZEN.png";
 
 const Auspiciantes = () => {
@@ -184,12 +187,6 @@ const Auspiciantes = () => {
                 srcSet={mabxiencex2 + " 2x"}
               />
             </a>
-
-            <img
-              src={mckinsey}
-              alt="McKinsey & Company"
-              srcSet={mckinseyx2 + " 2x"}
-            />
             <a
               href="http://www.programapropymes.com"
               target="_blank"
@@ -209,6 +206,21 @@ const Auspiciantes = () => {
           <div className="ausp__marca ">
             <a href="https://www.andreani.com" target="_blank" rel="noreferrer">
               <img src={andreani} alt="Andreani" srcSet={andreanix2 + " 2x"} />
+            </a>
+
+            <a
+              href="http://www.caldenes.com.ar"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={caldenes} alt="Caldenes S.A" width="229" height="71" />
+            </a>
+            <a
+              href=" http://www.ebullo.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={bullo} alt="Estudio Bulló" width="281" height="118" />
             </a>
             <a
               href="http://www.lartirigoyen.com.ar"
@@ -239,6 +251,13 @@ const Auspiciantes = () => {
           </p>
           <div className="ausp__marca">
             <a
+              href="http://www.manpowergroup.com.ar/ "
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={manpower} alt="manpower" width="190" height="160" />
+            </a>
+            <a
               href="https://beccarvarela.com/"
               target="_blank"
               rel="noreferrer"
@@ -251,26 +270,21 @@ const Auspiciantes = () => {
               />
             </a>
             <a
-              href="http://www.manpowergroup.com.ar/ "
+              href="http://www.newsan.com.ar/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={manpower} alt="manpower" width="190" height="160" />
+              <img src={newsan} alt="New San" width="229" height="35" />
             </a>
+            {/* <a href="https://google.com" target="_blank" ref="noreferrer">
+              <img src={price} alt="Price" />
+            </a> */}
             <a
               href="http://www.raizen.com.ar/"
               target="_blank"
               rel="noreferrer"
             >
               <img src={raizen} alt="Raizen" width="200" height="175" />
-            </a>
-
-            <a
-              href="http://www.newsan.com.ar/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={newsan} alt="New San" width="220" height="75" />
             </a>
           </div>
         </div>

@@ -111,16 +111,15 @@
   }
 
   .menu__toggler {
+    display: flex;
     width: 24px;
     position: absolute;
     right: 0;
     top: 0;
     margin: 18px;
-    display: flex;
     padding: 0;
     flex-direction: column;
     border: 0;
-    background: none;
 
     @include response(medium) {
       display: none;
