@@ -23,8 +23,8 @@ const Menu = () => {
     }
     prevScrollpos = currentScrollPos;
   };
-  const [activo, setActivo] = useState();
 
+  const [activo, setActivo] = useState();
   const toggleMenu = () => {
     setActivo(!activo);
   };
