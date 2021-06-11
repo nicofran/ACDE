@@ -13,7 +13,6 @@ const Hero = () => {
         <div className="container">
           <video
             src={banner}
-            poster={thumbnnail}
             loop
             muted
             autoPlay
