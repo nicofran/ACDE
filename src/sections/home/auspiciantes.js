@@ -48,6 +48,7 @@ import newsan from "../../assets/images/newsan-logo.png";
 import manpower from "../../assets/images/MANPOWER.png";
 // import price from "../../assets/images/price.eps";
 import raizen from "../../assets/images/RAIZEN.png";
+import price from "../../assets/images/price.png";
 
 const Auspiciantes = () => {
   return (
@@ -276,9 +277,9 @@ const Auspiciantes = () => {
             >
               <img src={newsan} alt="New San" width="229" height="35" />
             </a>
-            {/* <a href="https://google.com" target="_blank" ref="noreferrer">
-              <img src={price} alt="Price" />
-            </a> */}
+            <a href="https://www.pwc.com.ar/" target="_blank" rel="noreferrer">
+              <img src={price} alt="Price" width="180" height="140" />
+            </a>
             <a
               href="http://www.raizen.com.ar/"
               target="_blank"
