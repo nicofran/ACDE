@@ -33,7 +33,7 @@ const Camino = () => {
     speed: 300,
     slidesToShow: 3,
     arrows: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     dots: true,
     prevArrow: <ArrowBack />,
@@ -66,16 +66,18 @@ const Camino = () => {
     <div className="camino" id="camino">
       <div className="container">
         <div className="camino__banner">
-          <img src={banner} alt="ACDE"></img>
+          <img src={banner} alt="ACDE" />
           <h1 className="camino__title">Camino al encuentro</h1>
         </div>
         <div className="camino__sliders">
           <Slider {...settings}>
             {/* ARTICULO 1 START  */}
-            <div className="camino__article">
+            <div className="camino__article col-12 col-md-10 col">
               <img
                 src="https://i2.wp.com/empresa.org.ar/wp-content/uploads/2021/06/MM-Preziosa-y-delia.png?w=1620&ssl=1"
                 alt="ACDE"
+                width="370"
+                height="224"
               />
               <p className="slider__titulo">
                 <br></br>
@@ -97,8 +99,8 @@ const Camino = () => {
             {/* ARTICULO 1 END  */}
 
             {/* ARTICULO 2 START  */}
-            <div className="camino__article">
-              <img src={ignacio} alt="ACDE" />
+            <div className="camino__article col-12 col-md-10 ">
+              <img src={ignacio} alt="ACDE" width="370" height="216" />
               <p className="slider__titulo">
                 Entrevista a Ignacio Gorupicz,
                 <br /> presidente del Encuentro Anual ACDE 2021
@@ -117,8 +119,8 @@ const Camino = () => {
             </div>
             {/* ARTICULO 2 END  */}
             {/* ARTICULO 3 START  */}
-            <div className="camino__article">
-              <img src={gontanoira} alt="ACDE" width="200" height="150" />
+            <div className="camino__article col-12 col-md-10 ">
+              <img src={gontanoira} alt="ACDE" width="375" height="210" />
               <p className="slider__titulo">
                 Atraer inversiones reduce la pobreza. Combatiendo el capital
                 solo se la aumenta

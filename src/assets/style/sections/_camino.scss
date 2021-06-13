@@ -32,32 +32,26 @@
       }
     }
   }
+
   .camino__sliders {
     img {
-      width: 300px;
-      height: 204px;
+      width: 100%;
     }
     @include response(medium) {
-      margin: 50px;
+      margin-left: 90px;
     }
-
     .camino__article {
+      width: 300px;
       display: flex;
       flex-direction: column;
       text-align: center;
       align-content: center;
-      justify-content: space-around;
+      align-items: center;
+      justify-content: space-between;
 
       img {
-        // padding-right: 30px;
-        // margin-left: 70px;
-        // width: 250px;
-        @include response(medium) {
-          width: 320px;
-          border: 0;
-          padding-right: 40px;
-          margin-left: 95px;
-        }
+        margin: 0;
+        padding: 0;
       }
 
       .slider__titulo {
