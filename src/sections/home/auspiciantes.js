@@ -252,13 +252,6 @@ const Auspiciantes = () => {
           </p>
           <div className="ausp__marca">
             <a
-              href="http://www.manpowergroup.com.ar/ "
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={manpower} alt="manpower" width="190" height="160" />
-            </a>
-            <a
               href="https://beccarvarela.com/"
               target="_blank"
               rel="noreferrer"
@@ -269,6 +262,13 @@ const Auspiciantes = () => {
                 width="190"
                 height="120"
               />
+            </a>
+            <a
+              href="http://www.manpowergroup.com.ar/ "
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={manpower} alt="manpower" width="190" height="160" />
             </a>
             <a
               href="http://www.newsan.com.ar/"
