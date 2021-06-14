@@ -5,7 +5,7 @@ import Slider from "react-slick";
 //IMAGES
 import banner from "../../assets/icons/logo-acde.png";
 import gontanoira from "../../assets/icons/gonzalotanoira.jpeg";
-import ignacio from "../../assets/icons/ignaciogoru.png";
+import ignacio from "../../assets/images/portal-empresa.png";
 
 //ARROW prev & next
 import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
