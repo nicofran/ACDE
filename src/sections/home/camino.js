@@ -100,7 +100,7 @@ const Camino = () => {
 
             {/* ARTICULO 2 START  */}
             <div className="camino__article col-12 col-md-10 ">
-              <img src={ignacio} alt="ACDE" width="370" height="216" />
+              <img src={ignacio} alt="ACDE" width="370" height="226" />
               <p className="slider__titulo">
                 Entrevista a Ignacio Gorupicz,
                 <br /> presidente del Encuentro Anual ACDE 2021
