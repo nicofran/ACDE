@@ -22,7 +22,7 @@ import roberto_vassolo from "../../assets/images/roberto_vassollo.png";
 import rosana_negrini from "../../assets/images/rosana_negrini.png";
 import immacule_ilibagiza from "../../assets/images/immacule_ilibagiza.png";
 import cristian_geronimo from "../../assets/images/cristian_jeronimo.png";
-import veronica_marcelo from "../../assets/images/veronica_marcelo.jpg";
+import veronica_marcelo from "../../assets/images/veronica-marcelo.png";
 import emilio_persico from "../../assets/images/emilio_persico.png";
 import federico_poletto from "../../assets/images/federico_poletto.png";
 import julia_pomares from "../../assets/images/julia_pomares.png";
