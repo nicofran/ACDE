@@ -22,7 +22,7 @@ import roberto_vassolo from "../../assets/images/roberto_vassollo.png";
 import rosana_negrini from "../../assets/images/rosana_negrini.png";
 import immacule_ilibagiza from "../../assets/images/immacule_ilibagiza.png";
 import cristian_geronimo from "../../assets/images/cristian_jeronimo.png";
-import veronica_marcelo from "../../assets/images/veronica_marcelo.png";
+import veronica_marcelo from "../../assets/images/veronica_marcelo.jpg";
 import emilio_persico from "../../assets/images/emilio_persico.png";
 import federico_poletto from "../../assets/images/federico_poletto.png";
 import julia_pomares from "../../assets/images/julia_pomares.png";
@@ -31,6 +31,7 @@ import gonzalo_tanoira from "../../assets/images/gonzalo_tanoira.png";
 import padre_augusto_zamipini from "../../assets/images/padre_augusto_zampini.png";
 import juan_bosch from "../../assets/images/juan_bosch.png";
 import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz.png";
+import juan_vaquer from "../../assets/images/vaquer_juan.png";
 
 //Componente de Expositor
 import Expositor from "../../components/expositor/";
@@ -618,6 +619,32 @@ const Expositores = () => {
               Mejor empresa agroindustrial (2015), el Premio Galicia Excelencia
               Agropecuaria por mejor Gestión Ambiental (2017), y el Premio Konex
               como empresario de la agroindustria (2018).
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Juan Vaquer"
+          imagen={juan_vaquer}
+          descripcion={"Abogado y empresario agropecuario"}
+          biografia={
+            <React.Fragment>
+              Juan Manuel Vaquer tiene una explotación familiar agropecuaria, se
+              desempeña como Of Counsel en el Estudio Jurídico JP O´Farrell,
+              integra el Consejo Asesor del Instituto de Ética y Transparencia
+              de AmCham Argentina, el Consejo Asesor de la Universidad Austral,
+              y lidera la Red de Gobierno Corporativo de IDEA. En 1990 ingresó a
+              la empresa DuPont, donde ocupó diversos cargos, en América Latina
+              y en Europa, retirándose como presidente para América Latina, en
+              mayo de 2019. Presidió la Cámara Americana de Comercio en
+              Argentina (AmCham) desde 2013 hasta junio de 2016, y la Asociación
+              Cristiana de Dirigentes de Empresa (ACDE), entre 2017 y 2020. Fue
+              director del Instituto para el Desarrollo Empresarial de la
+              Argentina (IDEA), miembro de la Comisión Directiva del Consejo
+              Empresario Argentino para el Desarrollo Sostenible (CEADS) y
+              presidente del Directorio de Aleph Midstream S.A.. Es abogado
+              graduado en la Universidad de Buenos Aires (UBA), y con una
+              maestría en Derecho Internacional y Comparado en SMU, de Dallas,
+              Texas
             </React.Fragment>
           }
         />
