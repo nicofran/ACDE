@@ -77,7 +77,7 @@ const Camino = () => {
                 src="https://i2.wp.com/empresa.org.ar/wp-content/uploads/2021/06/MM-Preziosa-y-delia.png?w=1620&ssl=1"
                 alt="ACDE"
                 width="370"
-                height="224"
+                height="234"
               />
               <p className="slider__titulo">
                 <br></br>
@@ -100,7 +100,7 @@ const Camino = () => {
 
             {/* ARTICULO 2 START  */}
             <div className="camino__article col-12 col-md-10 ">
-              <img src={ignacio} alt="ACDE" width="490" height="246" />
+              <img src={ignacio} alt="ACDE" height="220" />
               <p className="slider__titulo">
                 Entrevista a Ignacio Gorupicz,
                 <br /> presidente del Encuentro Anual ACDE 2021
@@ -120,7 +120,7 @@ const Camino = () => {
             {/* ARTICULO 2 END  */}
             {/* ARTICULO 3 START  */}
             <div className="camino__article col-12 col-md-10 ">
-              <img src={gontanoira} alt="ACDE" width="375" height="210" />
+              <img src={gontanoira} alt="ACDE" width="375" height="220" />
               <p className="slider__titulo">
                 Atraer inversiones reduce la pobreza. Combatiendo el capital
                 solo se la aumenta
