@@ -32,6 +32,7 @@ import padre_augusto_zamipini from "../../assets/images/padre_augusto_zampini.pn
 import juan_bosch from "../../assets/images/juan_bosch.png";
 import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz.png";
 import juan_vaquer from "../../assets/images/vaquer_juan.png";
+import gaston_irigoyen from "../../assets/images/gaston-irigoyen.png";
 
 //Componente de Expositor
 import Expositor from "../../components/expositor/";
@@ -402,6 +403,22 @@ const Expositores = () => {
               of Kibeho, If Only We Had Listened, Visit from Heaven, The Boy Who
               Met Jesus y The Rosary. Actualmente se están desarrollando
               importantes versiones cinematográficas de su vida y sus libros.
+            </React.Fragment>
+          }
+        />
+        <Expositor
+          nombre="Gaston Irigoyen"
+          imagen={gaston_irigoyen}
+          descripcion={"Co-Fundador & CEO de Pomelo"}
+          biografia={
+            <React.Fragment>
+              Gastón Irigoyen es Co-Fundador & CEO de Pomelo, la fintech que
+              está construyendo la nueva infraestructura de servicios
+              financieros en América Latina. Previamente fue CEO de Naranja X,
+              CMO de Restorando, CEO de Guide central y uno de los primeros
+              empleados de Google Argentina. Es profesor de fintech y negocios
+              digitales en la Universidad de San Andrés y fue destacado en el
+              ranking 35 sub 35 de la revista Forbes.
             </React.Fragment>
           }
         />
