@@ -49,7 +49,7 @@ import manpower from "../../assets/images/MANPOWER.png";
 // import price from "../../assets/images/price.eps";
 import raizen from "../../assets/images/RAIZEN.png";
 import price from "../../assets/images/price.png";
-
+import ey from "../../assets/images/ey-logo.jpg";
 const Auspiciantes = () => {
   return (
     <div className="ausp container" id="auspiciantes">
@@ -262,6 +262,9 @@ const Auspiciantes = () => {
                 width="190"
                 height="120"
               />
+            </a>
+            <a href=" http://www.ey.com/es_ar" target="_blank" rel="noreferrer">
+              <img src={ey} alt="AY" width="87" height="102" />
             </a>
             <a
               href="http://www.manpowergroup.com.ar/ "
