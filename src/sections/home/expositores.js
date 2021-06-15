@@ -15,7 +15,7 @@ import joan_antoni from "../../assets/images/joan_antoni_mele.png";
 import juan_martin_dela_serna from "../../assets/images/juan_martin_de_la_serna.png";
 import maria_migliore from "../../assets/images/maria_migliore.png";
 import marina_dal_poggetto from "../../assets/images/marina_dal_poggetto.png";
-import martin_borchardt from "../../assets/images/martin_borchardt.png";
+import luz_borchardt from "../../assets/images/luz_borchardt.png";
 import nicolas_braun from "../../assets/images/nicolas_braun.png";
 import rab_alejandro_avruj from "../../assets/images/rab_alejandro_avruj.png";
 import roberto_vassolo from "../../assets/images/roberto_vassollo.png";
@@ -98,19 +98,12 @@ const Expositores = () => {
           }
         />
         <Expositor
-          nombre="Martín Borchardt"
-          imagen={martin_borchardt}
-          descripcion={"Fundador de HENRY"}
+          nombre="Luz Borchardt"
+          imagen={luz_borchardt}
+          descripcion={"Co-Fundadora de HENRY"}
           biografia={
             <React.Fragment>
-              Martín Borchardt es el fundador de HENRY, una academia que forma
-              desarrolladores de software con $0 costo inicial y los ayuda a
-              buscar trabajo a remoto, generando un fuerte impacto social.
-              Adicionalmente, es miembro director de VerdeAgua, una empresa B
-              Corp de cultivos de hojas verdes sustentables y saludables líder
-              en el mercado Uruguayo. Anteriormente, fundó Nubi, una fintech de
-              pagos cross border que introdujo a PayPal y Transferwise en el
-              mercado argentino, enfocada en inclusión financiera.
+              -.
             </React.Fragment>
           }
         />

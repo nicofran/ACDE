@@ -88,6 +88,14 @@ const Programa = () => {
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
+                      Marina Dal Poggetto.
+                      </span>{" "}
+                      Directora ejecutiva de Eco Go.
+                    </li>
+                  </ul>
+                    <li>
+                      <span className="programa__evento">•</span>{" "}
+                      <span className="programa__orador__nombre">
                         Roberto Vassolo.
                       </span>{" "}
                       Economista del IAE Business School - Universidad Austral.
@@ -100,14 +108,6 @@ const Programa = () => {
                       Secretario Adjunto del Dicasterio para el Desarrollo
                       Humano Integral del Vaticano.
                     </li>
-                    <li>
-                      <span className="programa__evento">•</span>{" "}
-                      <span className="programa__orador__nombre">
-                        Coordina: Marina Dal Poggetto.
-                      </span>{" "}
-                      Directora ejecutiva de Eco Go.
-                    </li>
-                  </ul>
                 </span>
               </p>
               <br></br>
@@ -212,7 +212,7 @@ const Programa = () => {
                       <span className="programa__orador__nombre">
                         Coordina: Juan Manuel Vaquer.
                       </span>{" "}
-                      Abogado y empresario.
+                      Abogado y empresario agropecuario.
                     </li>
                   </ul>
                 </span>
@@ -263,9 +263,9 @@ const Programa = () => {
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
-                        Coordina: Martín Borchardt.
+                        Coordina: Luz Borchardt.
                       </span>{" "}
-                      Fundador de Henry.
+                      Co-Fundadora de Henry.
                     </li>
                   </ul>
                 </span>
