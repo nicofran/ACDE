@@ -77,9 +77,9 @@ const Camino = () => {
                 src="https://i2.wp.com/empresa.org.ar/wp-content/uploads/2021/06/MM-Preziosa-y-delia.png?w=1620&ssl=1"
                 alt="ACDE"
                 width="370"
-                height="244"
+                height="214"
               />
-              <p className="slider__titulo">
+              <p className="slider__titulo2">
                 <br></br>
                 Un café virtual con Delia Ferreira Rubio
               </p>
