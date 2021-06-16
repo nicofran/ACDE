@@ -92,7 +92,6 @@ const Programa = () => {
                       </span>{" "}
                       Directora ejecutiva de Eco Go.
                     </li>
-                  </ul>
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
@@ -108,6 +107,7 @@ const Programa = () => {
                       Secretario Adjunto del Dicasterio para el Desarrollo
                       Humano Integral del Vaticano.
                     </li>
+                  </ul>
                 </span>
               </p>
               <br></br>
@@ -286,6 +286,14 @@ const Programa = () => {
                         Juan Bosch.
                       </span>{" "}
                       Director de Negocios Internacionales de SAESA.
+                    </li>
+                  
+                    <li>
+                      <span className="programa__evento">•</span>{" "}
+                      <span className="programa__orador__nombre">
+                        Gastón Irigoyen.
+                      </span>{" "}
+                      Co-Fundador & CEO de Pomelo.
                     </li>
                     <li>
                       <span className="programa__evento">•</span>{" "}
