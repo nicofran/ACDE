@@ -31,6 +31,8 @@ import ibmx2 from "../../assets/images/IBM@2x.png";
 import mabxience from "../../assets/images/mabxience.png";
 import mabxiencex2 from "../../assets/images/mabxience@2x.png";
 import mckinsey from "../../assets/images/McKinsey2.png";
+// import mckinsey from "../../assets/images/mckinsey.png";
+// import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
 import propymes from "../../assets/images/propymesrgb.png";
 import propymesx2 from "../../assets/images/propymesrgb@2x.png";
 import toyota from "../../assets/images/Toyota.png";
@@ -103,7 +105,7 @@ const Auspiciantes = () => {
               <img src={cgc} alt="CGC" srcSet={cgcx2 + " 2x"}></img>
             </a>
             <a href="https://www.dupont.com/" target="_blank" rel="noreferrer">
-              <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 3x"}></img>
+              <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
             </a>
             <a href="https://bancogalicia.com" target="_blank" rel="noreferrer">
               <img
@@ -117,11 +119,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src={immacule}
-                alt="Immacule"
-                srcSet={immacule + " 3x"}
-              ></img>
+              <img src={immacule} alt="Immacule" width="192" height="60"></img>
             </a>
             <a
               href="https://www.lanacion.com.ar/"
@@ -131,7 +129,8 @@ const Auspiciantes = () => {
               <img
                 src={lanacion}
                 alt="Diario La Nación"
-                srcSet={lanacion + " 2.5x"}
+                width="317"
+                height="85"
               ></img>
             </a>
           </div>
@@ -205,7 +204,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={mckinsey} alt="Mc Kinsey" srcSet={mckinsey + " 6x"} />
+              <img src={mckinsey} alt="Mc Kinsey" width="203" height="126" />
             </a>
             <a
               href="http://www.programapropymes.com"
@@ -219,7 +218,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={toyota} alt="Toyota" srcSet={toyota + " 4x"} />
+              <img src={toyota} alt="Toyota" width="267" height="49" />
             </a>
           </div>
         </div>
