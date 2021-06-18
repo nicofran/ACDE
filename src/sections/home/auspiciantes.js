@@ -31,8 +31,6 @@ import ibmx2 from "../../assets/images/IBM@2x.png";
 import mabxience from "../../assets/images/mabxience.png";
 import mabxiencex2 from "../../assets/images/mabxience@2x.png";
 import mckinsey from "../../assets/images/McKinsey2.png";
-// import mckinsey from "../../assets/images/mckinsey.png";
-// import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
 import propymes from "../../assets/images/propymesrgb.png";
 import propymesx2 from "../../assets/images/propymesrgb@2x.png";
 import toyota from "../../assets/images/Toyota.png";
@@ -111,7 +109,7 @@ const Auspiciantes = () => {
               <img
                 src={galicia}
                 alt="Banco Galicia"
-                srcSet={galicia + " 4.5x"}
+                srcSet={galiciax2 + " 2x"}
               ></img>
             </a>
             <a
@@ -207,11 +205,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src={mckinsey}
-                alt="Mc Kinsey"
-                srcSet={mckinsey + " 6x"}
-              />
+              <img src={mckinsey} alt="Mc Kinsey" srcSet={mckinsey + " 6x"} />
             </a>
             <a
               href="http://www.programapropymes.com"
