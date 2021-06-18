@@ -123,7 +123,7 @@ const Camino = () => {
               <img src={gontanoira} alt="ACDE" width="375" height="220" />
               <p className="slider__titulo">
                 Atraer inversiones reduce la pobreza. Combatiendo el capital
-                solo se la aumenta
+                solo se la aumenta.
               </p>
               <p className="camino__autor">
                 19.04.21 | AMBITO <br />
