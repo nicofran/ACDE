@@ -9,11 +9,12 @@ import Pan_Americanx2 from "../../assets/images/pan-am-energy@x2.png";
 // Auspiciantes Oro
 import cgc from "../../assets/images/cgc.png";
 import cgcx2 from "../../assets/images/cgc@x2.png";
-import galicia from "../../assets/images/galicia.png";
+import galicia from "../../assets/images/galicianew.png";
 import galiciax2 from "../../assets/images/galicia@x2.png";
 import dupont from "../../assets/images/dupont.png";
 import dupontx2 from "../../assets/images/dupont@x2.png";
 import immacule from "../../assets/images/logoimmaculee.png";
+import lanacion from "../../assets/images/LN_logo.jpg";
 //Auspiciantes de Plata
 import amadeus from "../../assets/images/amadeus.png";
 import amadeusx2 from "../../assets/images/amadeus@2x.png";
@@ -29,10 +30,12 @@ import ibm from "../../assets/images/IBM.png";
 import ibmx2 from "../../assets/images/IBM@2x.png";
 import mabxience from "../../assets/images/mabxience.png";
 import mabxiencex2 from "../../assets/images/mabxience@2x.png";
+import mckinsey from "../../assets/images/McKinsey2.png";
 // import mckinsey from "../../assets/images/mckinsey.png";
 // import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
 import propymes from "../../assets/images/propymesrgb.png";
 import propymesx2 from "../../assets/images/propymesrgb@2x.png";
+import toyota from "../../assets/images/Toyota.png";
 import bareiro from "../../assets/images/barreiro-logo.png";
 //Auspiciantes de Bronce
 import andreani from "../../assets/images/andreani.png";
@@ -102,13 +105,13 @@ const Auspiciantes = () => {
               <img src={cgc} alt="CGC" srcSet={cgcx2 + " 2x"}></img>
             </a>
             <a href="https://www.dupont.com/" target="_blank" rel="noreferrer">
-              <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 2x"}></img>
+              <img src={dupont} alt="Dupont" srcSet={dupontx2 + " 3x"}></img>
             </a>
             <a href="https://bancogalicia.com" target="_blank" rel="noreferrer">
               <img
                 src={galicia}
                 alt="Banco Galicia"
-                srcSet={galiciax2 + " 2x"}
+                srcSet={galicia + " 4.5x"}
               ></img>
             </a>
             <a
@@ -119,7 +122,18 @@ const Auspiciantes = () => {
               <img
                 src={immacule}
                 alt="Immacule"
-                srcSet={immacule + " 2x"}
+                srcSet={immacule + " 3x"}
+              ></img>
+            </a>
+            <a
+              href="https://www.lanacion.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={lanacion}
+                alt="Diario La Nación"
+                srcSet={lanacion + " 2.5x"}
               ></img>
             </a>
           </div>
@@ -189,11 +203,29 @@ const Auspiciantes = () => {
               />
             </a>
             <a
+              href="https://www.mckinsey.com/ar/overview"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={mckinsey}
+                alt="Mc Kinsey"
+                srcSet={mckinsey + " 6x"}
+              />
+            </a>
+            <a
               href="http://www.programapropymes.com"
               target="_blank"
               rel="noreferrer"
             >
               <img src={propymes} alt="PRO PYMES" srcSet={propymesx2 + " 2x"} />
+            </a>
+            <a
+              href="https://www.toyota.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={toyota} alt="Toyota" srcSet={toyota + " 4x"} />
             </a>
           </div>
         </div>
