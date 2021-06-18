@@ -10,7 +10,6 @@ import Pan_Americanx2 from "../../assets/images/pan-am-energy@x2.png";
 import cgc from "../../assets/images/cgc.png";
 import cgcx2 from "../../assets/images/cgc@x2.png";
 import galicia from "../../assets/images/galicianew.png";
-import galiciax2 from "../../assets/images/galicia@x2.png";
 import dupont from "../../assets/images/dupont.png";
 import dupontx2 from "../../assets/images/dupont@x2.png";
 import immacule from "../../assets/images/logoimmaculee.png";
@@ -111,7 +110,8 @@ const Auspiciantes = () => {
               <img
                 src={galicia}
                 alt="Banco Galicia"
-                srcSet={galiciax2 + " 2x"}
+                width="285"
+                height="79"
               ></img>
             </a>
             <a
