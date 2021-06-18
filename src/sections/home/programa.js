@@ -88,6 +88,13 @@ const Programa = () => {
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
+                      Marina Dal Poggetto.
+                      </span>{" "}
+                      Directora ejecutiva de Eco Go.
+                    </li>
+                    <li>
+                      <span className="programa__evento">•</span>{" "}
+                      <span className="programa__orador__nombre">
                         Roberto Vassolo.
                       </span>{" "}
                       Economista del IAE Business School - Universidad Austral.
@@ -99,13 +106,6 @@ const Programa = () => {
                       </span>{" "}
                       Secretario Adjunto del Dicasterio para el Desarrollo
                       Humano Integral del Vaticano.
-                    </li>
-                    <li>
-                      <span className="programa__evento">•</span>{" "}
-                      <span className="programa__orador__nombre">
-                        Coordina: Marina Dal Poggetto.
-                      </span>{" "}
-                      Directora ejecutiva de Eco Go.
                     </li>
                   </ul>
                 </span>
@@ -212,7 +212,7 @@ const Programa = () => {
                       <span className="programa__orador__nombre">
                         Coordina: Juan Manuel Vaquer.
                       </span>{" "}
-                      Abogado y empresario.
+                      Abogado y empresario agropecuario.
                     </li>
                   </ul>
                 </span>
@@ -263,9 +263,9 @@ const Programa = () => {
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
-                        Coordina: Martín Borchardt.
+                        Coordina: Luz Borchardt.
                       </span>{" "}
-                      Fundador de Henry.
+                      Co-Fundadora de Henry.
                     </li>
                   </ul>
                 </span>
@@ -286,6 +286,14 @@ const Programa = () => {
                         Juan Bosch.
                       </span>{" "}
                       Director de Negocios Internacionales de SAESA.
+                    </li>
+                  
+                    <li>
+                      <span className="programa__evento">•</span>{" "}
+                      <span className="programa__orador__nombre">
+                        Gastón Irigoyen.
+                      </span>{" "}
+                      Co-Fundador & CEO de Pomelo.
                     </li>
                     <li>
                       <span className="programa__evento">•</span>{" "}
