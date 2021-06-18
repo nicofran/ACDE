@@ -104,7 +104,12 @@ const Expositores = () => {
           descripcion={"Co-Fundadora de HENRY"}
           biografia={
             <React.Fragment>
-              -.
+              Luz Borchardt es una emprendedora apasionada por el ecosistema edtech y fintech en Latinoamérica. 
+              Es Co-Founder & VP of Marketing de Henry, la primera academia en tecnología de la región que invierte 
+              en las personas. Permite acceder a educación de calidad en tecnología con $0 de costo inicial; los egresados 
+              solamente empiezan a pagar cuando consiguen un trabajo. Desarrolló su carrera en tech, trabajando en compañías 
+              como Nubank y Despegar.com, y fue parte del founding team de Nubi. <br/>
+              Es licenciada en Administración de Empresas de la Universidad de San Andrés.
             </React.Fragment>
           }
         />
