@@ -303,7 +303,7 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={newsan} alt="New San" width="229" height="35" />
+              <img src={newsan} alt="New San" width="349" height="35" />
             </a>
             <a href="https://www.pwc.com.ar/" target="_blank" rel="noreferrer">
               <img src={price} alt="Price" width="180" height="140" />

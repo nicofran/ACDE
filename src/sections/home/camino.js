@@ -6,6 +6,8 @@ import Slider from "react-slick";
 import banner from "../../assets/icons/logo-acde.png";
 import gontanoira from "../../assets/icons/gonzalotanoira.jpeg";
 import ignacio from "../../assets/images/portal-empresa.png";
+import aica from "../../assets/images/aica-logo.jpg";
+import telam from "../../assets/images/telam.jpg";
 
 //ARROW prev & next
 import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
@@ -33,11 +35,11 @@ const Camino = () => {
     speed: 300,
     slidesToShow: 3,
     arrows: true,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     dots: true,
-    prevArrow: <ArrowBack />,
-    nextArrow: <ArrowNext />,
+    // prevArrow: <ArrowBack />,
+    // nextArrow: <ArrowNext />,
     responsive: [
       {
         breakpoint: 900,
@@ -139,23 +141,44 @@ const Camino = () => {
             </div>
             {/* ARTICULO 3 END  */}
             {/* ARTICULO 4 START  */}
-            {/* <div className="camino__article">
-              <img src={ignacio} alt="ACDE" />
+            <div className="camino__article col-12 col-md-10">
+              <img src={aica} alt="ACDE" width="20" />
               <p className="slider__titulo">
-                Entrevista a Ignacio Gorupicz,<br></br> presidente del Encuentro
-                Anual ACDE 2021
+                ACDE presentó su encuentro anual: Hacia un capitalismo más
+                humano
               </p>
               <p className="camino__autor">
-                6 mayo 2021 | ACDE Empresa | Autor: Tristán Rodríguez Loredo
+                18.06.2021 | AICA
+                <br />
+                Autor: AICA
               </p>
+              <div></div>
               <a
-                href=""
+                href="https://aica.org/noticia-acde-presento-su-encuentro-anual-hacia-un-capitalismo-mas-humano"
                 target="_blank"
                 rel="noreferrer"
               >
                 Ver más
               </a>
-            </div> */}
+            </div>
+            {/* ARTICULO 4 END  */}
+            {/* ARTICULO 4 START  */}
+            <div className="camino__article col-12 col-md-10">
+              <img src={telam} alt="ACDE" width="20" />
+              <p className="slider__titulo">
+                Los empresarios cristianos debaten un "capitalismo más humano"
+                en su Encuentro Anual
+              </p>
+              <p className="camino__autor">19.06.2021 | Télam</p>
+              <div></div>
+              <a
+                href="https://www.telam.com.ar/notas/202106/558316-empresarios-foro-capitalismo-cristianos.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
             {/* ARTICULO 4 END  */}
           </Slider>
         </div>
