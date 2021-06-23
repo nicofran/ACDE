@@ -9,26 +9,26 @@ import ignacio from "../../assets/images/portal-empresa.png";
 import aica from "../../assets/images/aica-logo.jpg";
 import telam from "../../assets/images/telam.jpg";
 
-//ARROW prev & next
-import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
-import { ReactComponent as IconNext } from "../../assets/icons/Next.svg";
+// //ARROW prev & next
+// import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
+// import { ReactComponent as IconNext } from "../../assets/icons/Next.svg";
 
 const Camino = () => {
-  const ArrowBack = (props) => {
-    return (
-      <button className={props.className} onClick={props.onClick}>
-        <IconBack />
-      </button>
-    );
-  };
+  // const ArrowBack = (props) => {
+  //   return (
+  //     <button className={props.className} onClick={props.onClick}>
+  //       <IconBack />
+  //     </button>
+  //   );
+  // };
 
-  const ArrowNext = (props) => {
-    return (
-      <button className={props.className} onClick={props.onClick}>
-        <IconNext />
-      </button>
-    );
-  };
+  // const ArrowNext = (props) => {
+  //   return (
+  //     <button className={props.className} onClick={props.onClick}>
+  //       <IconNext />
+  //     </button>
+  //   );
+  // };
 
   var settings = {
     infinite: true,
