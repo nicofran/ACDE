@@ -142,7 +142,7 @@ const Camino = () => {
             {/* ARTICULO 3 END  */}
             {/* ARTICULO 4 START  */}
             <div className="camino__article col-12 col-md-10">
-              <img src={aica} alt="ACDE" width="20" />
+              <img src={aica} alt="ACDE" width="375" height="220" />
               <p className="slider__titulo">
                 ACDE presentó su encuentro anual: Hacia un capitalismo más
                 humano
@@ -164,7 +164,7 @@ const Camino = () => {
             {/* ARTICULO 4 END  */}
             {/* ARTICULO 4 START  */}
             <div className="camino__article col-12 col-md-10">
-              <img src={telam} alt="ACDE" width="20" />
+              <img src={telam} alt="ACDE" width="375" height="220" />
               <p className="slider__titulo">
                 Los empresarios cristianos debaten un "capitalismo más humano"
                 en su Encuentro Anual
