@@ -35,7 +35,7 @@ const Camino = () => {
     speed: 300,
     slidesToShow: 3,
     arrows: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
     // prevArrow: <ArrowBack />,
