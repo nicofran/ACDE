@@ -35,7 +35,7 @@ const Camino = () => {
     speed: 300,
     slidesToShow: 3,
     arrows: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     dots: true,
     // prevArrow: <ArrowBack />,
@@ -144,6 +144,7 @@ const Camino = () => {
             <div className="camino__article col-12 col-md-10">
               <img src={aica} alt="ACDE" width="375" height="220" />
               <p className="slider__titulo">
+                <br></br>
                 ACDE presentó su encuentro anual: Hacia un capitalismo más
                 humano
               </p>
@@ -166,11 +167,12 @@ const Camino = () => {
             <div className="camino__article col-12 col-md-10">
               <img src={telam} alt="ACDE" width="375" height="220" />
               <p className="slider__titulo">
+                <br></br>
                 Los empresarios cristianos debaten un "capitalismo más humano"
                 en su Encuentro Anual
+                <br />
               </p>
               <p className="camino__autor">19.06.2021 | Télam</p>
-              <div></div>
               <a
                 href="https://www.telam.com.ar/notas/202106/558316-empresarios-foro-capitalismo-cristianos.html"
                 target="_blank"
