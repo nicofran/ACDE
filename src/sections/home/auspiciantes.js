@@ -31,9 +31,8 @@ import ibmx2 from "../../assets/images/IBM@2x.png";
 import mabxience from "../../assets/images/mabxience.png";
 import mabxiencex2 from "../../assets/images/mabxience@2x.png";
 import mckinsey from "../../assets/images/McKinsey2.png";
-// import mckinsey from "../../assets/images/mckinsey.png";
-// import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
 import propymes from "../../assets/images/propymes.png";
+import irsa from "../../assets/images/irsa.png";
 
 import bareiro from "../../assets/images/barreiro-logo.png";
 //Auspiciantes de Bronce
@@ -200,6 +199,9 @@ const Auspiciantes = () => {
               rel="noreferrer"
             >
               <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
+            </a>
+            <a href="www.irsa.com.ar" target="_blank" rel="noreferrer">
+              <img src={irsa} alt="IRSA" width="93" height="120" />
             </a>
 
             <a
