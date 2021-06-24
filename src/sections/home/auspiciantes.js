@@ -6,6 +6,7 @@ import Clarin from "../../assets/images/logo-clarin.png";
 import Clarinx2 from "../../assets/images/logo-clarin@x2.png";
 import Pan_American from "../../assets/images/pan-am-energy.png";
 import Pan_Americanx2 from "../../assets/images/pan-am-energy@x2.png";
+import telecom from "../../assets/images/telecom.png";
 // Auspiciantes Oro
 import cgc from "../../assets/images/cgc.png";
 import cgcx2 from "../../assets/images/cgc@x2.png";
@@ -13,7 +14,7 @@ import galicia from "../../assets/images/galicianew.png";
 import dupont from "../../assets/images/dupont.png";
 import dupontx2 from "../../assets/images/dupont@x2.png";
 import immacule from "../../assets/images/logoimmaculee.png";
-import lanacion from "../../assets/images/LN_logo.jpg";
+import lanacion from "../../assets/images/fundacion-la-nacion.png";
 //Auspiciantes de Plata
 import amadeus from "../../assets/images/amadeus.png";
 import amadeusx2 from "../../assets/images/amadeus@2x.png";
@@ -32,9 +33,8 @@ import mabxiencex2 from "../../assets/images/mabxience@2x.png";
 import mckinsey from "../../assets/images/McKinsey2.png";
 // import mckinsey from "../../assets/images/mckinsey.png";
 // import mckinseyx2 from "../../assets/images/mckinsey@2x.png";
-import propymes from "../../assets/images/propymesrgb.png";
-import propymesx2 from "../../assets/images/propymesrgb@2x.png";
-import toyota from "../../assets/images/Toyota.png";
+import propymes from "../../assets/images/propymes.png";
+
 import bareiro from "../../assets/images/barreiro-logo.png";
 //Auspiciantes de Bronce
 import andreani from "../../assets/images/andreani.png";
@@ -52,6 +52,7 @@ import manpower from "../../assets/images/MANPOWER.png";
 import raizen from "../../assets/images/RAIZEN.png";
 import price from "../../assets/images/price.png";
 import ey from "../../assets/images/ey-logo.jpg";
+import penaflor from "../../assets/images/grupo-pena-flor.jpg";
 const Auspiciantes = () => {
   return (
     <div className="ausp container" id="auspiciantes">
@@ -86,6 +87,13 @@ const Auspiciantes = () => {
               srcSet={Pan_Americanx2 + " 2x"}
               height="180"
             ></img>
+          </a>
+          <a
+            href="https://institucional.telecom.com.ar/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={telecom} alt="Telecom" width="233" height="32" />
           </a>
         </div>
         {/* AUSPICIANTE PLATINO END */}
@@ -129,8 +137,8 @@ const Auspiciantes = () => {
               <img
                 src={lanacion}
                 alt="Diario La Nación"
-                width="317"
-                height="85"
+                width="349"
+                height="98"
               ></img>
             </a>
           </div>
@@ -186,8 +194,14 @@ const Auspiciantes = () => {
                 srcSet={murchisonx2 + " 2x"}
               />
             </a>
+            <a
+              href="https://www.ibm.com/ar-es"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
+            </a>
 
-            <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
             <a
               href="https://www.mabxience.com/es/"
               target="_blank"
@@ -211,14 +225,19 @@ const Auspiciantes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={propymes} alt="PRO PYMES" srcSet={propymesx2 + " 2x"} />
+              <img src={propymes} alt="PRO PYMES" width="208" height="50" />
             </a>
             <a
               href="https://www.toyota.com.ar/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={toyota} alt="Toyota" width="267" height="49" />
+              <img
+                src={"https://www.toyota.com.ar/storage/config/Gk3uqL3ppc.png"}
+                alt="Toyota"
+                width="233"
+                height="59"
+              />
             </a>
           </div>
         </div>
@@ -290,6 +309,18 @@ const Auspiciantes = () => {
             </a>
             <a href=" http://www.ey.com/es_ar" target="_blank" rel="noreferrer">
               <img src={ey} alt="AY" width="87" height="102" />
+            </a>
+            <a
+              href="https://www.grupopenaflor.com.ar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={penaflor}
+                alt="Grupo Peña Flor"
+                width="233"
+                height="68"
+              />
             </a>
             <a
               href="http://www.manpowergroup.com.ar/ "
