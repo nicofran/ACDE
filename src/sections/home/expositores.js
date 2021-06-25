@@ -104,12 +104,16 @@ const Expositores = () => {
           descripcion={"Co-Fundadora de HENRY"}
           biografia={
             <React.Fragment>
-              Luz Borchardt es una emprendedora apasionada por el ecosistema edtech y fintech en Latinoamérica. 
-              Es Co-Founder & VP of Marketing de Henry, la primera academia en tecnología de la región que invierte 
-              en las personas. Permite acceder a educación de calidad en tecnología con $0 de costo inicial; los egresados 
-              solamente empiezan a pagar cuando consiguen un trabajo. Desarrolló su carrera en tech, trabajando en compañías 
-              como Nubank y Despegar.com, y fue parte del founding team de Nubi. <br/>
-              Es licenciada en Administración de Empresas de la Universidad de San Andrés.
+              Luz Borchardt es una emprendedora apasionada por el ecosistema
+              edtech y fintech en Latinoamérica. Es Co-Founder & VP of Marketing
+              de Henry, la primera academia en tecnología de la región que
+              invierte en las personas. Permite acceder a educación de calidad
+              en tecnología con $0 de costo inicial; los egresados solamente
+              empiezan a pagar cuando consiguen un trabajo. Desarrolló su
+              carrera en tech, trabajando en compañías como Nubank y
+              Despegar.com, y fue parte del founding team de Nubi. <br />
+              Es licenciada en Administración de Empresas de la Universidad de
+              San Andrés.
             </React.Fragment>
           }
         />
@@ -441,7 +445,7 @@ const Expositores = () => {
         <Expositor
           nombre="Verónica Marcelo"
           imagen={veronica_marcelo}
-          descripcion={"Gerente General de Natura"}
+          descripcion={"Gerenta General de Natura"}
           biografia={
             <React.Fragment>
               Verónica Marcelo ha sabido construir un liderazgo genuino, basado
@@ -535,7 +539,7 @@ const Expositores = () => {
           nombre="Emilio Pérsico"
           imagen={emilio_persico}
           descripcion={
-            "Secretario de Economía Social y líder de Movimiento Evita"
+            "Secretario de Economía Social y Secretario General del Movimiento Evita"
           }
           biografia={
             <React.Fragment>

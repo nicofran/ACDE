@@ -60,7 +60,7 @@ const Programa = () => {
             <span className="programa__fecha">MIÉRCOLES 30 JUNIO</span>
             <div className="programa__evento">
               <p>
-                9.00 h. | <span>APERTURA Y BIENVENIDA</span>
+                9.00 h. | <span>BIENVENIDA</span>
                 <span className="programa__oradores">
                   <ul>
                     <li>
@@ -69,6 +69,20 @@ const Programa = () => {
                         Ignacio Gorupicz.
                       </span>{" "}
                       Presidente del XXIV Encuentro Anual ACDE.
+                    </li>
+                  </ul>
+                </span>
+              </p>
+              <br></br>
+              <p>
+                9.05 h. | <span>APERTURA</span>
+                <span className="programa__oradores">
+                  <ul>
+                    <li>
+                      <span className="programa__evento">•</span>{" "}
+                      <span className="programa__orador__nombre">
+                        Palabra del Papa Francisco.
+                      </span>{" "}
                     </li>
                   </ul>
                 </span>
@@ -88,7 +102,7 @@ const Programa = () => {
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
-                      Marina Dal Poggetto.
+                        Marina Dal Poggetto.
                       </span>{" "}
                       Directora ejecutiva de Eco Go.
                     </li>
@@ -163,7 +177,8 @@ const Programa = () => {
                       <span className="programa__orador__nombre">
                         Emilio Pérsico.
                       </span>{" "}
-                      Secretario de Economía Social y líder de Movimiento Evita.
+                      Secretario de Economía Social y Secretario General del
+                      Movimiento Evita
                     </li>
                     <li>
                       <span className="programa__evento">•</span>{" "}
@@ -227,7 +242,33 @@ const Programa = () => {
             <span className="programa__fecha">jueves 1 de julio </span>
             <div className="programa__evento">
               <p>
-                9.00 h. | <span>BIENVENIDA Y ORACIÓN</span>
+                9.00 h. | <span>BIENVENIDA</span>
+                <span className="programa__oradores">
+                  <ul>
+                    <li>
+                      <span className="programa__evento">•</span>{" "}
+                      <span className="programa__orador__nombre">
+                        Ignacio Gorupicz.
+                      </span>{" "}
+                      Presidente del XXIV Encuentro Anual ACDE.
+                    </li>
+                  </ul>
+                </span>
+              </p>
+              <br></br>
+              <p>
+                9.05 h. | <span>REFLEXION</span>
+                <span className="programa__oradores">
+                  <ul>
+                    <li>
+                      <span className="programa__evento">•</span>{" "}
+                      <span className="programa__orador__nombre">
+                        Monseñor Victor Manuel Fernández
+                      </span>{" "}
+                      Arzobispo de la Arquidiócesis de La Plata.
+                    </li>
+                  </ul>
+                </span>
               </p>
               <br></br>
               <p>
@@ -287,7 +328,7 @@ const Programa = () => {
                       </span>{" "}
                       Director de Negocios Internacionales de SAESA.
                     </li>
-                  
+
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
@@ -300,7 +341,7 @@ const Programa = () => {
                       <span className="programa__orador__nombre">
                         Verónica Marcelo.
                       </span>{" "}
-                      Gerente General de Natura.
+                      Gerenta General de Natura.
                     </li>
                     <li>
                       <span className="programa__evento">•</span>{" "}
