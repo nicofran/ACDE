@@ -81,7 +81,7 @@ const Programa = () => {
                     <li>
                       <span className="programa__evento">•</span>{" "}
                       <span className="programa__orador__nombre">
-                        Palabra del Papa Francisco.
+                        Palabras del Papa Francisco.
                       </span>{" "}
                     </li>
                   </ul>
