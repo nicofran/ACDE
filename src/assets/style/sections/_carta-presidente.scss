@@ -47,8 +47,8 @@
   .carta__text {
     @include response(medium) {
       padding-top: 50px;
-      padding-left: 280px;
-      padding-right: 280px;
+      padding-left: 240px;
+      padding-right: 240px;
     }
 
     .parrafo_inicial {
@@ -78,9 +78,12 @@
   }
 
   .button--bendicion {
-    padding: 15px;
+    padding: 15px 10px;
     background-color: #52ae39;
     font-weight: 700;
+    @include response(medium) {
+      margin-top: 20px;
+    }
     a {
       color: white;
     }
