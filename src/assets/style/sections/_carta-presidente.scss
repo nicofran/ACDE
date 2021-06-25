@@ -77,6 +77,25 @@
     font-weight: 700px;
   }
 
+  .button--bendicion {
+    padding: 15px;
+    background-color: #52ae39;
+    font-weight: 700;
+    a {
+      color: white;
+    }
+    border-radius: 20px;
+    border: 1px solid white;
+
+    &:hover {
+      background-color: white;
+      a {
+        color: #52ae39;
+      }
+      border: 1px solid #52ae39;
+    }
+  }
+
   .carta__firma {
     font-weight: 700;
     float: right;
