@@ -559,7 +559,7 @@ const Expositores = () => {
         <Expositor
           nombre="Federico Poletto"
           imagen={federico_poletto}
-          descripcion={"CEO de MDZ"}
+          descripcion={"Gerente General de MDZ"}
           biografia={
             <React.Fragment>
               Federico Poletto está casado desde hace 18 años y es padre de 3
