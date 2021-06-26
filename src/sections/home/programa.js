@@ -348,7 +348,7 @@ const Programa = () => {
                       <span className="programa__orador__nombre">
                         Coordina: Federico Poletto.
                       </span>{" "}
-                      CEO de MDZ.
+                      Gerente General de MDZ.
                     </li>
                   </ul>
                 </span>
