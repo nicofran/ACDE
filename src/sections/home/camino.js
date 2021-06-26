@@ -188,7 +188,6 @@ const Camino = () => {
                 <br></br>
                 “En los lugares donde hay más pobreza, falta capitalismo”,
                 advierten empresarios
-                <br />
               </p>
               <p className="camino__autor">
                 26.06.2021 | La Nación<br></br>
