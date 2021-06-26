@@ -185,9 +185,9 @@ const Camino = () => {
             <div className="camino__article col-12 col-md-10">
               <img src={lanacion} alt="ACDE" width="375" height="220" />
               <p className="slider__titulo">
-                <br></br>
                 “En los lugares donde hay más pobreza, falta capitalismo”,
                 advierten empresarios
+                <br />
               </p>
               <p className="camino__autor">
                 26.06.2021 | La Nación<br></br>
