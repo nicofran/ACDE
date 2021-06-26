@@ -7,6 +7,7 @@ import Clarinx2 from "../../assets/images/logo-clarin@x2.png";
 import Pan_American from "../../assets/images/pan-am-energy.png";
 import Pan_Americanx2 from "../../assets/images/pan-am-energy@x2.png";
 import telecom from "../../assets/images/telecom.png";
+
 // Auspiciantes Oro
 import cgc from "../../assets/images/cgc.png";
 import cgcx2 from "../../assets/images/cgc@x2.png";
@@ -15,6 +16,7 @@ import dupont from "../../assets/images/dupont.png";
 import dupontx2 from "../../assets/images/dupont@x2.png";
 import immacule from "../../assets/images/logoimmaculee.png";
 import lanacion from "../../assets/images/fundacion-la-nacion.png";
+
 //Auspiciantes de Plata
 import amadeus from "../../assets/images/amadeus.png";
 import amadeusx2 from "../../assets/images/amadeus@2x.png";
@@ -33,8 +35,8 @@ import mabxiencex2 from "../../assets/images/mabxience@2x.png";
 import mckinsey from "../../assets/images/McKinsey2.png";
 import propymes from "../../assets/images/propymes.png";
 import irsa from "../../assets/images/irsa.png";
-
 import bareiro from "../../assets/images/barreiro-logo.png";
+
 //Auspiciantes de Bronce
 import andreani from "../../assets/images/andreani.png";
 import andreanix2 from "../../assets/images/andreani@2x.png";
@@ -43,15 +45,17 @@ import lartirigoyenx2 from "../../assets/images/lartirigoyen@2x.png";
 import pinamar_sa from "../../assets/icons/pinamar-sa.png";
 import caldenes from "../../assets/images/caldenes.jpg";
 import bullo from "../../assets/images/bullo-logo.jpg";
+import bago from "../../assets/images/bago.png";
+
 //Acompañan
 import beccar_varela from "../../assets/images/beccar-varela.jpg";
 import newsan from "../../assets/images/newsan-logo.png";
 import manpower from "../../assets/images/MANPOWER.png";
-// import price from "../../assets/images/price.eps";
 import raizen from "../../assets/images/RAIZEN.png";
 import price from "../../assets/images/price.png";
 import ey from "../../assets/images/ey-logo.jpg";
 import penaflor from "../../assets/images/grupo-pena-flor.jpg";
+
 const Auspiciantes = () => {
   return (
     <div className="ausp container" id="auspiciantes">
@@ -150,13 +154,6 @@ const Auspiciantes = () => {
             <span></span>plata<span></span>
           </p>
           <div className="ausp__marca">
-            <a
-              href="https://www.radioamadeus.com.ar"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
-            </a>
             <a href="https://accenture.com" target="_blank" rel="noreferrer">
               <img
                 src={accenture}
@@ -165,12 +162,22 @@ const Auspiciantes = () => {
               />
             </a>
 
+            <a
+              href="https://www.radioamadeus.com.ar"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={amadeus} alt="Amadeus" srcSet={amadeusx2 + " 2x"} />
+            </a>
+
             <a href="https://www.arcor.com" target="_blank" rel="noreferrer">
               <img src={arcor} alt="Grupo Arcor" srcSet={arcorx2 + " 2x"} />
             </a>
+
             <a href="http://www.bodlegal.com/" target="_blank" rel="noreferrer">
               <img src={bareiro} alt="Bareiro" width="171" height="171" />
             </a>
+
             <a
               href="https://www.gruposupervielle.com/Spanish/Nuestra-Compaa/Responsabilidad-Social-Corporativa/default.aspx"
               target="_blank"
@@ -182,6 +189,7 @@ const Auspiciantes = () => {
                 srcSet={supervillex2 + " 2x"}
               />
             </a>
+
             <a
               href="http://www.grupomurchison.com.ar/"
               target="_blank"
@@ -193,6 +201,7 @@ const Auspiciantes = () => {
                 srcSet={murchisonx2 + " 2x"}
               />
             </a>
+
             <a
               href="https://www.ibm.com/ar-es"
               target="_blank"
@@ -200,6 +209,7 @@ const Auspiciantes = () => {
             >
               <img src={ibm} alt="IBM" srcSet={ibmx2 + " 2x"} />
             </a>
+
             <a href="www.irsa.com.ar" target="_blank" rel="noreferrer">
               <img src={irsa} alt="IRSA" width="93" height="120" />
             </a>
@@ -215,6 +225,7 @@ const Auspiciantes = () => {
                 srcSet={mabxiencex2 + " 2x"}
               />
             </a>
+
             <a
               href="https://www.mckinsey.com/ar/overview"
               target="_blank"
@@ -222,6 +233,7 @@ const Auspiciantes = () => {
             >
               <img src={mckinsey} alt="Mc Kinsey" width="203" height="126" />
             </a>
+
             <a
               href="http://www.programapropymes.com"
               target="_blank"
@@ -229,6 +241,7 @@ const Auspiciantes = () => {
             >
               <img src={propymes} alt="PRO PYMES" width="208" height="50" />
             </a>
+
             <a
               href="https://www.toyota.com.ar/"
               target="_blank"
@@ -255,13 +268,10 @@ const Auspiciantes = () => {
               <img src={andreani} alt="Andreani" srcSet={andreanix2 + " 2x"} />
             </a>
 
-            <a
-              href="http://www.caldenes.com.ar"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={caldenes} alt="Caldenes S.A" width="229" height="71" />
+            <a href="https://www.bago.com.ar" target="_blank" rel="noreferrer">
+              <img src={bago} alt="Bago" width="233" height="93" />
             </a>
+
             <a
               href=" http://www.ebullo.com.ar/"
               target="_blank"
@@ -269,6 +279,15 @@ const Auspiciantes = () => {
             >
               <img src={bullo} alt="Estudio Bulló" width="281" height="118" />
             </a>
+
+            <a
+              href="http://www.caldenes.com.ar"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={caldenes} alt="Caldenes S.A" width="229" height="71" />
+            </a>
+
             <a
               href="http://www.lartirigoyen.com.ar"
               target="_blank"

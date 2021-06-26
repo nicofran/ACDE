@@ -8,6 +8,7 @@ import gontanoira from "../../assets/icons/gonzalotanoira.jpeg";
 import ignacio from "../../assets/images/portal-empresa.png";
 import aica from "../../assets/images/aica-logo.jpg";
 import telam from "../../assets/images/telam.jpg";
+import lanacion from "../../assets/images/lanacion.webp";
 
 // //ARROW prev & next
 // import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
@@ -38,8 +39,6 @@ const Camino = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
-    // prevArrow: <ArrowBack />,
-    // nextArrow: <ArrowNext />,
     responsive: [
       {
         breakpoint: 900,
@@ -182,6 +181,28 @@ const Camino = () => {
               </a>
             </div>
             {/* ARTICULO 4 END  */}
+            {/* ARTICULO 5 START */}
+            <div className="camino__article col-12 col-md-10">
+              <img src={lanacion} alt="ACDE" width="375" height="220" />
+              <p className="slider__titulo">
+                <br></br>
+                “En los lugares donde hay más pobreza, falta capitalismo”,
+                advierten empresarios
+                <br />
+              </p>
+              <p className="camino__autor">
+                26.06.2021 | La Nación<br></br>
+                Autora: Silvia Stang
+              </p>
+              <a
+                href="https://www.lanacion.com.ar/economia/en-los-lugares-donde-hay-mas-pobreza-falta-capitalismo-advierten-empresarios-nid27062021/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 5 END */}
           </Slider>
         </div>
       </div>
