@@ -30,7 +30,7 @@ import marysol_rodriguez from "../../assets/images/marysol_rodriguez.png";
 import gonzalo_tanoira from "../../assets/images/gonzalo_tanoira.png";
 import padre_augusto_zamipini from "../../assets/images/padre_augusto_zampini.png";
 import juan_bosch from "../../assets/images/juan_bosch.png";
-import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz.png";
+import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz2.png";
 import juan_vaquer from "../../assets/images/vaquer_juan.png";
 import gaston_irigoyen from "../../assets/images/gaston-irigoyen.png";
 
