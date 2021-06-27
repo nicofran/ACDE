@@ -10,6 +10,7 @@ import aica from "../../assets/images/aica-logo.jpg";
 import telam from "../../assets/images/telam.jpg";
 import lanacion from "../../assets/images/lanacion.webp";
 import papafrancisco from "../../assets/images/papafrancisco.jpeg";
+import infobae from "../../assets/images/infobae.jpg";
 
 // //ARROW prev & next
 // import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
@@ -223,6 +224,26 @@ const Camino = () => {
               </a>
             </div>
             {/* ARTICULO 5 END */}
+            {/* ARTICULO 5 START */}
+            <div className="camino__article col-12 col-md-10">
+              <img src={infobae} alt="ACDE" width="375" height="220" />
+              <p className="slider__titulo">
+                Los empresarios cristianos piden que el Gobierno baje la presión
+                impositiva para generar más inversión y empleo privado
+                <br />
+              </p>
+              <p className="camino__autor">
+                27.06.2021 | Infobae<br></br> Autor: Martín Kanenguiser
+              </p>
+              <a
+                href="https://www.infobae.com/economia/2021/06/27/los-empresarios-cristianos-piden-que-el-gobierno-baje-la-presion-impositiva-para-generar-mas-inversion-y-empleo-privado/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 6 END */}
           </Slider>
         </div>
       </div>
