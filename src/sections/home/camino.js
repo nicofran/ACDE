@@ -9,6 +9,7 @@ import ignacio from "../../assets/images/portal-empresa.png";
 import aica from "../../assets/images/aica-logo.jpg";
 import telam from "../../assets/images/telam.jpg";
 import lanacion from "../../assets/images/lanacion.webp";
+import papafrancisco from "../../assets/images/papafrancisco.jpeg";
 
 // //ARROW prev & next
 // import { ReactComponent as IconBack } from "../../assets/icons/Back.svg";
@@ -195,6 +196,26 @@ const Camino = () => {
               </p>
               <a
                 href="https://www.lanacion.com.ar/economia/en-los-lugares-donde-hay-mas-pobreza-falta-capitalismo-advierten-empresarios-nid27062021/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 5 END */}
+            {/* ARTICULO 6 START */}
+            <div className="camino__article col-12 col-md-10">
+              <img src={papafrancisco} alt="ACDE" width="375" height="220" />
+              <p className="slider__titulo">
+                “Es imprescindible generar acuerdos, sino cualquier receta que
+                proponga un 50% de la sociedad será rechazado por el otro 50%”
+                <br />
+              </p>
+              <p className="camino__autor">
+                26.06.2021 | Clarín<br></br> Autora: Silvia Naishtat
+              </p>
+              <a
+                href="https://www.clarin.com/economia/-imprescindible-generar-acuerdos-cualquier-receta-proponga-50-sociedad-rechazado-50-_0_BKBczzUIl.html"
                 target="_blank"
                 rel="noreferrer"
               >
