@@ -18,7 +18,7 @@ import gonzalo_tanoira from "../../assets/images/gonzalo_tanoira.png";
 import graciela_martini from "../../assets/images/graciela_martini.png";
 import hernan_alberro from "../../assets/images/hernan_alberro.png";
 import ignacio_cornejo_sola from "../../assets/images/ignacio_cornejo_sola.png";
-import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz2.png";
+import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz.png";
 import jorge_laroza from "../../assets/images/jorge_la_roza.png";
 import maria_gabriela_capacete from "../../assets/images/maria_gabriela_capacete.png";
 import sebastian_mocorrea from "../../assets/images/sebastian_mocorrea.png";
