@@ -7,7 +7,7 @@ const Integrante = ({ nombre, biografia, imagen, posicion }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="integrante container ">
+    <div className="integrante container col-md-6 col-lg-3 col-sm-6">
       <img src={imagen} alt={nombre} />
       <div className="comision__separador"></div>
       <div className="div__nombre__posicion">
