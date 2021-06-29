@@ -7,7 +7,7 @@ const Integrante = ({ nombre, biografia, imagen, posicion }) => {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="integrante col-md-6 col-lg-3 col-sm-6">
+    <div className="integrante container ">
       <img src={imagen} alt={nombre} />
       <div className="comision__separador"></div>
       <div className="div__nombre__posicion">
@@ -16,11 +16,11 @@ const Integrante = ({ nombre, biografia, imagen, posicion }) => {
       </div>
       <div>
         <button
-         type="button"
-         className="integrante__button"
-         onClick={() => setShow(true)}
+          type="button"
+          className="integrante__button"
+          onClick={() => setShow(true)}
         >
-         Ver más
+          Ver más
         </button>
       </div>
 

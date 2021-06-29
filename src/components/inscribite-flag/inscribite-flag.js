@@ -2,7 +2,7 @@ const InscribiteFlag = () => {
   return (
     <div className="inscribite_flag">
       <a
-        href="https://forms.gle/7hCYrBq7DQ5wTqEq5"
+        href="https://encuentroanualacde2021.hubilo.com/community/#/home"
         target="_blank"
         rel="noreferrer"
       >
