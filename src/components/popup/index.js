@@ -19,7 +19,7 @@ const PopUp = () => {
   return (
     <div className={visible ? "visible popup-container" : "popup-container"}>
       <div className="popup">
-        <button className="popup__close" onClick={cerrarPopUp}>
+        <button className="popup__close pull-right" onClick={cerrarPopUp}>
           X
         </button>
         <div>
@@ -40,7 +40,7 @@ const PopUp = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click
+                click aqui
               </a>
             </span>
           </p>
