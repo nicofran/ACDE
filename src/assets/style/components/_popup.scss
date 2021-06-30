@@ -1,6 +1,6 @@
 .popup-container {
   background-color: rgba(0, 0, 0, 0.8);
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -23,6 +23,9 @@
   }
   span {
     color: #1673b9;
+  }
+  @include response(medium) {
+    display: flex;
   }
 }
 
