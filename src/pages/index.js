@@ -5,7 +5,6 @@ import Layout from "../layouts/layout-primary";
 import Footer from "../components/footer/footer";
 import Hero from "../components/hero/hero";
 import InscribiteFlag from "../components/inscribite-flag/inscribite-flag";
-import PopUp from "../components/popup";
 
 // Secciones
 import Inscripcion from "../sections/home/inscripcion";
@@ -21,7 +20,6 @@ const Home = () => {
   return (
     <Layout>
       <Hero />
-      <PopUp />
       <InscribiteFlag />
       <Inscripcion />
       <Carta />
