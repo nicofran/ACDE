@@ -104,10 +104,6 @@ const Carta = () => {
               </a>
             </button>
           </div>
-          {/* <span className="carta__firma">
-            <p className="carta__firma__nombre">IGNACIO GORUPICZ</p>
-            <p className="carta__firma__cargo">PRESIDENTE DEL XXIV ENCUENTRO ANUAL DE ACDE</p>
-          </span> */}
         </p>
       </div>
     </div>

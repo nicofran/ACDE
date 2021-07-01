@@ -415,7 +415,7 @@ const Programa = () => {
               </p>
               <p>
                 <br></br>
-                12.00 h. | <span>PALABRAS DE CIERRE</span>
+                12.30 h. | <span>PALABRAS DE CIERRE</span>
                 <br></br>
                 <span className="programa__oradores">
                   <ul>
