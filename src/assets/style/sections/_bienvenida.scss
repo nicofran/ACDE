@@ -1,0 +1,123 @@
+.bienvenida {
+  padding-top: 80px;
+  .bienvenida__span {
+    width: 100%;
+    height: 100px;
+    background-color: #52ae39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+    .logo {
+      width: 302px;
+      height: 70px;
+      padding-right: 150px;
+      display: none;
+      @include response(medium) {
+        display: block;
+      }
+    }
+
+    img {
+      width: 39px;
+      height: 40px;
+      padding-right: 12px;
+      display: none;
+
+      @include response(medium) {
+        display: block;
+      }
+    }
+
+    .bienvenida__titulo {
+      font-size: 22px;
+      text-transform: uppercase;
+      color: white;
+      font-weight: 700;
+      text-align: center;
+      @include response(medium) {
+        padding-right: 150px;
+        margin-right: 60px;
+        font-size: 32px;
+      }
+    }
+  }
+  .bienvenida__text {
+    @include response(medium) {
+      padding-top: 50px;
+      padding-left: 240px;
+      padding-right: 240px;
+    }
+
+    .parrafo_inicial {
+      display: inline-block;
+    }
+
+    .foto_presidente {
+      display: block;
+      float: left;
+      width: 195px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      @include response(medium) {
+        width: 295px;
+        height: 300px;
+      }
+    }
+
+    .carta__parrafo__cita {
+      font-style: italic;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    font-weight: 700px;
+  }
+
+  .button--bendicion {
+    padding: 15px 10px;
+    background-color: #52ae39;
+    font-weight: 700;
+    @include response(medium) {
+      margin-top: 20px;
+    }
+    a {
+      color: white;
+    }
+    border-radius: 20px;
+    border: 1px solid white;
+
+    &:hover {
+      background-color: white;
+      a {
+        color: #52ae39;
+      }
+      border: 1px solid #52ae39;
+    }
+  }
+
+  .carta__firma {
+    font-weight: 700;
+    float: right;
+    //padding-top: 10px;
+    text-transform: uppercase;
+
+    .carta__firma__nombre {
+      font-size: 28px;
+      font-family: "Gilroy-Bold", sans-serif;
+    }
+    .carta__firma__cargo {
+      font-size: 22px;
+      font-family: "Gilroy-Medium", sans-serif;
+      margin-bottom: 40px;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
