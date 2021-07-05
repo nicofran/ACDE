@@ -8,13 +8,14 @@ import InscribiteFlag from "../components/inscribite-flag/inscribite-flag";
 
 // Secciones
 import Inscripcion from "../sections/home/inscripcion";
-import Carta from "../sections/home/carta-presidente";
+// import Carta from "../sections/home/carta-presidente";
 import Programa from "../sections/home/programa";
 import Expositores from "../sections/home/expositores";
 import Comision from "../sections/home/comision-organizadora";
 import Auspiciantes from "../sections/home/auspiciantes";
 import EncuentrosAnteriores from "../sections/home/encuentros-anteriores";
 import Camino from "../sections/home/camino";
+import PalabraBienvenida from "../sections/palabra-bienvenida";
 
 const Home = () => {
   return (
@@ -22,7 +23,8 @@ const Home = () => {
       <Hero />
       <InscribiteFlag />
       <Inscripcion />
-      <Carta />
+      <PalabraBienvenida />
+      {/* <Carta /> */}
       <Programa />
       <Inscripcion />
       <Expositores />

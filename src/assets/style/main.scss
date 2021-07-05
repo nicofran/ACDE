@@ -12,9 +12,19 @@
 @import "./components/hero";
 @import "./components/modal";
 @import "./components/inscribite-flag.scss";
-@import "./components//popup";
+@import "./components/popup";
 
-//Secciones
+//Sections
+// @import "./pages/home/home.scss";
+@import "./sections/inscripcion";
+@import "./sections//carta-presidente";
+@import "./sections//programa";
+@import "./sections//expositores";
+@import "./sections//comision-organizadora";
+@import "./sections//auspiciantes";
+@import "./sections/encuentros-anteriores";
+@import "./sections/camino";
+@import "./sections//bienvenida";
 
 //Fonts
 @font-face {
@@ -78,17 +88,6 @@
   font-family: "Gilroy-UltraLightItalic";
   src: url("./fonts/Gilroy/Gilroy-UltraLightItalic.otf");
 }
-
-// Screens
-// @import "./pages/home/home.scss";
-@import "./sections/inscripcion";
-@import "./sections//carta-presidente";
-@import "./sections//programa";
-@import "./sections//expositores";
-@import "./sections//comision-organizadora";
-@import "./sections//auspiciantes";
-@import "./sections/encuentros-anteriores";
-@import "./sections/camino";
 
 html {
   width: 100%;
