@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import banner from "../../assets/icons/logo-acde.png";
 //Images de los articulos
 import articulo1 from "../../assets/images/fotos-encuentro/02.palabras bienvenida I. Gorupicz.jpg";
-import articulo4 from "../../assets/images/fotos-encuentro/13. Emilio Pérsico.jpg";
+import articulo4 from "../../assets/images/fotos-encuentro/13.emiliopersico.jpg";
 
 const Repercuciones = () => {
   var settings = {
