@@ -18,7 +18,7 @@ import Camino from "../sections/home/camino";
 import Repercuciones from "../sections/home/repercuciones";
 
 import PalabraBienvenida from "../sections/palabra-bienvenida";
-// import Galeria from "../sections/home/galeria";
+import Galeria from "../sections/home/galeria";
 
 const Home = () => {
   return (
@@ -33,7 +33,7 @@ const Home = () => {
       <Expositores />
       <Comision />
       <Auspiciantes />
-      {/* <Galeria /> */}
+      <Galeria />
       <Repercuciones />
       <Camino />
       <EncuentrosAnteriores />
