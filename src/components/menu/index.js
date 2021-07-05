@@ -119,6 +119,9 @@ const Menu = () => {
               <a href="#auspiciantes">Auspiciantes</a>
             </li>
             <li>
+              <a href="#galeria">Galeria de fotos</a>
+            </li>
+            <li>
               <a href="#camino">Camino al encuentro</a>
             </li>
             <li>
