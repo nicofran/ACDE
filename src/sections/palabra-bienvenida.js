@@ -5,7 +5,7 @@ import logo from "../assets/icons/logo-acde.png";
 
 const PalabraBienvenida = () => {
   return (
-    <div className="bienvenida container" id="carta">
+    <div className="bienvenida container" id="bienvenida">
       <div className="bienvenida__span">
         <img className="logo" src={logo} alt="ACDE" />
         <h1 className="bienvenida__titulo">Palabras de Bienvenida</h1>
@@ -191,7 +191,7 @@ const PalabraBienvenida = () => {
           </div>
         </p>
       </div>
-      <div className="bienvenida__span bienvenida__span--cierre">
+      <div className="bienvenida__span bienvenida__span--cierre" id="cierre">
         <img className="logo" src={logo} alt="ACDE" />
         <h1 className="bienvenida__titulo">Palabras de cierre</h1>
       </div>

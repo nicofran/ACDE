@@ -104,7 +104,10 @@ const Menu = () => {
         <div>
           <ul className="banner__list">
             <li>
-              <a href="#carta">Carta del Presidente</a>
+              <a href="#bienvenida">Palabras de bienvenida</a>
+            </li>
+            <li>
+              <a href="#cierre">Palabras de cierre</a>
             </li>
             <li>
               <a href="#programa">Programa</a>
