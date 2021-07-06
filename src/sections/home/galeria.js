@@ -43,7 +43,7 @@ const Galeria = () => {
     <div className="galeria" id="galeria">
       <div className="galeria__span">
         <img className="logo" src={logo} alt="ACDE" />
-        <h1 className="bienvenida__titulo">Galeria de imagenes</h1>
+        <h1 className="bienvenida__titulo">Galeria de fotos</h1>
       </div>
       <div className="galeria__container">
         <SRLWrapper>
