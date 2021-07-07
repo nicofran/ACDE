@@ -37,11 +37,39 @@
     }
   }
 
+  .menu__encuentro {
+    float: right;
+    top: 1;
+    right: 0;
+    position: absolute;
+    display: none;
+
+    @include response(medium) {
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: grey !important;
+        li {
+          margin-right: 20px;
+          list-style-type: none;
+          color: grey !important;
+        }
+      }
+      display: block;
+      a {
+        color: grey;
+        padding-bottom: 20px;
+        font-size: 13px;
+      }
+    }
+  }
+
   .menu__banners {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 30px 10px;
+    padding: 25px 30px 10px;
     @include response(medium) {
       flex-direction: row;
       justify-content: space-evenly;

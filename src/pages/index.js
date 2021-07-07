@@ -16,28 +16,24 @@ import Auspiciantes from "../sections/home/auspiciantes";
 import EncuentrosAnteriores from "../sections/home/encuentros-anteriores";
 import Camino from "../sections/home/camino";
 import Repercuciones from "../sections/home/repercuciones";
-
 import PalabraBienvenida from "../sections/palabra-bienvenida";
 import Galeria from "../sections/home/galeria";
+// import VideoGalery from "../sections/home/video-galeria";
 
 const Home = () => {
   return (
     <Layout>
       <Hero />
-      {/* <InscribiteFlag /> */}
-      {/* <Inscripcion /> */}
       <PalabraBienvenida />
-      {/* <Carta /> */}
       <Programa />
-      {/* <Inscripcion /> */}
       <Expositores />
       <Comision />
       <Auspiciantes />
+      {/* <VideoGalery /> */}
       <Galeria />
       <Repercuciones />
       <Camino />
       <EncuentrosAnteriores />
-      {/* <Inscripcion /> */}
       <Footer />
     </Layout>
   );
