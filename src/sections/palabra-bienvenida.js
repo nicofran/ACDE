@@ -203,7 +203,7 @@ const PalabraBienvenida = () => {
               alt="Ignacio Gorupicz"
               className="foto_presidente"
             />
-            <br></br> Antes de cerrar este encuentro me gustaría agradecer muy
+            Antes de cerrar este encuentro me gustaría agradecer muy
             especialmente al equipo que lo hizo posible, encabezado por Ignacio
             Gorupicz. Lograron realizar un gran Encuentro Anual, del que nos
             vamos a acordar por mucho tiempo. <br />
@@ -217,9 +217,7 @@ const PalabraBienvenida = () => {
             También me gustaría agradecer muy especialmente a todos los
             disertantes, en especial a nuestro Papa Francisco, que tan
             desinteresadamente se han preparado y nos han honrado con su
-            presencia y enriquecido con sus palabras. Entre todos han dejado muy
-            alta la vara de los encuentros anuales de nuestra asociación
-            cristiana de dirigentes de empresa.
+            presencia y enriquecido con sus palabras.
             <br></br>
             <br></br>
             El mundo ha debatido durante los últimos 100 años cuál es el modelo
@@ -527,3 +525,7 @@ const PalabraBienvenida = () => {
 };
 
 export default PalabraBienvenida;
+
+// Entre todos han dejado muy
+//             alta la vara de los encuentros anuales de nuestra asociación
+//             cristiana de dirigentes de empresa.?

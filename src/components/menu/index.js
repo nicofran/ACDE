@@ -144,6 +144,9 @@ const Menu = () => {
               <a href="#auspiciantes">Auspiciantes</a>
             </li>
             <li>
+              <a href="#repercuciones">Prensa</a>
+            </li>
+            <li>
               <a href="#galeria">Galeria de fotos</a>
             </li>
           </ul>
