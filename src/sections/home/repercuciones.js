@@ -14,7 +14,7 @@ const Repercuciones = () => {
     speed: 300,
     slidesToShow: 3,
     arrows: true,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     dots: true,
     responsive: [
@@ -61,11 +61,12 @@ const Repercuciones = () => {
                 Empresarios señalaron la necesidad de crear trabajo, pero
                 advirtieron que hay trabas
               </p>
+              <br />
               <p className="repercuciones__autor">
                 30.06.2021 | La Nación <br />
                 Autor: María Julieta Rumi
               </p>
-              <div></div>
+              {/* <div></div> */}
               <a
                 href="https://www.lanacion.com.ar/economia/empresarios-senalaron-la-necesidad-de-crear-trabajo-para-combatir-la-pobreza-nid30062021/"
                 target="_blank"
@@ -83,6 +84,7 @@ const Repercuciones = () => {
                 width="370"
                 height="214"
               />
+              <br />
               <p className="slider__titulo2">
                 Marina Dal Poggetto: Hoy la principal ventaja competitiva que
                 tiene la Argentina es haber destruido los salarios
@@ -91,7 +93,6 @@ const Repercuciones = () => {
                 30.06.2021 | La Voz <br />
                 Autor: Corresponsalía Buenos Aires
               </p>
-              <div></div>
               <a
                 href="https://www.lavoz.com.ar/politica/marina-dal-poggetto-hoy-la-principal-ventaja-competitiva-que-tiene-la-argentina-es-haber-destruido-los-salarios/"
                 target="_blank"
@@ -114,6 +115,7 @@ const Repercuciones = () => {
                 "La única política de Estado que tuvimos es generar más
                 pobreza”, afirmó Dal Poggetto
               </p>
+              <br />
               <p className="repercuciones__autor">
                 30.06.2021 | La Prensa <br />
                 Autor: La Prensa
@@ -136,6 +138,7 @@ const Repercuciones = () => {
                 Pérsico y Migliore coincidieron en la necesidad de integrar a
                 trabajadores de economía popular
               </p>
+              <br />
               <p className="repercuciones__autor">
                 30.06.2021 | Grupo La Provincia <br />
                 Autor: Grupo La Provincia
@@ -163,6 +166,7 @@ const Repercuciones = () => {
                 Emilio Pérsico criticó la política de subsidios: “Es lo primero
                 que se le ocurre al Estado, pero no es la salida”
               </p>
+              <br />
               <p className="repercuciones__autor">
                 30.06.2021 | Clarín <br />
                 Autor: Ana Clara Pedotti
@@ -185,6 +189,7 @@ const Repercuciones = () => {
                 Pérsico y Migliore coincidieron en la necesidad de integrar a
                 trabajadores de economía popular
               </p>
+              <br />
               <p className="repercuciones__autor">
                 30.06.2021 | Cablera Telam <br />
                 Autor: Cablera Telam
@@ -207,6 +212,7 @@ const Repercuciones = () => {
                 width="370"
                 height="214"
               />
+              <br />
               <p className="slider__titulo2">
                 Arzobispo platense llamó a empresarios a pensar en "función
                 social" y tener "pasión" dar más trabajo
