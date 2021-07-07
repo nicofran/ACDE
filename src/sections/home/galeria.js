@@ -11,14 +11,14 @@ import img6 from "../../assets/images/fotos-encuentro/06.jpg";
 import img7 from "../../assets/images/fotos-encuentro/07.jpg";
 import img8 from "../../assets/images/fotos-encuentro/08.jpg";
 import img9 from "../../assets/images/fotos-encuentro/09.jpg";
-import img10 from "../../assets/images/fotos-encuentro/10.jpg";
+// import img10 from "../../assets/images/fotos-encuentro/10.jpg";
 import img11 from "../../assets/images/fotos-encuentro/11.jpg";
 import img12 from "../../assets/images/fotos-encuentro/12.jpg";
 import img13 from "../../assets/images/fotos-encuentro/13.emiliopersico.jpg";
 import img14 from "../../assets/images/fotos-encuentro/14.jpg";
-import img15 from "../../assets/images/fotos-encuentro/15.jpg";
+// import img15 from "../../assets/images/fotos-encuentro/15.jpg";
 import img16 from "../../assets/images/fotos-encuentro/16.jpg";
-import img17 from "../../assets/images/fotos-encuentro/17.jpg";
+// import img17 from "../../assets/images/fotos-encuentro/17.jpg";
 import img18 from "../../assets/images/fotos-encuentro/18.jpg";
 import img19 from "../../assets/images/fotos-encuentro/19.jpg";
 import img20 from "../../assets/images/fotos-encuentro/20.jpg";
@@ -74,9 +74,9 @@ const Galeria = () => {
           <a href={img9}>
             <img src={img9} alt="ACDE" />
           </a>
-          <a href={img10}>
+          {/* <a href={img10}>
             <img src={img10} alt="ACDE" />
-          </a>
+          </a> */}
           <a href={img11}>
             <img src={img11} alt="ACDE" />
           </a>
@@ -84,20 +84,16 @@ const Galeria = () => {
             <img src={img12} alt="ACDE" />
           </a>
           <a href={img13}>
-            <img src={img14} alt="ACDE" />
+            <img src={img13} alt="ACDE" />
           </a>
           <a href={img14}>
             <img src={img14} alt="ACDE" />
           </a>
-          <a href={img15}>
-            <img src={img15} alt="ACDE" />
-          </a>
+
           <a href={img16}>
             <img src={img16} alt="ACDE" />
           </a>
-          <a href={img17}>
-            <img src={img17} alt="ACDE" />
-          </a>
+
           <a href={img18}>
             <img src={img18} alt="ACDE" />
           </a>
@@ -148,6 +144,9 @@ const Galeria = () => {
           </a>
           <a href={img34}>
             <img src={img34} alt="ACDE" />
+          </a>
+          <a href={img8}>
+            <img src={img8} alt="ACDE" />
           </a>
           <a href={img35}>
             <img src={img35} alt="ACDE" />

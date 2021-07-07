@@ -70,6 +70,28 @@ const Menu = () => {
             <InstagramIcon />
           </a>
         </div>
+        <div className="menu__encuentro">
+          <ul>
+            <li>
+              {" "}
+              <a href="/carta-presidente" target="_blank" rel="noreferrer">
+                Carta del presidente
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="#camino" target="_blank" rel="noreferrer">
+                Camino al Encuentro
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="#encuentros" target="_blank" rel="noreferrer">
+                Encuentros anteriores
+              </a>
+            </li>
+          </ul>
+        </div>
         <div className="menu__banners">
           <div>
             <img
@@ -123,12 +145,6 @@ const Menu = () => {
             </li>
             <li>
               <a href="#galeria">Galeria de fotos</a>
-            </li>
-            <li>
-              <a href="#camino">Camino al encuentro</a>
-            </li>
-            <li>
-              <a href="#encuentros">Encuentros anteriores</a>
             </li>
           </ul>
         </div>

@@ -1,7 +1,7 @@
-import icon from "../../assets/icons/icon-carta1.png";
-import logo from "../../assets/icons/logo-acde.png";
+import icon from "../assets/icons/icon-carta1.png";
+import logo from "../assets/icons/logo-acde.png";
 //PRESIDENTE DEL ENCUENTRO
-import ignacio_gorupicz from "../../assets/images/ignacio_gorupicz2.png";
+import ignacio_gorupicz from "../assets/images/ignacio_gorupicz2.png";
 
 const Carta = () => {
   return (
