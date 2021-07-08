@@ -18,7 +18,6 @@ const PalabraBienvenida = () => {
               alt="Ignacio Gorupicz"
               className="foto_presidente"
             />
-            <strong> Discurso Apertura XXIV Encuentro Anual ACDE 2021</strong>
             <br></br>
             <br></br> Todos tenemos el mismo sueño para Argentina – Una sociedad
             y una economía donde haya un lugar digno en la mesa para todos. Así
@@ -29,8 +28,9 @@ const PalabraBienvenida = () => {
             trabajo, hay mucho trabajo. Hay muchos trabajos nuevos y hay otros
             que cambian por la tecnología. Hay tanto trabajo en estos países que
             actúan como un imán que atrae trabajadores y sus familias de otros
-            países. <br />
+            países.
             <p />
+            {/* <br /> */}
             Junto con un equipo organizador al que le estoy muy agradecido,
             iniciamos la preparación de este encuentro el año pasado. En ese
             momento de incertidumbre, decidimos hacer una encuesta a los socios
@@ -70,7 +70,6 @@ const PalabraBienvenida = () => {
             que la Justicia sola no puede, necesitamos también la Caridad
             Social.
             <br></br>
-            <br></br>
             No quiero profundizar en la naturaleza de este desafío en torno al
             encuentro de los argentinos. Creo que si algo nos propusimos para
             estas dos mañanas que tenemos por delante es mirar menos al pasado y
@@ -78,7 +77,7 @@ const PalabraBienvenida = () => {
             que con explicaciones y lamentos. Si no tenemos todas las respuestas
             al menos ofrecer un camino concreto a transitar.
             <br></br>
-            <br></br>
+            <br />
             <p>
               <strong>
                 Una causa donde se entrelazan la promoción del bien común y la
@@ -109,7 +108,6 @@ const PalabraBienvenida = () => {
               posiblemente concluiremos que no hay solución fácil ni atajos. Al
               terminar volveré sobre esta lista.
             </p>
-            <br></br>
             <p>
               En el libro del Éxodo se cuenta que el pueblo de Israel guiado por
               Moises enfrenta al pueblo nómade de los amalecitas en el medio del
@@ -124,7 +122,6 @@ const PalabraBienvenida = () => {
               tenemos que bajar los brazos sino también tenemos que sostenernos
               mutuamente.
             </p>
-            <br></br>
             <p>
               Lo bueno de plantear esta causa en torno a generar trabajo decente
               es que nos orienta a poner los principios cristianos en
@@ -152,7 +149,6 @@ const PalabraBienvenida = () => {
               correcto porque es lo correcto. Atahualpa Yupanqui decía que la
               arena es un puñadito, pero hay montañas de arena.
             </p>
-            <br></br>
             <p>
               <strong>
                 Nuestro fundador Enrique Shaw nos dejó una hoja de ruta para ir
@@ -169,7 +165,6 @@ const PalabraBienvenida = () => {
               Seguramente Enrique sabía que el que achica los sueños, achica las
               realidades.
             </p>
-            <br></br>
             <p>
               Aceptemos que a veces es preciso perderse para volver a
               encontrarse. En vez de mirar lo que fuimos miremos hacia el futuro
@@ -185,7 +180,7 @@ const PalabraBienvenida = () => {
           <div>
             <p className="carta__firma">
               <span></span>IGNACIO GORUPICZ<br></br>
-              <span>Presidente</span> <br></br>
+              <span>Presidente del </span>
               <span>XXIV Encuentro Anual ACDE</span>
             </p>
           </div>
@@ -213,13 +208,13 @@ const PalabraBienvenida = () => {
             nuestros socios, que con su aporte sostienen a un equipo de gente de
             excelencia que tenemos llevando adelante nuestra asociación.
             <br></br>
-            <br></br>
+            <br />
             También me gustaría agradecer muy especialmente a todos los
             disertantes, en especial a nuestro Papa Francisco, que tan
             desinteresadamente se han preparado y nos han honrado con su
             presencia y enriquecido con sus palabras.
-            <br></br>
-            <br></br>
+            <br />
+            <br />
             El mundo ha debatido durante los últimos 100 años cuál es el modelo
             que lleva a las naciones al desarrollo y el bienestar a las
             personas. El eterno debate entre la derecha y la izquierda, entre
@@ -228,14 +223,12 @@ const PalabraBienvenida = () => {
             genera divisiones. En Argentina sobre todo, pero también en el resto
             del mundo.
             <br></br>
-            <br></br>
             <p>
               Si bien quedó demostrado que en el mundo las alternativas al
               capitalismo fracasaron hace rato, también es cierto que este
               necesita seguir reinventándose para poder hacer llegar sus
               beneficios a un mayor número de personas.
             </p>
-            <br></br>
             <p>
               Ya antes de la pandemia el mercado del trabajo era puesto a prueba
               una vez más por los avances de la tecnología. Por mucho que nos
@@ -243,7 +236,6 @@ const PalabraBienvenida = () => {
               capitalismo estaban profundizando los niveles de desigualdad
               mundiales.
             </p>
-            <br></br>
             <p>
               Y llegó la pandemia. Nos chocó de frente de una manera a la que no
               podíamos habernos anticipado. Llegó como una amenaza a la
@@ -251,7 +243,6 @@ const PalabraBienvenida = () => {
               desarrollo. Vimos planes frustrados, personas queridas partir
               antes de tiempo, sueños rotos.
             </p>
-            <br></br>
             <p>
               Pero esa pausa también nos hizo ver que quizás el mundo estaba
               girando demasiado rápido. Vimos que la manera en la que nos
@@ -262,20 +253,17 @@ const PalabraBienvenida = () => {
               desigualdad es un tema relevante para el 80% de la población,
               entonces pasa a ser un tema relevante para todos.
             </p>
-            <br></br>
             <p>
               No existen burbujas individuales, en esta pandemia entendimos que
               todos vivimos en el mismo planeta y que la suerte de algunos es
               finalmente la suerte de todos.
             </p>
-            <br></br>
             <p>
               El sector empresario viene emprendiendo a nivel global un profundo
               cambio de hábitos. Cuando Enrique Shaw hablaba en 1950 de sus
               propuestas era considerado un precursor. Tenemos que humanizar las
               fábricas nos decía
             </p>
-            <br></br>
             <p>
               Hoy las gerencias de Sustentabilidad, las inversiones de impacto,
               los planes de carrera para nuestros colaboradores, las acciones
@@ -313,7 +301,6 @@ const PalabraBienvenida = () => {
               nuestras acciones, entendiendo el viejo axioma de que la libertad
               de uno termina donde empieza la libertad del otro.
             </p>
-            <br></br>
             <p>
               El segundo ingrediente fundamental es la{" "}
               <strong>democracia</strong>. Ha sido la única forma de gobierno
@@ -324,27 +311,23 @@ const PalabraBienvenida = () => {
               democracia está fuera de duda como uno de los ingredientes
               esenciales.
             </p>
-            <br />
             <p>
               Un capitalismo más humano sin duda tiene que poner al
               <strong>cuidado del medioambiente</strong> muy arriba en su lista
               de prioridades.
             </p>
-            <br />
             <p>
               Otro ingrediente esencial es la{" "}
               <strong>defensa de la propiedad privada.</strong>
               No podemos crear un estado de derecho que no asegure los frutos de
               su trabajo a los habitantes de una Nación
             </p>
-            <br />
             <p>
               Mantener y fomentar el espíritu emprendedor de la población con la
               consiguiente generación de riqueza es clave. Crear valor y riqueza
               no son malas palabras, debería ser promovido y alentado para el
               bien de la sociedad.
             </p>
-            <br />
             <p>
               La <strong>apertura</strong> al mundo para fomentar la innovación
               y el desarrollo es también uno de los pilares ineludibles. No
@@ -353,14 +336,12 @@ const PalabraBienvenida = () => {
               proteger el trabajo nacional solo produce retrasos al desarrollo y
               más falta de competitividad.
             </p>
-            <br />
             <p>
               Un sistema de impuestos justo y equitativo es quizás donde existe
               la mayor divergencia. ¿Cómo se cuida a los más necesitados
               mientras al mismo tiempo se promueven las inversiones productivas
               y se respeta la propiedad privada?
             </p>
-            <br></br>
             <p>
               Tenemos mucho para acordar allí, manteniendo la perspectiva de que
               Argentina ya tiene una de las cargas impositivas más altas del
@@ -371,14 +352,12 @@ const PalabraBienvenida = () => {
               esto no atente en contra del espíritu innovador y la vocación de
               invertir de la población.
             </p>
-            <br />
             <p>
               Un estado ágil y eficiente, sin burocracia y que aproveche los
               avances de la tecnología, es clave para poder reducir la presión
               impositiva y que asi el sector privado genere inversiones
               productivas.
             </p>
-            <br />
             <p>
               Como nos dijo el Santo Padre ayer, el Capitalismo segun el mensaje
               de Cristo esta resumido en Mateo 25, la parábola de los Talentos,
@@ -386,7 +365,6 @@ const PalabraBienvenida = () => {
               hayan invertido bien sus ahorros para producir riqueza, y castiga
               a aquel que los entierra para esconderlos.
             </p>
-            <br />
             <p>
               Y ya que estamos en Mateo 25, traigo otro de sus celebres
               versiculos que nos refiere nuestro Papa: Porque tuve hambre y me
@@ -397,7 +375,6 @@ const PalabraBienvenida = () => {
               que les pasa a los más débiles nos pasa a todos. Esto no puede ser
               olvidado en nuestra receta.
             </p>
-            <br />
             <p>
               Un espíritu de <strong>perdón</strong> tampoco puede estar ausente
               en esta nueva sociedad. Poder cicatrizar heridas, dar vuelta la
@@ -406,13 +383,11 @@ const PalabraBienvenida = () => {
               ser superadoras por sobre mantener el odio, perseverar en la
               crítica o promover los enfrentamientos.
             </p>
-            <br />
             <p>
               Como demostró Inmaculée en su testimonio de hoy, otras sociedades
               han podido superar grietas mucho más profundas y violentas que la
               nuestra. Solo hay que proponérselo.
             </p>
-            <br />
             <p>
               Una <strong>justicia independiente</strong> de los demás poderes,
               a quienes tiene la obligación y responsabilidad de controlar, es
@@ -421,7 +396,6 @@ const PalabraBienvenida = () => {
               una nación si estos no confían primero en la administración de la
               justicia.
             </p>
-            <br />
             <p>
               Pero para todo esto, es necesaria también una cierta cuota de
               paciencia. Después de la pandemia, nuestro país va a salir
@@ -429,14 +403,12 @@ const PalabraBienvenida = () => {
               recetas mágicas de corto plazo como imprimir dinero o subir
               impuestos ya sabemos dónde nos llevan.
             </p>
-            <br />
             <p>
               Por último, pero quizás lo más importante de todo, lo que le da
               sentido a todo este diseño, y lo que nos da la fuerza para pensar
               en esta nueva sociedad del futuro, es la posibilidad de volver a
               Dios.{" "}
             </p>
-            <br />
             <p>
               Somos dirigentes Cristianos, seguimos el mensaje de Cristo.
               Tenemos una amistad con él a través de la Gracia. En las últimas
@@ -447,7 +419,6 @@ const PalabraBienvenida = () => {
               vergüenza de hablar de Él, de salir a comunicar su mensaje de
               hermandad entre los pueblos de la tierra.
             </p>
-            <br />
             <p>
               Hemos visto cómo el individualismo tomaba mayor preponderancia
               bajo el lema del sálvese quien pueda. Un Capitalismo más humano
@@ -456,7 +427,6 @@ const PalabraBienvenida = () => {
               demás. Hasta que no entendamos esto no podremos diseñar ese nuevo
               capitalismo que tanto necesitamos.
             </p>
-            <br />
             <p>
               ACDE ha intentado durante todo este año alzar la voz cada vez que
               lo consideró necesario, para que nuestro país siguiera una senda
@@ -465,13 +435,11 @@ const PalabraBienvenida = () => {
               Doctrina Social de la Iglesia y esperando siempre haber sido
               iluminados por el Espíritu Santo en lo que decíamos.
             </p>
-            <br />
             <p>
               Por ello, agradezco enormemente al Consejo Directivo que me
               acompaña, por su apoyo, por su claridad de pensamiento y por su
               valentía para decir siempre lo que piensan.
             </p>
-            <br />
             <p>
               <strong>
                 Reconocemos que el gobierno ha tenido que enfrentar situaciones
@@ -481,7 +449,6 @@ const PalabraBienvenida = () => {
                 alejan cada vez más de una posible recuperación.
               </strong>
             </p>
-            <br />
             <p>
               Estoy convencido de que, como dirigentes, tenemos que seguir
               proponiendo caminos constructivos para salir adelante. Como
@@ -490,21 +457,18 @@ const PalabraBienvenida = () => {
               responsabilidad de seguir transmitiendo con entusiasmo el mensaje
               de Cristo.
             </p>
-            <br />
             <p>
               Y resalto la palabra entusiasmo, que viene del griego “En Theus”,
               que significa en Dios. Quien tiene entusiasmo lo lleva a Dios
               adentro. Sin duda Enrique Shaw fue quien mejor representa esto,
               con el entusiasmo que le ponía a todo lo que se proponía
             </p>
-            <br />
             <p>
               Convocamos a toda la dirigencia a continuar con el diálogo y los
               aportes constructivos, para entre todos encontrar la mejor receta
               para hacer un capitalismo más humano, que nos ayude a construir el
               país que tanto necesitamos.
             </p>
-            <br />
             <p>
               Que Cristo Jesus nos acompañe en este camino y que la Inmaculada
               Madre nos proteja.
