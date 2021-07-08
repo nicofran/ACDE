@@ -149,6 +149,9 @@ const Menu = () => {
             <li>
               <a href="#galeria">Galeria de fotos</a>
             </li>
+            <li>
+              <a href="#videos">Videos</a>
+            </li>
           </ul>
         </div>
 
