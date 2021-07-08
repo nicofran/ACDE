@@ -1,0 +1,40 @@
+.video {
+  display: grid;
+  grid-template-columns: auto;
+  @include response(small) {
+    grid-template-columns: auto auto;
+    row-gap: 50px;
+  }
+}
+.expo__span {
+  width: 100%;
+  height: 100px;
+  background-color: #e22084;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .logo {
+    width: 160px;
+    height: 70px;
+    margin: 0 auto;
+    display: none;
+    @include response(medium) {
+      display: block;
+    }
+  }
+
+  .carta__titulo {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    @include response(medium) {
+      padding-right: 650px;
+      margin-right: 20px;
+      font-size: 32px;
+    }
+  }
+}

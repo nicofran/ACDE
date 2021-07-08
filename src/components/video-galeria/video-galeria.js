@@ -4,21 +4,19 @@ import ModalVideo from "react-modal-video";
 
 const VideoGalery = ({ src, title, id }) => {
   const [isOpen, setOpen] = useState(false);
-
   return (
     <div className="video__container">
-      <div className="video-item" onClick={() => setOpen(true)}>
+      <div className="video__item">
         <iframe
-          width="320"
+          width="365"
           height="260"
           src={src}
           title="YouTube video player"
           frameborder="2"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
-        <p>{title}</p>
       </div>
-
+      <p className="video__title">{title}</p>
       <ModalVideo
         channel="youtube"
         autoplay
@@ -26,9 +24,9 @@ const VideoGalery = ({ src, title, id }) => {
         videoId={id}
         onClose={() => setOpen(false)}
       />
-      {/* <button className="btn-primary">
-          Ver video
-        </button> */}
+      <button className="button__video" onClick={() => setOpen(true)}>
+        Ver video
+      </button>
     </div>
   );
 };
