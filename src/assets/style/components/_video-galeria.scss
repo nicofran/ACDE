@@ -7,7 +7,6 @@
   .video__title {
     color: #1673b9;
     font-size: 12px;
-    // max-width: 320px;
     @include response(medium) {
       font-size: 15px;
     }

@@ -4,7 +4,7 @@ import icon from "../../assets/icons/logo-acde.png";
 const Videos = () => {
   return (
     <div>
-      <div className="expo__span" id="expositores">
+      <div className="expo__span" id="expositores" id="videos">
         <img className="logo" src={icon} alt="ACDE" />
         <h1 className="carta__titulo">Videos</h1>
       </div>
