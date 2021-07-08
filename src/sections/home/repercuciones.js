@@ -7,6 +7,9 @@ import banner from "../../assets/icons/logo-acde.png";
 //Images de los articulos
 import articulo1 from "../../assets/images/fotos-encuentro/02.palabras bienvenida I. Gorupicz.jpg";
 import articulo4 from "../../assets/images/fotos-encuentro/13.emiliopersico.jpg";
+import img5 from "../../assets/images/fotos-encuentro/05.jpg";
+import gontanoira from "../../assets/icons/gonzalotanoira.jpeg";
+import papafrancisco from "../../assets/images/papafrancisco.jpeg";
 
 const Repercuciones = () => {
   var settings = {
@@ -231,6 +234,245 @@ const Repercuciones = () => {
               </a>
             </div>
             {/* ARTICULO 7 END  */}
+            {/* ARTICULO 8 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={img5} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                Economista señaló que "la única política de Estado que tuvimos
+                es generar más pobreza”
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                30.06.2021 | NA <br />
+                Autor: NA
+              </p>
+              <div></div>
+              <a
+                href="https://noticiasargentinas.com/economia/la-unica-politica-de-estado-que-tuvimos-es-generar-mas-pobreza-sentencio-dal-poggetto"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 8 END  */}
+            {/* ARTICULO 9 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={gontanoira} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                “A los empresarios nos encantaría invertir, pero necesitamos
+                seguridad jurídica”, sostienen en ACDE
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                01.07.2021 | NA <br />
+                Autor: NA
+              </p>
+              <div></div>
+              <a
+                href="https://noticiasargentinas.com/economia/a-los-empresarios-nos-encantaria-invertir-pero-necesitamos-seguridad-juridica-sostienen-en-acde"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 9 END  */}
+            {/* ARTICULO 10 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={papafrancisco} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                El Papa les pidió a los empresarios argentinos “no esconder la
+                plata en paraísos fiscales”
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                30.06.2021 | Clarín <br />
+                Autor: Sergio Rubín
+              </p>
+              <div></div>
+              <a
+                href="https://www.clarin.com/politica/papa-pidio-empresarios-argentinos-esconder-plata-paraisos-fiscales-_0_xGrpRnNjg.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 10 END  */}
+            {/* ARTICULO 11 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={papafrancisco} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                El Papa Francisco llamó a “invertir en el bien común y no
+                esconder la plata en los paraísos fiscales”
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                30.06.2021 | La Nación <br />
+                Autor: Silvia Stang
+              </p>
+              <div></div>
+              <a
+                href="https://www.lanacion.com.ar/economia/papa-francisco-falta-invertir-en-el-bien-comun-y-no-esconder-plata-en-paraisos-fiscales-nid30062021/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 11 END  */}
+            {/* ARTICULO 12 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={papafrancisco} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                Papa Francisco pidió confiar en las pymes y llamó a "no esconder
+                la plata en los paraísos fiscales"
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                30.06.2021 | Ámbito Financiero <br />
+                Autor: Sergio Rubín
+              </p>
+              <div></div>
+              <a
+                href="https://www.ambito.com/politica/pymes/papa-francisco-pidio-confiar-las-y-llamo-no-esconder-la-plata-los-paraisos-fiscales-n5210751"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 12 END  */}
+            {/* ARTICULO 13 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={papafrancisco} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                El Papa le pide a empresarios argentinos "no esconder la plata
+                en paraísos fiscales"
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                30.06.2021 | El Cronista <br />
+                Autor: Ezequiel Chabay
+              </p>
+              <div></div>
+              <a
+                href="https://www.cronista.com/economia-politica/el-papa-francisco-le-pide-a-empresarios-argentinos-no-esconder-la-plata-en-paraisos-fiscales/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 13 END  */}
+            {/* ARTICULO 14 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={papafrancisco} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                Congreso anual ACDE: el Papa Francisco pidió "volver a la
+                economía de lo concreto"
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                30.06.2021 | Perfil <br />
+                Autor: Lorena Rodriguez
+              </p>
+              <div></div>
+              <a
+                href="https://www.perfil.com/noticias/economia/congreso-anual-acde-el-papa-francisco-pidio-volver-a-la-economia-de-lo-concreto.phtml"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 14 END  */}
+            {/* ARTICULO 15 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img src={papafrancisco} alt="ACDE" width="370" height="214" />
+              <br />
+              <p className="slider__titulo2">
+                El mensaje del papa Franciso a los empresarios argentinos: “Hay
+                que invertir en el bien común, no esconder la plata en los
+                paraísos fiscales”
+              </p>
+              <p className="repercuciones__autor">
+                30.06.2021 | Infobae <br />
+                Autor: Lorena Rodriguez
+              </p>
+              <div></div>
+              <a
+                href=" https://www.infobae.com/politica/2021/06/30/el-mensaje-del-papa-franciso-a-los-empresarios-argentinos-hay-que-invertir-en-el-bien-comun-no-esconder-la-plata-en-los-paraisos-fiscales/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 15 END  */}
+            {/* ARTICULO 16 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img
+                src="https://images.lavoz.com.ar/resizer/-4PB4DorWVuGnNJVqsMYihYPy0w=/1023x682/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/FN6SZ6JHAFGGTDO552ZPXEJTLI.jpg"
+                alt="ACDE"
+                width="370"
+                height="214"
+              />
+              <br />
+              <p className="slider__titulo2">
+                Marina Dal Poggetto: “Hoy la principal ventaja competitiva que
+                tiene la Argentina es haber destruido los salarios”
+              </p>
+              <p className="repercuciones__autor">
+                30.06.2021 | Los Andes <br />
+                Autor: Lorena Rodriguez
+              </p>
+              <div></div>
+              <a
+                href="https://www.losandes.com.ar/economia/marina-dal-poggetto-hoy-la-principal-ventaja-competitiva-que-tiene-la-argentina-es-haber-destruido-los-salarios/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 16 END  */}
+            {/* ARTICULO 17 START  */}
+            <div className="repercuciones__article col-12 col-md-10 col">
+              <img
+                src="https://images.clarin.com/2021/07/01/gonzalo-tanoira-presidente-de-acde___qcorBke4I_1256x620__1.jpg"
+                alt="ACDE"
+                width="370"
+                height="214"
+              />
+              <br />
+              <p className="slider__titulo2">
+                El Gobierno tuvo que enfrentar situaciones difíciles, pero se
+                tomaron decisiones equivocadas”
+              </p>
+              <br />
+              <p className="repercuciones__autor">
+                01.07.2021 | Clarín <br />
+                Autor: Ana Clara Pedotti
+              </p>
+              <div></div>
+              <a
+                href=" https://www.clarin.com/economia/-gobierno-enfrentar-situaciones-dificiles-tomaron-decisiones-equivocadas-_0_gRyxFEscv.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver más
+              </a>
+            </div>
+            {/* ARTICULO 17 END  */}
           </Slider>
         </div>
       </div>

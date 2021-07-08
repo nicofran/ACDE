@@ -1,5 +1,5 @@
 .bienvenida {
-  padding-top: 30px;
+  padding-top: 35px;
 
   .bienvenida__span {
     width: 100%;
@@ -51,7 +51,7 @@
   }
   .bienvenida__text {
     @include response(medium) {
-      padding-top: 50px;
+      padding-top: 20px;
       padding-left: 240px;
       padding-right: 240px;
     }

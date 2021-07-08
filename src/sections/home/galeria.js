@@ -37,6 +37,7 @@ import img32 from "../../assets/images/fotos-encuentro/32.jpg";
 import img33 from "../../assets/images/fotos-encuentro/33.jpg";
 import img34 from "../../assets/images/fotos-encuentro/34.jpg";
 import img35 from "../../assets/images/fotos-encuentro/35.jpg";
+import img36 from "../../assets/images/fotos-encuentro/36.jpg";
 
 const Galeria = () => {
   return (
@@ -74,9 +75,7 @@ const Galeria = () => {
           <a href={img9}>
             <img src={img9} alt="ACDE" />
           </a>
-          {/* <a href={img10}>
-            <img src={img10} alt="ACDE" />
-          </a> */}
+
           <a href={img11}>
             <img src={img11} alt="ACDE" />
           </a>
@@ -145,8 +144,8 @@ const Galeria = () => {
           <a href={img34}>
             <img src={img34} alt="ACDE" />
           </a>
-          <a href={img8}>
-            <img src={img8} alt="ACDE" />
+          <a href={img36}>
+            <img src={img36} alt="ACDE" />
           </a>
           <a href={img35}>
             <img src={img35} alt="ACDE" />
