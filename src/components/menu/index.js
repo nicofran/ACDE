@@ -176,7 +176,10 @@ const Menu = () => {
         >
           <ul className="menu__list">
             <li>
-              <a href="#carta">Carta del Presidente</a>
+              <a href="#bienvenida">Palabras de bienvenida</a>
+            </li>
+            <li>
+              <a href="#cierre">Palabras de cierre</a>
             </li>
             <li>
               <a href="#programa">Programa</a>
@@ -185,16 +188,19 @@ const Menu = () => {
               <a href="#expositores">Expositores</a>
             </li>
             <li>
-              <a href="#comision">Comisión Organizadora</a>
+              <a href="#comision">Comisión organizadora</a>
             </li>
             <li>
               <a href="#auspiciantes">Auspiciantes</a>
             </li>
             <li>
-              <a href="#camino">Camino al encuentro</a>
+              <a href="#repercuciones">Prensa</a>
             </li>
             <li>
-              <a href="#encuentros">Encuentros Anteriores</a>
+              <a href="#galeria">Galeria de fotos</a>
+            </li>
+            <li>
+              <a href="#videos">Videos</a>
             </li>
           </ul>
         </div>
