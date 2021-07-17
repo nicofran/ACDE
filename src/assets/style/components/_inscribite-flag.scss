@@ -1,8 +1,8 @@
-.inscribite__button {
+.backtotop__button {
   position: fixed;
   right: 0;
-  top: 1;
-  width: 175px;
+  bottom: 10%;
+  width: 75px;
   height: 49px;
   border-radius: 16px;
   background-color: #e22084;
@@ -10,11 +10,13 @@
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
+  margin: 0px 50px 150px 0px;
   font-weight: 700;
   border: 0;
   letter-spacing: 2px;
   margin-bottom: 5px;
-  display: none;
+  transition: all 2.1s ease;
+  display: block;
   &:hover {
     background-color: white;
     border: 1px solid white;
@@ -23,5 +25,9 @@
 
   @include response(medium) {
     display: block;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    margin-top: 400px;
   }
 }
