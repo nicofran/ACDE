@@ -51,8 +51,9 @@
     div {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-content: center;
-      @include response(medium) {
+      @include response(small) {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
