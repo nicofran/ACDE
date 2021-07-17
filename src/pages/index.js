@@ -4,7 +4,7 @@ import Layout from "../layouts/layout-primary";
 //Components
 import Footer from "../components/footer/footer";
 import Hero from "../components/hero/hero";
-// import InscribiteFlag from "../components/inscribite-flag/inscribite-flag";
+import BackToTop from "../components/inscribite-flag/inscribite-flag";
 
 // Secciones
 // import Inscripcion from "../sections/home/inscripcion";
@@ -23,6 +23,7 @@ import Videos from "../sections/home/videos";
 const Home = () => {
   return (
     <Layout>
+      <BackToTop />
       <Hero />
       <PalabraBienvenida />
       <Programa />
