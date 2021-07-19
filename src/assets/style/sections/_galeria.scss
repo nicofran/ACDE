@@ -48,24 +48,25 @@
     }
   }
   .galeria__container {
- div {
-       flex-direction: column;
+   div {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
         @include response(small) {
           flex-direction: row;
           justify-content: center;
-          flzex-wrap: wrap;
+          flex-wrap: wrap;
+        }
+  
       }
-
-    }
-    img {
+      img {
         width: 200px;
         height: auto;
         margin: 15px;
         @include response(medium) {
-        margin: 25px 50px 25px 60px;
+          margin: 25px 50px 25px 60px;
         }
-     }
+      }
+    }
   }
-}
