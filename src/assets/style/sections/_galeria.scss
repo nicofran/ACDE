@@ -55,7 +55,7 @@
       align-content: center;
       @include response(small) {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
       }
     }
