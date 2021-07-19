@@ -60,9 +60,12 @@
 
     }
     img {
-      width: 50%;
-      height: auto;
-      }
+        width: 200px;
+        height: auto;
+        margin: 15px;
+        @include response(medium) {
+          margin: 25px 50px 25px 60px;
+        }
     }
   }
 }
