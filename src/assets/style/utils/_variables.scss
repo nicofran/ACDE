@@ -21,18 +21,20 @@ $weights: (
 
 // breakpoints
 $breakpoints: (
-  small: 640px,
-  medium: 1007px,
-  large: 1366px,
-  extraLarge: 1920px,
-  wide: 2000px,
+  xs: 0,
+  small: 576px,
+  medium: 768px,
+  large: 992px,
+  extraLarge: 1200px,
+  wide: 1400px,
 );
 
 // Bootstrap variables
 $grid-breakpoints: (
   xs: 0,
-  sm: 640px,
-  md: 1007px,
-  lg: 1366px,
-  xl: 1920px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
 );
