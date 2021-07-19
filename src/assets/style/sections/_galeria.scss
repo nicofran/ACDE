@@ -48,7 +48,7 @@
     }
   }
   .galeria__container {
- div {
+  div {
        flex-direction: column;
        justify-content: center;
        align-content: space-around
@@ -60,14 +60,10 @@
  
      }
      img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 20%;
-      height: auto;
-      @include response(medium) {
-       margin: 25px 50px 25px 60px;
-       }
+       width: 200px;
+       height: auto;
+       margin: 15px;
+     }
      }
    }
-}
+ }
