@@ -47,14 +47,14 @@
       background-color: orange;
     }
   }
-  .galeria__container {
+ .galeria__container {
     div {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-content: center;
       @include response(small) {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
       }
