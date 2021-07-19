@@ -49,6 +49,7 @@
   }
   .galeria__container {
   div {
+       display: flex;
        flex-direction: column;
        justify-content: center;
        align-content: space-around
