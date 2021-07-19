@@ -49,9 +49,13 @@
   }
   .galeria__container {
  div {
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
+       flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        @include response(small) {
+          flex-direction: row;
+          justify-content: center;
+          flzex-wrap: wrap;
       }
 
     }
