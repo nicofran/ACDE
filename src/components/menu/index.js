@@ -11,6 +11,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import YouTubeIcon from "@material-ui/icons/YouTube";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   var prevScrollpos = window.pageYOffset;
@@ -75,9 +76,9 @@ const Menu = () => {
             <li>
               {" "}
               
-              <a href="/carta-presidente" rel="noreferrer" target="_blank">
+              <Link to="/carta-presidente">
                 Carta del presidente
-              </a>  
+              </Link> 
             </li>
             <li>
               {" "}
