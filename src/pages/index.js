@@ -19,6 +19,7 @@ import Repercuciones from "../sections/home/repercuciones";
 import PalabraBienvenida from "../sections/palabra-bienvenida";
 import Galeria from "../sections/home/galeria";
 import Videos from "../sections/home/videos";
+import CartaPresidente from "../sections/carta-presidente";
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
       <Videos />
       <Galeria />
       <Repercuciones />
+      <CartaPresidente/>
       <Camino />
       <EncuentrosAnteriores />
       <Footer />
