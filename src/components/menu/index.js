@@ -35,7 +35,7 @@ const Menu = () => {
         {/* BANNERS  START*/}
         <div className="menu__media">
           <a
-            href="https://twitter.com/acdeargentina?lang=en"
+            href="https://twitter.com/acdeargentina"
             target="_blank"
             rel="noreferrer"
           >
@@ -49,7 +49,7 @@ const Menu = () => {
             <FacebookIcon />
           </a>
           <a
-            href="https://www.linkedin.com/company/asociaci-n-cristiana-de-dirigentes-de-empresa/?originalSubdomain=ar"
+            href="https://www.linkedin.com/company/asociaci-n-cristiana-de-dirigentes-de-empresa/"
             target="_blank"
             rel="noreferrer"
           >
@@ -63,7 +63,7 @@ const Menu = () => {
             <YouTubeIcon />
           </a>
           <a
-            href="https://www.instagram.com/acdeargentina/?hl=en"
+            href="https://www.instagram.com/acdeargentina/"
             target="_blank"
             rel="noreferrer"
           >
@@ -74,19 +74,20 @@ const Menu = () => {
           <ul>
             <li>
               {" "}
-              <a href="#carta">
+              
+              <a href="/carta-presidente" rel="noreferrer" target="_blank">
                 Carta del presidente
-              </a>
+              </a>  
             </li>
             <li>
               {" "}
-              <a href="#camino" target="_blank" rel="noreferrer">
+              <a href="#camino">
                 Camino al Encuentro
               </a>
             </li>
             <li>
               {" "}
-              <a href="#encuentros" target="_blank" rel="noreferrer">
+              <a href="#encuentros">
                 Encuentros anteriores
               </a>
             </li>
