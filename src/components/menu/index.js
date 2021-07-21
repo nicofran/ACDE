@@ -74,7 +74,7 @@ const Menu = () => {
           <ul>
             <li>
               {" "}
-              <a href="/carta-presidente" target="_blank" rel="noreferrer">
+              <a href="#carta">
                 Carta del presidente
               </a>
             </li>
