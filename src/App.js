@@ -12,9 +12,6 @@ const App = () => {
       <Route path="/carta-presidente">
         <Carta/>
       <Route/>
-      <Route path="/hola-hola">
-        <Carta/>
-      <Route/>
   );
 };
 
