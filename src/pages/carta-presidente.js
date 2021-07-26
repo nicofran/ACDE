@@ -1,6 +1,6 @@
 import icon from "../assets/icons/icon-carta1.png";
 import logo from "../assets/icons/logo-acde.png";
-import Nav from "../../components/menu/index";
+import Nav from "../components/menu/index";
 
 //PRESIDENTE DEL ENCUENTRO
 import ignacio_gorupicz from "../assets/images/ignacio_gorupicz2.png";
