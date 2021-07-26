@@ -15,6 +15,7 @@ const App = () => {
       <Route path="/" exact>
         <Home/>
       </Route>
+ <redirect to='/'/>
     </Router>
   );
 };
