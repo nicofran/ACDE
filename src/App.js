@@ -5,16 +5,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
   return (
-      <Router basename={'/acde2021'}>
+      <Router>
       <Route path="/" exact>
         <Home/>
-      </Route>
+      <Route/>
       <Route path="/carta-presidente">
         <Carta/>
-      </Route>
+      <Route/>
       <Route path="/hola-hola">
         <Carta/>
-      </Route>
+      <Route/>
   );
 };
 
