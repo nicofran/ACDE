@@ -1,11 +1,14 @@
 import icon from "../assets/icons/icon-carta1.png";
 import logo from "../assets/icons/logo-acde.png";
+import Nav from "../../components/menu/index";
+
 //PRESIDENTE DEL ENCUENTRO
 import ignacio_gorupicz from "../assets/images/ignacio_gorupicz2.png";
 
 const Carta = () => {
   return (
     <div className="carta container" id="carta">
+    <Nav />
       <div className="carta__span">
         <img className="logo" src={logo} alt="ACDE" />
         <img src={icon} alt="ACDE" />
