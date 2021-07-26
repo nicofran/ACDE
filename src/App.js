@@ -15,6 +15,7 @@ const App = () => {
       <Route path="/hola-hola">
         <Carta/>
       </Route>
+      <redirect to="/"/>
     </Router>
   );
 };
